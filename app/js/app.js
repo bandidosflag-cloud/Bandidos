@@ -8,6 +8,7 @@ import * as Equipos from "./vistas/equipos.js";
 import * as Mas from "./vistas/mas.js";
 import * as Detalle from "./vistas/detalle.js";
 import { pildora, revelar, transicion } from "./anim.js";
+import * as Notif from "./notificaciones.js";
 
 const $vista = document.getElementById("vista");
 const $hoja = document.getElementById("hoja");
@@ -30,6 +31,7 @@ const RUTAS = [
   [/^\/uniformes$/, null, () => ({ html: Mas.renderUniformes() })],
   [/^\/social$/, null, () => ({ html: Mas.renderSocial() })],
   [/^\/info$/, null, () => ({ html: Mas.renderInfo() })],
+  [/^\/avisos$/, null, () => ({ html: Mas.renderAvisos(rama) })],
 ];
 
 const ORDEN = { inicio: 0, agenda: 1, partido: 2, liga: 3, equipos: 4 };
@@ -84,6 +86,7 @@ document.querySelectorAll(".rama-switch button").forEach(b => b.addEventListener
   rama = b.dataset.rama;
   try { localStorage.setItem(RAMA_K, rama); } catch { /* */ }
   pintarRama();
+  Notif.etiquetarRama(rama);
   render({ modo: "rama" });
 }));
 
@@ -97,6 +100,18 @@ function cerrarHoja() { $hoja.hidden = true; document.body.style.overflow = ""; 
 document.getElementById("btn-mas").addEventListener("click", () => abrirHoja(Mas.menu()));
 $hoja.addEventListener("click", e => { if (e.target.closest("[data-cerrar]")) cerrarHoja(); });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && !$hoja.hidden) cerrarHoja(); });
+
+// activar / ocultar avisos
+document.addEventListener("click", async e => {
+  const act = e.target.closest("[data-activar-avisos]");
+  if (act) {
+    act.disabled = true; act.textContent = "Activando…";
+    try { await Notif.activar(rama); } catch (err) { alert(err.message); }
+    render({ modo: "local" });
+    return;
+  }
+  if (e.target.closest("[data-descartar-avisos]")) { Notif.descartar(); render({ modo: "local" }); }
+});
 
 // descargar .ics  /  abrir vista de partido
 document.addEventListener("click", e => {
@@ -125,6 +140,7 @@ document.fonts?.ready.then(() => pildoras(false));
 // arranque
 $vista.innerHTML = `<div class="cargando"><img src="img/vida-bandida.webp" alt="Cargando"></div>`;
 pintarRama();
+Notif.iniciar(() => render({ modo: "local" }));
 cargar(() => render({ modo: "local" }))
   .then(() => render({ modo: "inicial" }))
   .catch(err => {

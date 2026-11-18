@@ -1,10 +1,13 @@
 // Service worker: la app abre sin internet con los últimos datos descargados.
-const VERSION = "bandidos-v5";
+// También recibe las notificaciones push (OneSignal). Si no hay internet al instalar, la app sigue funcionando.
+try { importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js"); } catch (e) { /* sin avisos push */ }
+
+const VERSION = "bandidos-v6";
 const SHELL = [
   "./", "index.html", "manifest.webmanifest", "css/styles.css",
   "js/app.js", "js/config.js", "js/datos.js", "js/sheets.js", "js/ui.js",
   "js/vistas/inicio.js", "js/vistas/agenda.js", "js/vistas/partido.js",
-  "js/vistas/liga.js", "js/vistas/equipos.js", "js/vistas/mas.js", "js/vistas/detalle.js", "js/anim.js",
+  "js/vistas/liga.js", "js/vistas/equipos.js", "js/vistas/mas.js", "js/vistas/detalle.js", "js/anim.js", "js/notificaciones.js",
   "img/vida-bandida.webp", "img/vida-bandida-roja.webp", "img/vida-bandida-original.webp", "img/uniformes/rojo.webp", "img/uniformes/blanco.webp", "img/uniformes/negro.webp", "img/vida-bandida-blanca-solida.webp", "img/vida-bandida-oro.webp", "img/bandido.webp",
   "img/bandida.webp", "img/bandido-blanco.webp", "img/icon-192.png",
 ];

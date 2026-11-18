@@ -28,8 +28,8 @@ PESTANAS = {
     "eventos": (["fecha", "fecha_fin", "hora", "hora_fin", "titulo", "tipo", "rama", "lugar", "nota"], [
         ["2026-11-18", "", "18:00", "20:00", "Entrenamiento", "entrenamiento", "TODOS", "Campo Prepa 1", ""],
     ]),
-    "avisos": (["fecha", "rama", "texto", "importante"], [
-        ["2026-11-17", "TODOS", "Ejemplo de aviso (bórralo)", "no"],
+    "avisos": (["fecha", "rama", "texto", "importante", "notificar", "hasta"], [
+        ["2026-11-18", "TODOS", "Ejemplo de aviso (bórralo)", "no", "no", "2026-11-30"],
     ]),
     "jugadores": (["rama", "nombre", "posicion", "foto", "apodo"], [
         ["VARONIL", "Balam S.", "", "", ""],
@@ -53,7 +53,7 @@ AYUDA = [
     ["uniformes", "Catálogo de jerseys", "id corto sin espacios · imagen: archivo en img/uniformes/ o link · colores en #hex"],
     ["uniforme_partido", "Qué uniforme toca", "Sin jornada ni fecha = uniforme normal de la rama · Para un partido específico llena jornada O fecha (AAAA-MM-DD) · rama VARONIL/FEMENIL/TODOS · division SILVER/BRONZE/GOLDEN/TODAS · uniforme = id"],
     ["eventos", "Agenda extra", "fecha AAAA-MM-DD · tipo: torneo, entrenamiento, social, otro · rama TODOS/VARONIL/FEMENIL"],
-    ["avisos", "Avisos en Inicio", "importante: si/no"],
+    ["avisos", "Avisos en Inicio", "importante: si/no (sale en rojo y primero) · notificar: si = llega como notificación (en ~15 min) · hasta: AAAA-MM-DD, después ya no se muestra · rama TODOS/VARONIL/FEMENIL"],
     ["jugadores", "Posición, foto y apodo", "nombre EXACTO como sale en la liga (ej. 'Balam S.')"],
     ["contactos", "Coaches (sección Info)", "rol: Head coach, Coach… · telefono opcional (abre WhatsApp)"],
     ["social", "Publicaciones de Instagram", "pega el link de cada post o reel"],

@@ -1,6 +1,8 @@
 import { M } from "../datos.js";
 import { LIGA } from "../config.js";
 import { esc, ico, uniformeImg, enlaceMapa, hace } from "../ui.js";
+import { avisosVigentes, tarjetaAviso } from "./inicio.js";
+import * as Notif from "../notificaciones.js";
 
 export function menu() {
   return `
@@ -9,7 +11,7 @@ export function menu() {
       <a class="menu-item rojo" href="#/uniformes" data-cerrar><div class="ico">${ico("shirt")}</div><div><b>Uniformes</b><span>Jerseys y cuál toca</span></div></a>
       <a class="menu-item" href="#/social" data-cerrar><div class="ico">${ico("share")}</div><div><b>Social</b><span>Instagram y Facebook</span></div></a>
       <a class="menu-item" href="#/info" data-cerrar><div class="ico">${ico("info")}</div><div><b>Info</b><span>Sedes, contactos, liga</span></div></a>
-      <a class="menu-item" href="#/liga" data-cerrar><div class="ico">${ico("trophy")}</div><div><b>Tabla</b><span>Posiciones y líderes</span></div></a>
+      <a class="menu-item" href="#/avisos" data-cerrar><div class="ico">${ico("bell")}</div><div><b>Avisos</b><span>${Notif.estado() === "activo" ? "Notificaciones activadas" : "Del equipo y notificaciones"}</span></div></a>
     </div>
     <p class="pie-app" style="margin-top:20px">Datos de la liga ${esc(hace(M.liga.actualizado))}</p>`;
 }
@@ -84,4 +86,24 @@ export function renderInfo() {
       <a class="fila-link" href="${LIGA.url}" target="_blank" rel="noopener"><div class="ico">${ico("trophy")}</div><div class="txt"><b>${esc(LIGA.nombre)}</b><span>Rol, resultados y estadísticas oficiales</span></div>${ico("ext", "chev")}</a>
     </section>
     <div class="pie-app"><img src="img/vida-bandida-oro.webp" alt="">App interna de Bandidos · datos de la liga ${esc(hace(M.liga.actualizado))}</div>`;
+}
+
+export function renderAvisos(rama) {
+  const lista = avisosVigentes(rama);
+  const e = Notif.estado();
+  const estadoTxt = {
+    activo: ["Notificaciones activadas", "Te llegarán el rol, los entrenos y los avisos del equipo."],
+    pendiente: ["Notificaciones apagadas", "Actívalas para enterarte al momento."],
+    instalar: ["Instala la app primero", "En iPhone las notificaciones solo funcionan con la app agregada a la pantalla de inicio."],
+    bloqueado: ["Notificaciones bloqueadas", "Actívalas en los ajustes del celular o del navegador."],
+    "no-soportado": ["Sin notificaciones", "Este navegador no permite notificaciones."],
+  }[e];
+  return `
+    <div class="eyebrow mt-8">Del equipo</div>
+    <h1 class="titulo-xl">Avisos</h1>
+    ${estadoTxt ? `<section class="seccion"><div class="fila-link"><div class="ico" style="${e === "activo" ? "background:var(--red)" : ""}">${ico("bell")}</div>
+      <div class="txt"><b>${estadoTxt[0]}</b><span>${estadoTxt[1]}</span></div>
+      ${e === "pendiente" ? `<button class="boton" data-activar-avisos style="padding:9px 14px">Activar</button>` : ""}</div></section>` : ""}
+    <section class="seccion"><div class="lista">${lista.length ? lista.map(tarjetaAviso).join("")
+      : `<div class="vacio"><b>Sin avisos por ahora</b>Los coaches los publican en la hoja de Bandidos (pestaña avisos).</div>`}</div></section>`;
 }

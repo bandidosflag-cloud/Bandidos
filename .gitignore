@@ -11,3 +11,5 @@ desktop.ini
 /uniformes/
 # archivos temporales de Office
 ~$*
+# guía de instalación para WhatsApp (se queda local)
+/guia/

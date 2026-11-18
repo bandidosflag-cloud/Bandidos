@@ -1,0 +1,37 @@
+name: Notificaciones
+
+on:
+  schedule:
+    # cada 15 min: avisos nuevos de la hoja marcados "notificar = si"
+    # (el recordatorio de entreno sale en la primera corrida después de las 14:00 de Cuernavaca)
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: escritura-repo
+  cancel-in-progress: false
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Avisos y recordatorio de entreno
+        env:
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+        run: python scripts/notificar.py --avisos --entreno
+      - name: Guardar lo ya notificado
+        run: |
+          git add scripts/estado/notificado.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Nada nuevo."; exit 0; fi
+          git config user.name "bandidos-bot"
+          git config user.email "bandidos-bot@users.noreply.github.com"
+          git commit -m "Notificaciones enviadas $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase -q origin main
+          git push

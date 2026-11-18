@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: actualizar-liga
+  group: escritura-repo   # mismo grupo que notificaciones.yml: nunca escriben al mismo tiempo
   cancel-in-progress: false
 
 jobs:
@@ -27,6 +27,10 @@ jobs:
           python-version: "3.12"
       - name: Bajar datos de Flag Elite Cuernavaca
         run: python scripts/actualizar_liga.py
+      - name: Notificar si ya salió el rol
+        env:
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+        run: python scripts/notificar.py --rol
       - name: Guardar si hubo cambios
         run: |
           git add app/data scripts/estado
@@ -39,6 +43,7 @@ jobs:
           git config user.name "bandidos-bot"
           git config user.email "bandidos-bot@users.noreply.github.com"
           git commit -m "Datos de la liga $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase -q origin main
           git push
 
   publicar:

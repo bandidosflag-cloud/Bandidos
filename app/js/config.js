@@ -14,6 +14,10 @@ export const PESTANAS = [
   "avisos", "jugadores", "contactos", "social", "sedes",
 ];
 
+// Notificaciones push (OneSignal). Es el "App ID" que aparece en OneSignal → Settings → Keys & IDs.
+// Si se deja vacío, la app no muestra el botón de activar avisos.
+export const ONESIGNAL_APP_ID = "73ea13b9-727c-4e76-8a6d-80fc3637cc93";
+
 // Liga
 export const LIGA = {
   nombre: "Flag Elite Cuernavaca",

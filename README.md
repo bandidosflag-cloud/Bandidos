@@ -43,6 +43,15 @@ La liga solo publica estadísticas **acumuladas**. Cada vez que corre el script 
 ### Rutina local (mientras no esté publicada)
 Hay una tarea programada en la app de Claude ("Bandidos: actualizar resultados y estadísticas") que corre el script domingos y lunes a las 9:00 y 22:00. Solo corre con la app de Claude abierta; ya publicada en GitHub, el workflow hace lo mismo en la nube.
 
+## Notificaciones (OneSignal, gratis)
+
+- Cada jugador toca **"Activar avisos"** en Inicio. En iPhone solo funciona con la app agregada a la pantalla de inicio (iOS 16.4+).
+- **Automáticas:** "Ya salió el rol" (cuando la liga publica horarios; lo detecta `actualizar-liga.yml`) y "Hoy hay entreno" (el día de entreno, después de las 14:00).
+- **Avisos:** en la hoja, pestaña `avisos`, con `notificar = si` → llega en ~15 min (`notificaciones.yml`). Si `rama` es VARONIL o FEMENIL solo le llega a esa rama.
+- Configuración: App ID en `app/js/config.js` (`ONESIGNAL_APP_ID`) y la REST API Key como secreto del repo **`ONESIGNAL_API_KEY`** (Settings → Secrets and variables → Actions). Sin esas claves no se manda nada.
+- Probar sin mandar: `python scripts/notificar.py --rol --entreno --avisos --seco`
+- Lo ya notificado se guarda en `scripts/estado/notificado.json`.
+
 ## 3. Google Sheet (lo que editan los coaches)
 
 1. Sube `plantilla/Bandidos App - plantilla.xlsx` a Google Drive y ábrelo con Google Sheets → *Archivo → Guardar como Hojas de cálculo de Google*.

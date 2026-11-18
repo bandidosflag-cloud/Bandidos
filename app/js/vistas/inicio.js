@@ -1,5 +1,43 @@
 import { M, filtraRama, proximoDomingo } from "../datos.js";
 import { esc, ico, fLarga, fCorta, tarjetaPartido, escudo, ordinal, hace, uniformeImg, jugadorPorNombre, avatar } from "../ui.js";
+import * as Notif from "../notificaciones.js";
+
+// Avisos vigentes para la rama elegida, del más nuevo al más viejo (los importantes primero)
+export function avisosVigentes(rama) {
+  const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+  return (M.extra.avisos || [])
+    .filter(a => a.texto)
+    .filter(a => !a.hasta || new Date(a.hasta + "T23:59") >= hoy)
+    .filter(a => { const r = (a.rama || "").toUpperCase(); return !r || r === "TODOS" || rama === "TODOS" || r === rama; })
+    .sort((a, b) => (esImportante(b) - esImportante(a)) || (b.fecha || "").localeCompare(a.fecha || ""));
+}
+const esImportante = a => /^(si|sí|yes|x)$/i.test((a.importante || "").trim()) ? 1 : 0;
+
+export function tarjetaAviso(a) {
+  const f = /^\d{4}-\d{2}-\d{2}$/.test(a.fecha || "") ? fCorta(new Date(a.fecha + "T12:00")) : (a.fecha || "");
+  const r = (a.rama || "").toUpperCase();
+  return `<div class="aviso ${esImportante(a) ? "importante" : ""}">
+    <div class="ico">${ico("bell")}</div>
+    <div class="txt"><b>${esc(a.texto)}</b>
+      <span>${esc(f)}${r === "VARONIL" ? ' · <i class="tag varonil">Varonil</i>' : r === "FEMENIL" ? ' · <i class="tag femenil">Femenil</i>' : ""}</span></div>
+  </div>`;
+}
+
+export function tarjetaNotificaciones(rama) {
+  const e = Notif.estado();
+  if (e === "deshabilitado" || e === "activo" || e === "no-soportado") return "";
+  if (Notif.descartado() && e !== "bloqueado") return "";
+  const textos = {
+    pendiente: ["Activa los avisos", "Te llega una notificación cuando salga el rol, el día de entreno y con los avisos del equipo.", `<button class="boton" data-activar-avisos>${ico("bell")}Activar avisos</button>`],
+    instalar: ["Avisos en iPhone", "Primero instala la app: en Safari toca Compartir → “Agregar a inicio”. Ábrela desde tu pantalla de inicio y activa los avisos aquí.", ""],
+    bloqueado: ["Avisos bloqueados", "Las notificaciones están bloqueadas para esta app. Actívalas en los ajustes del celular o del navegador.", ""],
+  }[e];
+  return `<section class="seccion"><div class="notif-card">
+    <div class="flex entre"><b class="display" style="font-size:22px">${textos[0]}</b>
+      <button class="icon-btn" data-descartar-avisos aria-label="Ocultar" style="width:32px;height:32px">✕</button></div>
+    <p class="peq" style="margin:6px 0 12px;color:rgba(255,255,255,.85)">${textos[1]}</p>${textos[2]}
+  </div></section>`;
+}
 
 export function tarjetaProximo(rama, { conLink = true } = {}) {
   const equipos = filtraRama(M.equipos, rama);
@@ -59,7 +97,7 @@ export function render(rama) {
   const equipos = filtraRama(M.equipos, rama);
   const jugados = filtraRama(M.partidos, rama).filter(p => p.res).slice(-6).reverse();
   const ultimaJ = Math.max(0, ...M.partidos.filter(p => p.res).map(p => p.jornada || 0));
-  const avisos = (M.extra.avisos || []).filter(a => !a.rama || /todos/i.test(a.rama) || rama === "TODOS" || a.rama.toUpperCase() === rama);
+  const avisos = avisosVigentes(rama);
 
   // Bandidos en el top 3 de su división
   const lideres = [];
@@ -84,9 +122,10 @@ export function render(rama) {
 
   <section class="seccion">${tarjetaProximo(rama)}</section>
 
-  ${avisos.length ? `<section class="seccion"><div class="seccion-cab"><h2>Avisos</h2></div><div class="lista">${avisos.slice(0, 3).map(a => `
-    <div class="fila-link"><div class="ico" style="${/si|sí/i.test(a.importante) ? "background:var(--red)" : ""}">${ico("bell")}</div>
-    <div class="txt"><b>${esc(a.texto)}</b><span>${esc(a.fecha || "")}</span></div></div>`).join("")}</div></section>` : ""}
+  ${tarjetaNotificaciones(rama)}
+
+  ${avisos.length ? `<section class="seccion"><div class="seccion-cab"><h2>Avisos</h2>${avisos.length > 3 ? `<a href="#/avisos">Ver todos (${avisos.length})</a>` : ""}</div>
+    <div class="lista">${avisos.slice(0, 3).map(tarjetaAviso).join("")}</div></section>` : ""}
 
   <section class="seccion">
     <div class="seccion-cab"><h2>Nuestros equipos</h2><a href="#/equipos">Ver todos</a></div>
