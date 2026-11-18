@@ -26,11 +26,38 @@ async function json(url) {
   return r.json();
 }
 
+// Fechas como las escriban los coaches: 2026-11-25, 25/11/2026, 25-11-26 → "2026-11-25"
+export function normFecha(v) {
+  const s = (v || "").toString().trim();
+  let m = s.match(/^(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})$/);
+  if (m) return `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`;
+  m = s.match(/^(\d{1,2})[-/.](\d{1,2})[-/.](\d{2,4})$/);
+  if (m) return `${m[3].length === 2 ? "20" + m[3] : m[3]}-${m[2].padStart(2, "0")}-${m[1].padStart(2, "0")}`;
+  return s;
+}
+// Horas: "18:00", "6:00 pm", "6pm", "18" → "18:00"
+export function normHora(v) {
+  const s = (v || "").toString().trim().toLowerCase().replace(/\./g, "");
+  const m = s.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm|a m|p m)?$/);
+  if (!m) return s;
+  let h = Number(m[1]);
+  if (m[3]?.startsWith("p") && h < 12) h += 12;
+  if (m[3]?.startsWith("a") && h === 12) h = 0;
+  return `${String(h).padStart(2, "0")}:${m[2] || "00"}`;
+}
+
 function validarPestanas(hoja) {
   const out = {};
   for (const [k, filas] of Object.entries(hoja || {})) {
     const req = COL_REQUERIDA[k] || [];
-    if (!filas.length || req.every(c => c in filas[0])) out[k] = filas;
+    if (!filas.length || req.every(c => c in filas[0])) {
+      out[k] = filas.map(f => {
+        const g = { ...f };
+        for (const c of ["fecha", "fecha_fin", "hasta"]) if (c in g) g[c] = normFecha(g[c]);
+        for (const c of ["hora", "hora_fin"]) if (c in g && g[c]) g[c] = normHora(g[c]);
+        return g;
+      }).filter(f => Object.values(f).some(v => v));
+    }
   }
   return out;
 }

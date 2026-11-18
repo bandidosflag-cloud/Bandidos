@@ -48,6 +48,33 @@ def guardar_estado(st):
     ESTADO.write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def norm_fecha(v):
+    """2026-11-25, 25/11/2026, 25-11-26 -> 2026-11-25"""
+    s = (v or "").strip()
+    m = re.fullmatch(r"(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})", s)
+    if m:
+        return f"{m[1]}-{int(m[2]):02d}-{int(m[3]):02d}"
+    m = re.fullmatch(r"(\d{1,2})[-/.](\d{1,2})[-/.](\d{2,4})", s)
+    if m:
+        anio = m[3] if len(m[3]) == 4 else "20" + m[3]
+        return f"{anio}-{int(m[2]):02d}-{int(m[1]):02d}"
+    return s
+
+
+def norm_hora(v):
+    """18:00, 6:00 pm, 6pm -> 18:00"""
+    s = (v or "").strip().lower().replace(".", "")
+    m = re.fullmatch(r"(\d{1,2})(?::(\d{2}))?\s*(am|pm|a m|p m)?", s)
+    if not m:
+        return s
+    h = int(m[1])
+    if m[3] and m[3].startswith("p") and h < 12:
+        h += 12
+    if m[3] and m[3].startswith("a") and h == 12:
+        h = 0
+    return f"{h:02d}:{m[2] or '00'}"
+
+
 def hoja(pestana):
     """Filas de una pestaña de la Google Sheet (o de equipo.json si no hay hoja)."""
     sheet_id = leer_config("SHEET_ID")
@@ -60,7 +87,14 @@ def hoja(pestana):
             filas = list(csv.DictReader(io.StringIO(texto)))
             filas = [{k.strip().lower(): (v or "").strip() for k, v in f.items() if k} for f in filas]
             if filas and ("texto" in filas[0] or "titulo" in filas[0]):
-                return filas
+                for f in filas:
+                    for c in ("fecha", "fecha_fin", "hasta"):
+                        if c in f:
+                            f[c] = norm_fecha(f[c])
+                    for c in ("hora", "hora_fin"):
+                        if f.get(c):
+                            f[c] = norm_hora(f[c])
+                return [f for f in filas if any(f.values())]
         except Exception as e:  # noqa: BLE001
             print(f"  aviso: no se pudo leer la hoja ({e}); uso equipo.json", file=sys.stderr)
     return json.loads(EQUIPO.read_text(encoding="utf-8")).get(pestana, [])
