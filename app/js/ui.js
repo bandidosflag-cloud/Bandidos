@@ -130,5 +130,5 @@ export function descargarICS(p) {
 export const jugadorPorNombre = (rama, nombre) => M.jugadores.find(j => j.rama === rama && norm(j.nombre) === norm(nombre));
 
 // Crédito del desarrollador (pie de Inicio e Info)
-export const creditoVO = () => `<div class="credito-vo"><span>App desarrollada por</span>
-  <img src="img/vo-studio.webp" alt="VO Studio" width="61" height="40"><b>VO Studio MX</b></div>`;
+export const creditoVO = () => `<a class="credito-vo" href="https://www.instagram.com/vo.studio.mx/" target="_blank" rel="noopener"><span>App desarrollada por</span>
+  <img src="img/vo-studio.webp" alt="VO Studio" width="61" height="40"><b>VO Studio MX</b></a>`;

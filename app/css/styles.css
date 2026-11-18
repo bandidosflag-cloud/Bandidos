@@ -601,6 +601,8 @@ table.tabla { width: 100%; border-collapse: collapse; font-size: 13.5px; font-va
   color: var(--dim); font-size: 11px; letter-spacing: .02em; }
 .credito-vo img { height: 22px; width: auto; }
 .credito-vo b { color: var(--muted); font-weight: 600; }
+.credito-vo { text-decoration: none; transition: border-color .2s, background .2s; }
+.credito-vo:active, .credito-vo:hover { border-color: rgba(255,255,255,.18); background: rgba(255,255,255,.06); }
 .cargando { display: grid; place-items: center; min-height: 60vh; }
 .cargando img { width: 150px; animation: pulso 1.4s ease-in-out infinite; }
 @keyframes pulso { 50% { opacity: .45; transform: scale(.97); } }
