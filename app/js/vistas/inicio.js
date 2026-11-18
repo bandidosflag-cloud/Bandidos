@@ -39,7 +39,46 @@ export function tarjetaNotificaciones(rama) {
   </div></section>`;
 }
 
-export function tarjetaProximo(rama, { conLink = true } = {}) {
+// ---------------- fotos de jugadores detrás de los bloques (rotan cada 8 s)
+const ROTAR_MS = 8000;
+let fotoIdx = Math.floor(Math.random() * 1000); // al abrir la app empieza en una al azar
+function fotosDe(rama) {
+  const todas = M.fotosHero || [];
+  return rama === "TODOS" ? todas : todas.filter(f => (f.rama || "").toUpperCase() === rama);
+}
+// lugar 0 = bloque de temporada, 1 = bloque rojo (siempre otra persona)
+function fotoEn(lista, lugar) {
+  if (!lista.length) return null;
+  const salto = lugar ? Math.max(1, Math.floor(lista.length / 2)) : 0;
+  return lista[(fotoIdx + salto) % lista.length];
+}
+function capaFoto(rama, lugar) {
+  const f = fotoEn(fotosDe(rama), lugar);
+  return f ? `<div class="foto-jugador" data-foto-lugar="${lugar}" data-rama="${rama}" aria-hidden="true"><img src="${esc(f.img)}" alt="" decoding="async"></div>` : "";
+}
+export function iniciarFotos(raiz) {
+  const capas = [...raiz.querySelectorAll("[data-foto-lugar]")];
+  if (!capas.length || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const lista = fotosDe(capas[0].dataset.rama);
+  if (lista.length < 2) return;
+  const id = setInterval(() => {
+    if (!document.body.contains(capas[0])) return clearInterval(id);
+    if (document.hidden) return;
+    fotoIdx++;
+    for (const capa of capas) {
+      const f = fotoEn(lista, +capa.dataset.fotoLugar);
+      const img = new Image();
+      img.alt = ""; img.className = "entra"; img.src = f.img;
+      img.decode().catch(() => {}).then(() => {
+        capa.appendChild(img);
+        requestAnimationFrame(() => requestAnimationFrame(() => img.classList.remove("entra")));
+        setTimeout(() => { while (capa.children.length > 1) capa.firstElementChild.remove(); }, 1100);
+      });
+    }
+  }, ROTAR_MS);
+}
+
+export function tarjetaProximo(rama, { conLink = true, foto = false } = {}) {
   const equipos = filtraRama(M.equipos, rama);
   const proximos = equipos.map(e => e.proximo).filter(Boolean).sort((a, b) => a.dt - b.dt);
   const p = proximos[0];
@@ -47,7 +86,7 @@ export function tarjetaProximo(rama, { conLink = true } = {}) {
     const nosLocal = p.lado === "local";
     const izq = nosLocal ? p.nos : p.rival, der = nosLocal ? p.rival : p.nos;
     const u = p.uniforme;
-    return `<a ${conLink ? 'href="#/partido"' : ""} class="destacada" style="display:block">
+    return `<a ${conLink ? 'href="#/partido"' : ""} class="destacada con-partido" style="display:block">${foto ? capaFoto(rama, 1) : ""}
       <div class="fila-top"><span class="tag blanco">Próximo · ${esc(p.equipo.etiqueta)}</span><span class="peq muted">Jornada ${p.jornada ?? "–"}</span></div>
       <div class="versus-grande">
         <div class="eq">${escudo(izq.nombre, p.rama)}<b>${esc(izq.nombre)}</b></div>
@@ -68,7 +107,7 @@ export function tarjetaProximo(rama, { conLink = true } = {}) {
   const dom = evJ ? new Date(evJ.fecha + "T12:00") : proximoDomingo(M.hoy);
   const confirmada = !!evJ;
   const enTemporada = t && t.fin && new Date(t.fin) >= M.hoy;
-  return `<a ${conLink ? 'href="#/partido"' : ""} class="destacada" style="display:block">
+  return `<a ${conLink ? 'href="#/partido"' : ""} class="destacada" style="display:block">${foto ? capaFoto(rama, 1) : ""}
     <div class="fila-top"><span class="tag blanco">${t?.rol_pendiente ? `Jornada ${t.rol_pendiente}` : "Próximo partido"}</span><span class="peq muted">${esc(t?.nombre || "")}</span></div>
     <div class="mt-16">
       <div class="pendiente-num">${enTemporada ? "ROL<br>PENDIENTE" : "FIN DE<br>TEMPORADA"}</div>
@@ -109,7 +148,7 @@ export function render(rama) {
 
   return `
   <section class="hero">
-    <img class="hero-marca" src="${rama === "FEMENIL" ? "img/bandida.webp" : "img/bandido-blanco.webp"}" alt="">
+    ${capaFoto(rama, 0) || `<img class="hero-marca" src="${rama === "FEMENIL" ? "img/bandida.webp" : "img/bandido-blanco.webp"}" alt="">`}
     <div class="eyebrow">${esc(t?.estado || "Temporada")} · ${esc(M.liga.torneos[0] ? "Flag Elite Cuernavaca" : "")}</div>
     <h1 class="titulo-xl">${esc((t?.nombre || "Bandidos").replace(/\s(\d{4})$/, ""))}<br><span class="suave">${esc((t?.nombre || "").match(/\d{4}$/)?.[0] || "")}</span></h1>
     <div class="hero-meta">
@@ -120,7 +159,7 @@ export function render(rama) {
     ${msg ? `<p class="mt-12" style="position:relative;margin-bottom:0">${esc(msg)}</p>` : ""}
   </section>
 
-  <section class="seccion">${tarjetaProximo(rama)}</section>
+  <section class="seccion">${tarjetaProximo(rama, { foto: true })}</section>
 
   ${tarjetaNotificaciones(rama)}
 

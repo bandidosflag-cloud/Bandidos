@@ -213,6 +213,23 @@ html[data-dir="izq"]::view-transition-new(root) { animation-name: vt-entra-izq; 
   pointer-events: none;
 }
 .hero .titulo-xl { position: relative; }
+/* fotos de jugadores detrás del texto */
+.foto-jugador {
+  position: absolute; top: 10px; bottom: 0; right: -4px; width: 62%; pointer-events: none; z-index: 0;
+  -webkit-mask-image: linear-gradient(to bottom, #000 50%, transparent 98%), linear-gradient(to right, transparent 0%, #000 50%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to bottom, #000 50%, transparent 98%), linear-gradient(to right, transparent 0%, #000 50%);
+  mask-composite: intersect;
+}
+.foto-jugador img {
+  position: absolute; right: 0; bottom: 0; height: 100%; width: auto; max-width: none;
+  transition: opacity 1s ease;
+}
+.foto-jugador img.entra { opacity: 0; }
+.hero .foto-jugador { opacity: .5; filter: saturate(.8); }
+.destacada .foto-jugador { opacity: .5; mix-blend-mode: luminosity; }
+.destacada.con-partido .foto-jugador { opacity: .28; }
+.hero > :not(.foto-jugador):not(.hero-marca), .destacada > :not(.foto-jugador) { position: relative; z-index: 1; }
 .hero-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; position: relative; }
 
 /* ---------------- tarjeta destacada (roja) ---------------- */

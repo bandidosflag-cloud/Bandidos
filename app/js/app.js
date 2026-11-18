@@ -20,7 +20,7 @@ document.querySelectorAll("[data-icon]").forEach(el => { el.innerHTML = ico(el.d
 document.getElementById("btn-mas").innerHTML = ico("grid");
 
 const RUTAS = [
-  [/^\/?$/, "inicio", () => ({ html: Inicio.render(rama), montar: r => Inicio.iniciarCuentas(r) })],
+  [/^\/?$/, "inicio", () => ({ html: Inicio.render(rama), montar: r => { Inicio.iniciarCuentas(r); Inicio.iniciarFotos(r); } })],
   [/^\/agenda$/, "agenda", () => ({ html: Agenda.render(rama), montar: Agenda.montar })],
   [/^\/partido$/, "partido", () => ({ html: Partido.render(rama) })],
   [/^\/partido\/([\w-]+)$/, "partido", m => ({ html: `<a href="javascript:history.back()" class="link flex" style="gap:6px;margin:4px 0 10px">← Regresar</a>` + Detalle.render(m[1]) })],
