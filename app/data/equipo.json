@@ -171,16 +171,7 @@
       "hora_fin": ""
     }
   ],
-  "avisos": [
-    {
-      "fecha": "2026-11-18",
-      "rama": "TODOS",
-      "texto": "Prueba de notificaciones de la app 🏈 (puedes ignorarla)",
-      "importante": "no",
-      "notificar": "si",
-      "hasta": "2026-11-18"
-    }
-  ],
+  "avisos": [],
   "jugadores": [],
   "contactos": [
     {
