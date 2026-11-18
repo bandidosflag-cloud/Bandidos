@@ -580,7 +580,7 @@ table.tabla { width: 100%; border-collapse: collapse; font-size: 13.5px; font-va
   box-shadow: inset 0 1px 0 rgba(255,255,255,.35), inset 0 -3px 8px rgba(0,0,0,.25), 0 10px 24px -6px rgba(215,25,45,.7);
 }
 .tabbar .tab-centro .ti svg { width: 26px; height: 26px; }
-.tabbar .tab-centro .ti-logo img { width: 34px; height: auto; filter: drop-shadow(0 1px 1px rgba(0,0,0,.3)) drop-shadow(0 0 5px rgba(255,255,255,.35)); }
+.tabbar .tab-centro .ti-logo img { width: 42px; height: auto; filter: drop-shadow(0 1px 1px rgba(0,0,0,.3)) drop-shadow(0 0 5px rgba(255,255,255,.35)); }
 .chev { width: 18px; height: 18px; flex: none; color: var(--dim); }
 .tabbar .tab-centro[aria-current="page"] .ti { box-shadow: 0 0 0 4px rgba(215,25,45,.25), 0 10px 24px -6px rgba(215,25,45,.7); }
 
