@@ -1,0 +1,7617 @@
+{
+ "actualizado": "2026-11-18T06:24:27+00:00",
+ "fuente": "https://app.yarai.mx/flag-elite-cuernavaca",
+ "torneos": [
+  {
+   "slug": "elite-sunday-otono-2026",
+   "nombre": "Elite Sunday Otoño 2026",
+   "estado": "En curso",
+   "inicio": "2026-09-20",
+   "fin": "2026-11-29",
+   "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/elite-sunday-otono-2026",
+   "equipos_total": 67,
+   "rol_pendiente": 8,
+   "participamos": true
+  },
+  {
+   "slug": "tochito-kids-otono-2026",
+   "nombre": "Tochito Kids Otoño 2026",
+   "estado": "En curso",
+   "inicio": "2026-09-18",
+   "fin": "2026-12-04",
+   "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/tochito-kids-otono-2026",
+   "equipos_total": 84,
+   "participamos": false
+  }
+ ],
+ "equipos": [
+  {
+   "id": "cmtnc3rl7000gytpoiz1rfbzn",
+   "nombre": "Bandidas",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "torneo": "elite-sunday-otono-2026",
+   "totales": {
+    "pda": 14,
+    "pts": 93,
+    "sck": 1,
+    "int": 2,
+    "jugadores": 10
+   },
+   "jugadores": [
+    {
+     "numero": 21,
+     "nombre": "Nicte S.",
+     "pda": 13,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": "–",
+     "nombre": "Joseline A.",
+     "pda": 1,
+     "pts": 0,
+     "sck": 1,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 5,
+     "nombre": "Regina R.",
+     "pda": 0,
+     "pts": 59,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 11,
+     "nombre": "Mextli S.",
+     "pda": 0,
+     "pts": 18,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 19,
+     "nombre": "Sofia C.",
+     "pda": 0,
+     "pts": 14,
+     "sck": 0,
+     "int": 2,
+     "ast": 7
+    },
+    {
+     "numero": 24,
+     "nombre": "Alexia G.",
+     "pda": 0,
+     "pts": 2,
+     "sck": 0,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 7,
+     "nombre": "Daniela S.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 28,
+     "nombre": "Sofia G.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 23,
+     "nombre": "Raquel N.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 5
+    },
+    {
+     "numero": 10,
+     "nombre": "Ana M.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 4
+    }
+   ],
+   "posicion": {
+    "pos": 8,
+    "equipo": "Bandidas",
+    "id": "cmtnc3rl7000gytpoiz1rfbzn",
+    "jj": 7,
+    "jg": 1,
+    "jp": 6,
+    "pf": 95,
+    "pc": 210,
+    "dif": -115,
+    "nuestro": true
+   },
+   "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/elite-sunday-otono-2026/equipos/cmtnc3rl7000gytpoiz1rfbzn"
+  },
+  {
+   "id": "cmtnc3g7j000cytpoiw9lbnrh",
+   "nombre": "Bandidas",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "torneo": "elite-sunday-otono-2026",
+   "totales": {
+    "pda": 5,
+    "pts": 30,
+    "sck": 0,
+    "int": 3,
+    "jugadores": 12
+   },
+   "jugadores": [
+    {
+     "numero": 21,
+     "nombre": "Nicte S.",
+     "pda": 3,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 7,
+     "nombre": "Daniela S.",
+     "pda": 1,
+     "pts": 12,
+     "sck": 0,
+     "int": 2,
+     "ast": 7
+    },
+    {
+     "numero": 19,
+     "nombre": "Fernanda M.",
+     "pda": 1,
+     "pts": 6,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 99,
+     "nombre": "María R.",
+     "pda": 0,
+     "pts": 6,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 49,
+     "nombre": "Ashly R.",
+     "pda": 0,
+     "pts": 6,
+     "sck": 0,
+     "int": 0,
+     "ast": 5
+    },
+    {
+     "numero": 22,
+     "nombre": "Fatima V.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 1,
+     "ast": 7
+    },
+    {
+     "numero": 11,
+     "nombre": "Mextli S.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 25,
+     "nombre": "Hannia B.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 28,
+     "nombre": "Adriana F.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 20,
+     "nombre": "Mayred V.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 15,
+     "nombre": "Lia A.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 3
+    },
+    {
+     "numero": 97,
+     "nombre": "Rebeca O.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 3
+    }
+   ],
+   "posicion": {
+    "pos": 10,
+    "equipo": "Bandidas",
+    "id": "cmtnc3g7j000cytpoiw9lbnrh",
+    "jj": 7,
+    "jg": 1,
+    "jp": 6,
+    "pf": 36,
+    "pc": 140,
+    "dif": -104,
+    "nuestro": true
+   },
+   "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/elite-sunday-otono-2026/equipos/cmtnc3g7j000cytpoiw9lbnrh"
+  },
+  {
+   "id": "cmtnc34mu0008ytpodfuy6tu8",
+   "nombre": "Bandidas",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "torneo": "elite-sunday-otono-2026",
+   "totales": {
+    "pda": 5,
+    "pts": 45,
+    "sck": 6,
+    "int": 2,
+    "jugadores": 13
+   },
+   "jugadores": [
+    {
+     "numero": 15,
+     "nombre": "Adriana F.",
+     "pda": 4,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 49,
+     "nombre": "Ashly R.",
+     "pda": 1,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 2
+    },
+    {
+     "numero": 99,
+     "nombre": "María R.",
+     "pda": 0,
+     "pts": 14,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 25,
+     "nombre": "Hannia B.",
+     "pda": 0,
+     "pts": 12,
+     "sck": 1,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 19,
+     "nombre": "Fernanda M.",
+     "pda": 0,
+     "pts": 12,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 20,
+     "nombre": "Mayred V.",
+     "pda": 0,
+     "pts": 6,
+     "sck": 0,
+     "int": 1,
+     "ast": 5
+    },
+    {
+     "numero": 2,
+     "nombre": "Azul C.",
+     "pda": 0,
+     "pts": 1,
+     "sck": 3,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 23,
+     "nombre": "Dulce T.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 2,
+     "int": 0,
+     "ast": 5
+    },
+    {
+     "numero": 5,
+     "nombre": "Yuriney A.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 1,
+     "ast": 3
+    },
+    {
+     "numero": 16,
+     "nombre": "Andrea P.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 67,
+     "nombre": "Iris E.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 4
+    },
+    {
+     "numero": 6,
+     "nombre": "Ariana B.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 2
+    },
+    {
+     "numero": 26,
+     "nombre": "Mayela F.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 2
+    }
+   ],
+   "posicion": {
+    "pos": 11,
+    "equipo": "Bandidas",
+    "id": "cmtnc34mu0008ytpodfuy6tu8",
+    "jj": 7,
+    "jg": 3,
+    "jp": 4,
+    "pf": 47,
+    "pc": 104,
+    "dif": -57,
+    "nuestro": true
+   },
+   "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/elite-sunday-otono-2026/equipos/cmtnc34mu0008ytpodfuy6tu8"
+  },
+  {
+   "id": "cmtmbbi9u000mujcv8mcqwqna",
+   "nombre": "Bandidos",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "torneo": "elite-sunday-otono-2026",
+   "totales": {
+    "pda": 26,
+    "pts": 191,
+    "sck": 4,
+    "int": 12,
+    "jugadores": 10
+   },
+   "jugadores": [
+    {
+     "numero": 6,
+     "nombre": "Eduardo J.",
+     "pda": 26,
+     "pts": 6,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 99,
+     "nombre": "Balam S.",
+     "pda": 0,
+     "pts": 85,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 25,
+     "nombre": "Ilhan P.",
+     "pda": 0,
+     "pts": 36,
+     "sck": 0,
+     "int": 4,
+     "ast": 7
+    },
+    {
+     "numero": 50,
+     "nombre": "Yael G.",
+     "pda": 0,
+     "pts": 23,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 26,
+     "nombre": "Carlos G.",
+     "pda": 0,
+     "pts": 20,
+     "sck": 0,
+     "int": 5,
+     "ast": 7
+    },
+    {
+     "numero": 9,
+     "nombre": "Victor O.",
+     "pda": 0,
+     "pts": 13,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 11,
+     "nombre": "Uriel P.",
+     "pda": 0,
+     "pts": 8,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 7,
+     "nombre": "César J.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 4,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 3,
+     "nombre": "Jose F.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 3,
+     "ast": 6
+    },
+    {
+     "numero": 22,
+     "nombre": "Gael V.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    }
+   ],
+   "posicion": {
+    "pos": 2,
+    "equipo": "Bandidos",
+    "id": "cmtmbbi9u000mujcv8mcqwqna",
+    "jj": 7,
+    "jg": 5,
+    "jp": 2,
+    "pf": 227,
+    "pc": 117,
+    "dif": 110,
+    "nuestro": true
+   },
+   "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/elite-sunday-otono-2026/equipos/cmtmbbi9u000mujcv8mcqwqna"
+  },
+  {
+   "id": "cmtmbb6kv000iujcvuhk01voa",
+   "nombre": "Bandidos",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "torneo": "elite-sunday-otono-2026",
+   "totales": {
+    "pda": 26,
+    "pts": 139,
+    "sck": 1,
+    "int": 4,
+    "jugadores": 10
+   },
+   "jugadores": [
+    {
+     "numero": 11,
+     "nombre": "Uriel P.",
+     "pda": 23,
+     "pts": 0,
+     "sck": 0,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 1,
+     "nombre": "Gabriel T.",
+     "pda": 2,
+     "pts": 14,
+     "sck": 0,
+     "int": 1,
+     "ast": 6
+    },
+    {
+     "numero": 1,
+     "nombre": "Daniel R.",
+     "pda": 1,
+     "pts": 24,
+     "sck": 0,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 69,
+     "nombre": "Cristian N.",
+     "pda": 0,
+     "pts": 55,
+     "sck": 0,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 57,
+     "nombre": "Josué F.",
+     "pda": 0,
+     "pts": 12,
+     "sck": 0,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 22,
+     "nombre": "Gael V.",
+     "pda": 0,
+     "pts": 10,
+     "sck": 0,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 20,
+     "nombre": "Santiago V.",
+     "pda": 0,
+     "pts": 8,
+     "sck": 0,
+     "int": 0,
+     "ast": 5
+    },
+    {
+     "numero": 9,
+     "nombre": "Victor O.",
+     "pda": 0,
+     "pts": 4,
+     "sck": 0,
+     "int": 0,
+     "ast": 5
+    },
+    {
+     "numero": 10,
+     "nombre": "Victor A.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 1,
+     "int": 0,
+     "ast": 6
+    },
+    {
+     "numero": 19,
+     "nombre": "Víctor G.",
+     "pda": 0,
+     "pts": 0,
+     "sck": 0,
+     "int": 3,
+     "ast": 6
+    }
+   ],
+   "posicion": {
+    "pos": 9,
+    "equipo": "Bandidos",
+    "id": "cmtmbb6kv000iujcvuhk01voa",
+    "jj": 7,
+    "jg": 3,
+    "jp": 4,
+    "pf": 150,
+    "pc": 123,
+    "dif": 27,
+    "nuestro": true
+   },
+   "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/elite-sunday-otono-2026/equipos/cmtmbb6kv000iujcvuhk01voa"
+  }
+ ],
+ "tablas": [
+  {
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "torneo": "elite-sunday-otono-2026",
+   "filas": [
+    {
+     "pos": 1,
+     "equipo": "JFM",
+     "id": "cmuexpzjg0078149b8xz900zj",
+     "jj": 7,
+     "jg": 7,
+     "jp": 0,
+     "pf": 207,
+     "pc": 49,
+     "dif": 158,
+     "nuestro": false
+    },
+    {
+     "pos": 2,
+     "equipo": "Bravos",
+     "id": "cmtnitlhr001iys9go64rtes4",
+     "jj": 6,
+     "jg": 5,
+     "jp": 1,
+     "pf": 134,
+     "pc": 45,
+     "dif": 89,
+     "nuestro": false
+    },
+    {
+     "pos": 3,
+     "equipo": "Wildcats",
+     "id": "cmu6ecqi50012ibj8r5nv5yrb",
+     "jj": 6,
+     "jg": 5,
+     "jp": 1,
+     "pf": 123,
+     "pc": 91,
+     "dif": 32,
+     "nuestro": false
+    },
+    {
+     "pos": 4,
+     "equipo": "Chubby Bunny",
+     "id": "cmtniykty002kys9gfyvwu4v4",
+     "jj": 7,
+     "jg": 4,
+     "jp": 3,
+     "pf": 131,
+     "pc": 150,
+     "dif": -19,
+     "nuestro": false
+    },
+    {
+     "pos": 5,
+     "equipo": "Eternals",
+     "id": "cmu058i5p00iomtf0xpocxvsi",
+     "jj": 7,
+     "jg": 2,
+     "jp": 5,
+     "pf": 124,
+     "pc": 130,
+     "dif": -6,
+     "nuestro": false
+    },
+    {
+     "pos": 6,
+     "equipo": "Plateados",
+     "id": "cmudfqco700d221rw5yexi0vd",
+     "jj": 6,
+     "jg": 2,
+     "jp": 4,
+     "pf": 103,
+     "pc": 135,
+     "dif": -32,
+     "nuestro": false
+    },
+    {
+     "pos": 7,
+     "equipo": "Sirenas",
+     "id": "cmtncsbpv000cd43l6rp9v0q4",
+     "jj": 8,
+     "jg": 1,
+     "jp": 7,
+     "pf": 87,
+     "pc": 194,
+     "dif": -107,
+     "nuestro": false
+    },
+    {
+     "pos": 8,
+     "equipo": "Bandidas",
+     "id": "cmtnc3rl7000gytpoiz1rfbzn",
+     "jj": 7,
+     "jg": 1,
+     "jp": 6,
+     "pf": 95,
+     "pc": 210,
+     "dif": -115,
+     "nuestro": true
+    }
+   ]
+  },
+  {
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "torneo": "elite-sunday-otono-2026",
+   "filas": [
+    {
+     "pos": 1,
+     "equipo": "Huskies",
+     "id": "cmtncep5u000oytpoyam6xbn7",
+     "jj": 8,
+     "jg": 7,
+     "jp": 1,
+     "pf": 160,
+     "pc": 76,
+     "dif": 84,
+     "nuestro": false
+    },
+    {
+     "pos": 2,
+     "equipo": "Bravos Blancos",
+     "id": "cmtniw44r0026ys9gscmzqgfu",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 145,
+     "pc": 63,
+     "dif": 82,
+     "nuestro": false
+    },
+    {
+     "pos": 3,
+     "equipo": "Eternals",
+     "id": "cmu058rks00ismtf05uhoahwm",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 152,
+     "pc": 75,
+     "dif": 77,
+     "nuestro": false
+    },
+    {
+     "pos": 4,
+     "equipo": "Bravos",
+     "id": "cmtnita0z001eys9g01e0ss7u",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 80,
+     "pc": 61,
+     "dif": 19,
+     "nuestro": false
+    },
+    {
+     "pos": 5,
+     "equipo": "Chubby Bunny",
+     "id": "cmtniybva002gys9g38i20k4v",
+     "jj": 6,
+     "jg": 4,
+     "jp": 2,
+     "pf": 59,
+     "pc": 63,
+     "dif": -4,
+     "nuestro": false
+    },
+    {
+     "pos": 6,
+     "equipo": "Kaos",
+     "id": "cmtm4zctc000u9kl0avll0nlo",
+     "jj": 8,
+     "jg": 4,
+     "jp": 4,
+     "pf": 115,
+     "pc": 119,
+     "dif": -4,
+     "nuestro": false
+    },
+    {
+     "pos": 7,
+     "equipo": "Flag Ex’s",
+     "id": "cmu1fcjwn010hmtf0vgbg2jzf",
+     "jj": 7,
+     "jg": 2,
+     "jp": 5,
+     "pf": 115,
+     "pc": 126,
+     "dif": -11,
+     "nuestro": false
+    },
+    {
+     "pos": 8,
+     "equipo": "Colegio Jurista",
+     "id": "cmu6eigjn003cibj80yh91gi2",
+     "jj": 7,
+     "jg": 2,
+     "jp": 5,
+     "pf": 68,
+     "pc": 105,
+     "dif": -37,
+     "nuestro": false
+    },
+    {
+     "pos": 9,
+     "equipo": "Venados Jojutla",
+     "id": "cmu046sl500hfmtf0r7ez4vg8",
+     "jj": 8,
+     "jg": 1,
+     "jp": 7,
+     "pf": 57,
+     "pc": 159,
+     "dif": -102,
+     "nuestro": false
+    },
+    {
+     "pos": 10,
+     "equipo": "Bandidas",
+     "id": "cmtnc3g7j000cytpoiw9lbnrh",
+     "jj": 7,
+     "jg": 1,
+     "jp": 6,
+     "pf": 36,
+     "pc": 140,
+     "dif": -104,
+     "nuestro": true
+    }
+   ]
+  },
+  {
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "torneo": "elite-sunday-otono-2026",
+   "filas": [
+    {
+     "pos": 1,
+     "equipo": "Blue Panthers",
+     "id": "cmtrlp9j1000fjorqidb42w87",
+     "jj": 7,
+     "jg": 7,
+     "jp": 0,
+     "pf": 120,
+     "pc": 44,
+     "dif": 76,
+     "nuestro": false
+    },
+    {
+     "pos": 2,
+     "equipo": "Dragons",
+     "id": "cmtncw50a000od43lb92t36z6",
+     "jj": 7,
+     "jg": 6,
+     "jp": 1,
+     "pf": 214,
+     "pc": 38,
+     "dif": 176,
+     "nuestro": false
+    },
+    {
+     "pos": 3,
+     "equipo": "Huskies",
+     "id": "cmtnceydy000sytpos6la3dxm",
+     "jj": 8,
+     "jg": 6,
+     "jp": 2,
+     "pf": 185,
+     "pc": 47,
+     "dif": 138,
+     "nuestro": false
+    },
+    {
+     "pos": 4,
+     "equipo": "Luciérnagas",
+     "id": "cmtm55rmw000e7vurz79frcnv",
+     "jj": 7,
+     "jg": 6,
+     "jp": 1,
+     "pf": 165,
+     "pc": 53,
+     "dif": 112,
+     "nuestro": false
+    },
+    {
+     "pos": 5,
+     "equipo": "Monkeys",
+     "id": "cmtnhciw10008ys9gk3rw3w9y",
+     "jj": 7,
+     "jg": 6,
+     "jp": 1,
+     "pf": 113,
+     "pc": 25,
+     "dif": 88,
+     "nuestro": false
+    },
+    {
+     "pos": 6,
+     "equipo": "Bravos Blancos",
+     "id": "cmtnivwju0022ys9grh1cty6i",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 148,
+     "pc": 76,
+     "dif": 72,
+     "nuestro": false
+    },
+    {
+     "pos": 7,
+     "equipo": "Leonas CIES",
+     "id": "cmtuin7ez00084vvaez26umg1",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 83,
+     "pc": 40,
+     "dif": 43,
+     "nuestro": false
+    },
+    {
+     "pos": 8,
+     "equipo": "Next Generation",
+     "id": "cmu5rtwqg00ijrqluyha53vc6",
+     "jj": 7,
+     "jg": 4,
+     "jp": 3,
+     "pf": 105,
+     "pc": 64,
+     "dif": 41,
+     "nuestro": false
+    },
+    {
+     "pos": 9,
+     "equipo": "Eternals",
+     "id": "cmu055yqa00iimtf0zi2ueiux",
+     "jj": 8,
+     "jg": 4,
+     "jp": 4,
+     "pf": 50,
+     "pc": 112,
+     "dif": -62,
+     "nuestro": false
+    },
+    {
+     "pos": 10,
+     "equipo": "New Blood",
+     "id": "cmu5rvqe100itrqlu1xlxunts",
+     "jj": 8,
+     "jg": 3,
+     "jp": 5,
+     "pf": 51,
+     "pc": 103,
+     "dif": -52,
+     "nuestro": false
+    },
+    {
+     "pos": 11,
+     "equipo": "Bandidas",
+     "id": "cmtnc34mu0008ytpodfuy6tu8",
+     "jj": 7,
+     "jg": 3,
+     "jp": 4,
+     "pf": 47,
+     "pc": 104,
+     "dif": -57,
+     "nuestro": true
+    },
+    {
+     "pos": 12,
+     "equipo": "Venados Jojutla",
+     "id": "cmu047bhu00hjmtf0eqh9ftr4",
+     "jj": 8,
+     "jg": 3,
+     "jp": 5,
+     "pf": 33,
+     "pc": 100,
+     "dif": -67,
+     "nuestro": false
+    },
+    {
+     "pos": 13,
+     "equipo": "Unila",
+     "id": "cmubm5g1x00fmyyfrqws3zrzs",
+     "jj": 7,
+     "jg": 2,
+     "jp": 5,
+     "pf": 39,
+     "pc": 109,
+     "dif": -70,
+     "nuestro": false
+    },
+    {
+     "pos": 14,
+     "equipo": "Bills",
+     "id": "cmtrlocnz0007jorqpbptrisg",
+     "jj": 7,
+     "jg": 2,
+     "jp": 5,
+     "pf": 46,
+     "pc": 138,
+     "dif": -92,
+     "nuestro": false
+    },
+    {
+     "pos": 15,
+     "equipo": "Flag Ex’s",
+     "id": "cmu1fbx3l010dmtf0lzdraqgg",
+     "jj": 7,
+     "jg": 1,
+     "jp": 6,
+     "pf": 28,
+     "pc": 91,
+     "dif": -63,
+     "nuestro": false
+    },
+    {
+     "pos": 16,
+     "equipo": "Grizzlies",
+     "id": "cmu2zv38e009bq28jivwsf0sd",
+     "jj": 6,
+     "jg": 1,
+     "jp": 5,
+     "pf": 35,
+     "pc": 125,
+     "dif": -90,
+     "nuestro": false
+    },
+    {
+     "pos": 17,
+     "equipo": "Bravos",
+     "id": "cmtniswqw001ays9gzsqqqxet",
+     "jj": 7,
+     "jg": 0,
+     "jp": 7,
+     "pf": 19,
+     "pc": 103,
+     "dif": -84,
+     "nuestro": false
+    },
+    {
+     "pos": 18,
+     "equipo": "Titanes",
+     "id": "cmuegua2s00539pah0nw0dbb3",
+     "jj": 6,
+     "jg": 0,
+     "jp": 6,
+     "pf": 13,
+     "pc": 122,
+     "dif": -109,
+     "nuestro": false
+    }
+   ]
+  },
+  {
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "torneo": "elite-sunday-otono-2026",
+   "filas": [
+    {
+     "pos": 1,
+     "equipo": "Kaos",
+     "id": "cmtm50qt600129kl073u8cacn",
+     "jj": 8,
+     "jg": 6,
+     "jp": 2,
+     "pf": 191,
+     "pc": 118,
+     "dif": 73,
+     "nuestro": false
+    },
+    {
+     "pos": 2,
+     "equipo": "Bandidos",
+     "id": "cmtmbbi9u000mujcv8mcqwqna",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 227,
+     "pc": 117,
+     "dif": 110,
+     "nuestro": true
+    },
+    {
+     "pos": 3,
+     "equipo": "All Stars",
+     "id": "cmu060gxy00ktmtf0zbuth34g",
+     "jj": 6,
+     "jg": 5,
+     "jp": 1,
+     "pf": 174,
+     "pc": 139,
+     "dif": 35,
+     "nuestro": false
+    },
+    {
+     "pos": 4,
+     "equipo": "Plateados",
+     "id": "cmudfrx1j00d621rwyduyknad",
+     "jj": 6,
+     "jg": 4,
+     "jp": 2,
+     "pf": 156,
+     "pc": 95,
+     "dif": 61,
+     "nuestro": false
+    },
+    {
+     "pos": 5,
+     "equipo": "Sirenas",
+     "id": "cmtncs1990008d43lm4m158ot",
+     "jj": 7,
+     "jg": 4,
+     "jp": 3,
+     "pf": 140,
+     "pc": 172,
+     "dif": -32,
+     "nuestro": false
+    },
+    {
+     "pos": 6,
+     "equipo": "Bravos",
+     "id": "cmtniu30c001qys9g8vegteu8",
+     "jj": 7,
+     "jg": 3,
+     "jp": 4,
+     "pf": 178,
+     "pc": 173,
+     "dif": 5,
+     "nuestro": false
+    },
+    {
+     "pos": 7,
+     "equipo": "Titanes",
+     "id": "cmtnchp0o0014ytpo4xbvuy36",
+     "jj": 6,
+     "jg": 3,
+     "jp": 3,
+     "pf": 134,
+     "pc": 131,
+     "dif": 3,
+     "nuestro": false
+    },
+    {
+     "pos": 8,
+     "equipo": "Moustache",
+     "id": "cmtmb7626000aujcv9uqzk2wy",
+     "jj": 6,
+     "jg": 3,
+     "jp": 3,
+     "pf": 106,
+     "pc": 126,
+     "dif": -20,
+     "nuestro": false
+    },
+    {
+     "pos": 9,
+     "equipo": "JFM",
+     "id": "cmuheeu2b004ahqwzjy33o4xu",
+     "jj": 6,
+     "jg": 3,
+     "jp": 3,
+     "pf": 85,
+     "pc": 155,
+     "dif": -70,
+     "nuestro": false
+    },
+    {
+     "pos": 10,
+     "equipo": "Azulitos",
+     "id": "cmu05o27h00jpmtf0m6u8qhjx",
+     "jj": 6,
+     "jg": 2,
+     "jp": 4,
+     "pf": 127,
+     "pc": 200,
+     "dif": -73,
+     "nuestro": false
+    },
+    {
+     "pos": 11,
+     "equipo": "Dragons",
+     "id": "cmtncvbkq000kd43l5vdqn7hy",
+     "jj": 7,
+     "jg": 1,
+     "jp": 6,
+     "pf": 125,
+     "pc": 184,
+     "dif": -59,
+     "nuestro": false
+    },
+    {
+     "pos": 12,
+     "equipo": "Colegio Jurista",
+     "id": "cmu6eir4r003kibj8mbu6z0gh",
+     "jj": 6,
+     "jg": 0,
+     "jp": 6,
+     "pf": 116,
+     "pc": 149,
+     "dif": -33,
+     "nuestro": false
+    }
+   ]
+  },
+  {
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "torneo": "elite-sunday-otono-2026",
+   "filas": [
+    {
+     "pos": 1,
+     "equipo": "Stingers Hellen Keller",
+     "id": "cmu05i4ba00j0mtf0rdi4ppdc",
+     "jj": 8,
+     "jg": 7,
+     "jp": 1,
+     "pf": 296,
+     "pc": 125,
+     "dif": 171,
+     "nuestro": false
+    },
+    {
+     "pos": 2,
+     "equipo": "Monkeys",
+     "id": "cmtnhct31000cys9gz3l5b0qp",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 118,
+     "pc": 74,
+     "dif": 44,
+     "nuestro": false
+    },
+    {
+     "pos": 3,
+     "equipo": "Blue Panthers",
+     "id": "cmtnewxxt000c117z2mo55kdh",
+     "jj": 8,
+     "jg": 5,
+     "jp": 3,
+     "pf": 190,
+     "pc": 153,
+     "dif": 37,
+     "nuestro": false
+    },
+    {
+     "pos": 4,
+     "equipo": "Unila",
+     "id": "cmubm60f200fqyyfr8rut57ob",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 151,
+     "pc": 144,
+     "dif": 7,
+     "nuestro": false
+    },
+    {
+     "pos": 5,
+     "equipo": "Bravos",
+     "id": "cmtniucp1001uys9g1sxesd5p",
+     "jj": 7,
+     "jg": 4,
+     "jp": 3,
+     "pf": 110,
+     "pc": 81,
+     "dif": 29,
+     "nuestro": false
+    },
+    {
+     "pos": 6,
+     "equipo": "Eternals",
+     "id": "cmu4t69b801k3q28j3p8ele2j",
+     "jj": 6,
+     "jg": 4,
+     "jp": 2,
+     "pf": 111,
+     "pc": 89,
+     "dif": 22,
+     "nuestro": false
+    },
+    {
+     "pos": 7,
+     "equipo": "Dragones Taxco",
+     "id": "cmtm4p119000e9kl0caszohje",
+     "jj": 6,
+     "jg": 4,
+     "jp": 2,
+     "pf": 98,
+     "pc": 97,
+     "dif": 1,
+     "nuestro": false
+    },
+    {
+     "pos": 8,
+     "equipo": "Flag Ex’s",
+     "id": "cmu1fd52g010lmtf05qo3ot5d",
+     "jj": 6,
+     "jg": 3,
+     "jp": 3,
+     "pf": 122,
+     "pc": 88,
+     "dif": 34,
+     "nuestro": false
+    },
+    {
+     "pos": 9,
+     "equipo": "Bandidos",
+     "id": "cmtmbb6kv000iujcvuhk01voa",
+     "jj": 7,
+     "jg": 3,
+     "jp": 4,
+     "pf": 150,
+     "pc": 123,
+     "dif": 27,
+     "nuestro": true
+    },
+    {
+     "pos": 10,
+     "equipo": "Kaos",
+     "id": "cmtm53gqk00067vurlbfad7uo",
+     "jj": 8,
+     "jg": 2,
+     "jp": 6,
+     "pf": 176,
+     "pc": 217,
+     "dif": -41,
+     "nuestro": false
+    },
+    {
+     "pos": 11,
+     "equipo": "Bills",
+     "id": "cmtrlop35000bjorqoty4fgy3",
+     "jj": 7,
+     "jg": 2,
+     "jp": 5,
+     "pf": 102,
+     "pc": 166,
+     "dif": -64,
+     "nuestro": false
+    },
+    {
+     "pos": 12,
+     "equipo": "Luciérnagas",
+     "id": "cmtm57662000m7vurf287t5vh",
+     "jj": 7,
+     "jg": 2,
+     "jp": 5,
+     "pf": 75,
+     "pc": 174,
+     "dif": -99,
+     "nuestro": false
+    },
+    {
+     "pos": 13,
+     "equipo": "Venados Jojutla",
+     "id": "cmu047qbj00hpmtf0b4ri50ld",
+     "jj": 8,
+     "jg": 0,
+     "jp": 8,
+     "pf": 76,
+     "pc": 244,
+     "dif": -168,
+     "nuestro": false
+    }
+   ]
+  }
+ ],
+ "partidos": [
+  {
+   "jornada": 1,
+   "fecha": "2026-09-20",
+   "fecha_txt": "dom 20 de sep",
+   "hora": "10:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "no se juega",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Moustache",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Cancelado",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-20-10-30-flag-ex-s-moustache-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "08:00",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": 51,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 14,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-08-00-stingers-hellen-keller-kaos-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "08:00",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Plateados",
+    "pts": 27,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 19,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-08-00-plateados-dragons-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "08:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 18,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-08-00-flag-ex-s-bandidas-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "08:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": 32,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Grizzlies",
+    "pts": 8,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-08-50-huskies-grizzlies-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "08:50",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 27,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-08-50-kaos-venados-jojutla-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "08:50",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Plateados",
+    "pts": 33,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-08-50-plateados-sirenas-golden"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "08:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidos",
+    "pts": 14,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Moustache",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-08-50-bandidos-moustache-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "09:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 12,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Flag Ex’s",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-09-40-kaos-flag-ex-s-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "09:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Dragones Taxco",
+    "pts": 19,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidos",
+    "pts": 15,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-09-40-dragones-taxco-bandidos-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "09:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "All Stars",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Plateados",
+    "pts": 31,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-09-40-all-stars-plateados-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "09:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Huskies",
+    "pts": 19,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-09-40-eternals-huskies-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "10:30",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Titanes",
+    "pts": 27,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 28,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-10-30-titanes-sirenas-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "10:30",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": 21,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-10-30-venados-jojutla-chubby-bunny-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "10:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos Blancos",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Luciérnagas",
+    "pts": 31,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-10-30-bravos-blancos-luciernagas-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "10:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Grizzlies",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 13,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-10-30-grizzlies-bandidas-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Titanes",
+    "pts": 7,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 34,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-11-20-titanes-bravos-blancos-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 16,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 15,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-11-20-bandidas-sirenas-golden"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "11:20",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "All Stars",
+    "pts": 26,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 21,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-11-20-all-stars-kaos-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Plateados",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "JFM",
+    "pts": 35,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-11-20-plateados-jfm-golden"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "12:10",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Dragones Taxco",
+    "pts": 21,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 16,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-12-10-dragones-taxco-monkeys-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "12:10",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 25,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": 26,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-12-10-eternals-chubby-bunny-golden"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "12:10",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidos",
+    "pts": 34,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Luciérnagas",
+    "pts": 7,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-12-10-bandidos-luciernagas-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "12:10",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Colegio Jurista",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 14,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-12-10-colegio-jurista-kaos-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "13:00",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Colegio Jurista",
+    "pts": 19,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Titanes",
+    "pts": 31,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-13-00-colegio-jurista-titanes-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "13:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Flag Ex’s",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-13-00-venados-jojutla-flag-ex-s-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "13:00",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 28,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 25,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-13-00-kaos-bravos-silver"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "13:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Monkeys",
+    "pts": 7,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Next Generation",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-13-50-monkeys-next-generation-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "13:50",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 21,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Unila",
+    "pts": 25,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-13-50-venados-jojutla-unila-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "13:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Leonas CIES",
+    "pts": 12,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Titanes",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-13-50-leonas-cies-titanes-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "14:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 24,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 19,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-14-40-bravos-bills-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "14:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "New Blood",
+    "pts": 1,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-14-40-venados-jojutla-new-blood-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "14:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": 18,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-14-40-blue-panthers-eternals-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "15:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Next Generation",
+    "pts": 17,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Unila",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-15-30-next-generation-unila-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "15:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bills",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 32,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-15-30-bills-dragons-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "15:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 7,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": 40,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-15-30-venados-jojutla-blue-panthers-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "16:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Monkeys",
+    "pts": 30,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "New Blood",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-16-20-monkeys-new-blood-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "16:20",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "no se juega",
+   "local": {
+    "nombre": "Eternals",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Azulitos",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Cancelado",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-16-20-eternals-azulitos-bronze"
+  },
+  {
+   "jornada": 2,
+   "fecha": "2026-09-27",
+   "fecha_txt": "dom 27 de sep",
+   "hora": "16:20",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 8,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-09-27-16-20-eternals-monkeys-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "08:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Huskies",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-08-00-flag-ex-s-huskies-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "08:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Grizzlies",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 26,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-08-00-grizzlies-monkeys-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "08:00",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Wildcats",
+    "pts": 40,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 15,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-08-00-wildcats-bandidas-golden"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "08:50",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidos",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Unila",
+    "pts": 14,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-08-50-bandidos-unila-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "08:50",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": 28,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-08-50-stingers-hellen-keller-bills-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "08:50",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 19,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Flag Ex’s",
+    "pts": 13,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-08-50-eternals-flag-ex-s-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "09:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 18,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-09-40-flag-ex-s-monkeys-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "09:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 13,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-09-40-bravos-bills-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "09:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": 32,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Unila",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-09-40-huskies-unila-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "09:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidos",
+    "pts": 34,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-09-40-bandidos-sirenas-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "10:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bills",
+    "pts": 33,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Luciérnagas",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-10-30-bills-luciernagas-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "10:30",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "JFM",
+    "pts": 31,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": 18,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-10-30-jfm-chubby-bunny-golden"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "10:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": 19,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-10-30-blue-panthers-bravos-blancos-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "10:30",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Dragons",
+    "pts": 7,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Moustache",
+    "pts": 18,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-10-30-dragons-moustache-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 12,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Flag Ex’s",
+    "pts": 7,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-11-20-eternals-flag-ex-s-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Luciérnagas",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": 15,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-11-20-luciernagas-blue-panthers-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Chubby Bunny",
+    "pts": 13,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-11-20-chubby-bunny-bandidas-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "12:10",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "All Stars",
+    "pts": 34,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 27,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-12-10-all-stars-bravos-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "12:10",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Colegio Jurista",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 30,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-12-10-colegio-jurista-bravos-blancos-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "12:10",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 13,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-12-10-bandidas-bravos-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "13:00",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": 14,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-13-00-bravos-blue-panthers-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "13:00",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Sirenas",
+    "pts": 26,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 18,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-13-00-sirenas-dragons-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "13:00",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 28,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-13-00-eternals-bravos-golden"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "13:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 30,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "JFM",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-13-50-bravos-jfm-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "13:50",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 7,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-13-50-bravos-colegio-jurista-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "13:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Luciérnagas",
+    "pts": 29,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-13-50-luciernagas-eternals-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "13:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Dragons",
+    "pts": 21,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Leonas CIES",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-13-50-dragons-leonas-cies-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "14:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 27,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Luciérnagas",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-14-40-eternals-luciernagas-bronze"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "14:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Azulitos",
+    "pts": 25,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 24,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-14-40-azulitos-colegio-jurista-silver"
+  },
+  {
+   "jornada": 3,
+   "fecha": "2026-10-04",
+   "fecha_txt": "dom 4 de oct",
+   "hora": "14:40",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 26,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-04-14-40-bravos-sirenas-golden"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Plateados",
+    "pts": 34,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 20,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-09-00-plateados-bandidas-golden"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "09:00",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Dragones Taxco",
+    "pts": 20,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": 15,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-09-00-dragones-taxco-stingers-hellen-keller-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 16,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 8,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-09-00-flag-ex-s-venados-jojutla-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 34,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-09-00-kaos-eternals-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 14,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Huskies",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-09-50-bandidas-huskies-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Grizzlies",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 32,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-09-50-grizzlies-bravos-blancos-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "09:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Plateados",
+    "pts": 34,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Moustache",
+    "pts": 14,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-09-50-plateados-moustache-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "09:50",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 19,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Dragones Taxco",
+    "pts": 22,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-09-50-flag-ex-s-dragones-taxco-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": 26,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-10-40-huskies-bandidas-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Wildcats",
+    "pts": 18,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Plateados",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-10-40-wildcats-plateados-golden"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 41,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-10-40-venados-jojutla-dragons-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "10:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 20,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-10-40-kaos-sirenas-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "11:30",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 24,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": 25,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-11-30-bandidas-chubby-bunny-golden"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "11:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Unila",
+    "pts": 12,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Flag Ex’s",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-11-30-unila-flag-ex-s-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "11:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "New Blood",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 6,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-11-30-new-blood-eternals-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "11:30",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Titanes",
+    "pts": 20,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Plateados",
+    "pts": 16,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-11-30-titanes-plateados-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "12:20",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "All Stars",
+    "pts": 32,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidos",
+    "pts": 27,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-12-20-all-stars-bandidos-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 22,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-12-20-venados-jojutla-bravos-blancos-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 19,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Wildcats",
+    "pts": 26,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-12-20-eternals-wildcats-golden"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 24,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-12-20-bravos-kaos-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "13:10",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidos",
+    "pts": 27,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-13-10-bandidos-bravos-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "13:10",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "JFM",
+    "pts": 27,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-13-10-bravos-jfm-golden"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "13:10",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 12,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Titanes",
+    "pts": 19,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-13-10-kaos-titanes-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "14:00",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Unila",
+    "pts": 19,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Luciérnagas",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-14-00-unila-luciernagas-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Chubby Bunny",
+    "pts": 6,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 2,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-14-00-chubby-bunny-bravos-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "14:00",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 24,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": 29,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-14-00-kaos-blue-panthers-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Sirenas",
+    "pts": 14,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 36,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-14-00-sirenas-eternals-golden"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "14:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Next Generation",
+    "pts": 26,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-14-50-bravos-next-generation-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "14:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Monkeys",
+    "pts": 12,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Leonas CIES",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-14-50-monkeys-leonas-cies-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "14:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Azulitos",
+    "pts": 31,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 22,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-14-50-azulitos-dragons-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "14:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Titanes",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 7,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-14-50-titanes-venados-jojutla-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "15:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": 13,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "New Blood",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-15-40-blue-panthers-new-blood-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "15:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 8,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 15,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-15-40-bravos-monkeys-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "15:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 13,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-15-40-venados-jojutla-bills-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "16:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 44,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-16-30-kaos-venados-jojutla-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "16:30",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 26,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Azulitos",
+    "pts": 19,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-16-30-bravos-azulitos-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "16:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Luciérnagas",
+    "pts": 24,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Titanes",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-16-30-luciernagas-titanes-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "16:30",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Colegio Jurista",
+    "pts": 12,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-16-30-colegio-jurista-chubby-bunny-silver"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "17:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Next Generation",
+    "pts": 18,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-17-20-next-generation-bills-bronze"
+  },
+  {
+   "jornada": 4,
+   "fecha": "2026-10-11",
+   "fecha_txt": "dom 11 de oct",
+   "hora": "17:20",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": 27,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 18,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-11-17-20-blue-panthers-eternals-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "09:00",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidos",
+    "pts": 42,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 24,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-09-00-bandidos-dragons-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "09:00",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Unila",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": 41,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-09-00-unila-stingers-hellen-keller-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Sirenas",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Wildcats",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-09-00-sirenas-wildcats-golden"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 7,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Grizzlies",
+    "pts": 8,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-09-00-flag-ex-s-grizzlies-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Monkeys",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Huskies",
+    "pts": 19,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-09-50-monkeys-huskies-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "JFM",
+    "pts": 14,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-09-50-eternals-jfm-golden"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "09:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "JFM",
+    "pts": 24,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Moustache",
+    "pts": 10,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-09-50-jfm-moustache-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "09:50",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 30,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidos",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-09-50-flag-ex-s-bandidos-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": 18,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-10-40-huskies-chubby-bunny-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "10:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 28,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bandidos",
+    "pts": 52,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-10-40-bravos-bandidos-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Flag Ex’s",
+    "pts": 6,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-10-40-bravos-flag-ex-s-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "10:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": 44,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 19,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-10-40-blue-panthers-bills-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "11:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Luciérnagas",
+    "pts": 12,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 28,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-11-30-luciernagas-monkeys-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "11:30",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Chubby Bunny",
+    "pts": 21,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 26,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-11-30-chubby-bunny-sirenas-golden"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "11:30",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 35,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-11-30-eternals-colegio-jurista-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bills",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": 28,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-12-20-bills-blue-panthers-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 12,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-12-20-bandidas-eternals-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Dragons",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Luciérnagas",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-12-20-dragons-luciernagas-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "13:10",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 18,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-13-10-bravos-bandidas-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "13:10",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bills",
+    "pts": 7,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 24,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-13-10-bills-bravos-blancos-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "13:10",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Moustache",
+    "pts": 18,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 7,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-13-10-moustache-colegio-jurista-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "13:10",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Leonas CIES",
+    "pts": 13,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-13-10-eternals-leonas-cies-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 31,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-14-00-bravos-bandidas-golden"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Unila",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 33,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-14-00-unila-dragons-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "14:00",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 30,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-14-00-eternals-bravos-bronze"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "14:50",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos Blancos",
+    "pts": 7,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 12,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-14-50-bravos-blancos-eternals-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "14:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Azulitos",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "All Stars",
+    "pts": 56,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-14-50-azulitos-all-stars-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "14:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Sirenas",
+    "pts": 28,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 26,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-14-50-sirenas-colegio-jurista-silver"
+  },
+  {
+   "jornada": 5,
+   "fecha": "2026-10-18",
+   "fecha_txt": "dom 18 de oct",
+   "hora": "14:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Leonas CIES",
+    "pts": 13,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Unila",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-18-14-50-leonas-cies-unila-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 14,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-00-bandidas-monkeys-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 36,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Plateados",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-00-bravos-plateados-golden"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 20,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Flag Ex’s",
+    "pts": 33,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-00-kaos-flag-ex-s-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Luciérnagas",
+    "pts": 36,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 13,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-00-luciernagas-bills-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:00",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 5",
+   "nota": "",
+   "local": {
+    "nombre": "Moustache",
+    "pts": 26,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 40,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-00-moustache-sirenas-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 27,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 34,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-50-flag-ex-s-bravos-blancos-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "JFM",
+    "pts": 28,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Titanes",
+    "pts": 24,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-50-jfm-titanes-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Sirenas",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "JFM",
+    "pts": 35,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-50-sirenas-jfm-golden"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 21,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Plateados",
+    "pts": 20,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-50-kaos-plateados-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 5",
+   "nota": "",
+   "local": {
+    "nombre": "Unila",
+    "pts": 15,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Grizzlies",
+    "pts": 13,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-09-50-unila-grizzlies-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 8,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 25,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-10-40-bandidas-eternals-golden"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "10:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Azulitos",
+    "pts": 31,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "JFM",
+    "pts": 33,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-10-40-azulitos-jfm-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Plateados",
+    "pts": 18,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-10-40-plateados-chubby-bunny-golden"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos Blancos",
+    "pts": 20,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-10-40-bravos-blancos-kaos-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 5",
+   "nota": "",
+   "local": {
+    "nombre": "Titanes",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Huskies",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-10-40-titanes-huskies-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "11:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": 20,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 7,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-11-30-blue-panthers-bandidas-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "11:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bills",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 28,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-11-30-bills-monkeys-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "11:30",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Plateados",
+    "pts": 28,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 21,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-11-30-plateados-bravos-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "11:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": 50,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-11-30-venados-jojutla-stingers-hellen-keller-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "11:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 5",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 13,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Next Generation",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-11-30-venados-jojutla-next-generation-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 32,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-12-20-eternals-bandidas-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "12:20",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 18,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-12-20-bravos-venados-jojutla-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": 33,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "New Blood",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-12-20-huskies-new-blood-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "12:20",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 5",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 21,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Luciérnagas",
+    "pts": 24,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-12-20-kaos-luciernagas-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "13:10",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidos",
+    "pts": 28,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Titanes",
+    "pts": 13,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-13-10-bandidos-titanes-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "13:10",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Dragons",
+    "pts": 14,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-13-10-dragons-kaos-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "13:10",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 33,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-13-10-eternals-bravos-blancos-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "13:10",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": 33,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": 24,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-13-10-stingers-hellen-keller-blue-panthers-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "13:10",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 5",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 7,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-13-10-bravos-venados-jojutla-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 5",
+   "nota": "",
+   "local": {
+    "nombre": "New Blood",
+    "pts": 25,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Titanes",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-14-00-new-blood-titanes-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": 33,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-14-00-huskies-venados-jojutla-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Next Generation",
+    "pts": 2,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": 19,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-14-00-next-generation-blue-panthers-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "14:50",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bandidos",
+    "pts": 33,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-14-50-blue-panthers-bandidos-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "14:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "All Stars",
+    "pts": 26,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 20,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-14-50-all-stars-colegio-jurista-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "14:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 40,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-14-50-flag-ex-s-dragons-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "14:50",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 20,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Huskies",
+    "pts": 19,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-14-50-bravos-huskies-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "15:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-15-40-venados-jojutla-colegio-jurista-silver"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "15:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 20,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 24,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-15-40-flag-ex-s-eternals-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "15:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Leonas CIES",
+    "pts": 20,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 7,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-15-40-leonas-cies-bravos-bronze"
+  },
+  {
+   "jornada": 6,
+   "fecha": "2026-10-25",
+   "fecha_txt": "dom 25 de oct",
+   "hora": "15:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Unidad Deportivo Moctezuma",
+   "campo": "Campo 5",
+   "nota": "",
+   "local": {
+    "nombre": "Unila",
+    "pts": 32,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 27,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-10-25-15-40-unila-kaos-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "08:00",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": 43,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 20,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-08-00-stingers-hellen-keller-kaos-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "08:00",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "JFM",
+    "pts": 25,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Wildcats",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-08-00-jfm-wildcats-golden"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "08:00",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "JFM",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bandidos",
+    "pts": 30,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-08-00-jfm-bandidos-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "08:00",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Dragons",
+    "pts": 21,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 20,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-08-00-dragons-colegio-jurista-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "08:50",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Wildcats",
+    "pts": 13,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": 7,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-08-50-wildcats-chubby-bunny-golden"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "08:50",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": 13,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Colegio Jurista",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-08-50-huskies-colegio-jurista-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "08:50",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "JFM",
+    "pts": 40,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-08-50-bandidas-jfm-golden"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "08:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 30,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "JFM",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-08-50-kaos-jfm-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "09:40",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": 35,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidos",
+    "pts": 28,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-09-40-stingers-hellen-keller-bandidos-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "09:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Azulitos",
+    "pts": 8,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 39,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-09-40-azulitos-kaos-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "09:40",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 7,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-09-40-bravos-sirenas-golden"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "09:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": 7,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 12,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-09-40-eternals-venados-jojutla-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "10:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Dragons",
+    "pts": 34,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-10-30-bandidas-dragons-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "10:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Unila",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 1,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-10-30-unila-bills-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "10:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 14,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Dragones Taxco",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-10-30-kaos-dragones-taxco-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "10:30",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos Blancos",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Huskies",
+    "pts": 12,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-10-30-bravos-blancos-huskies-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Huskies",
+    "pts": 25,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-11-20-venados-jojutla-huskies-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Chubby Bunny",
+    "pts": 14,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 13,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-11-20-chubby-bunny-eternals-golden"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "11:20",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Dragones Taxco",
+    "pts": 10,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Unila",
+    "pts": 18,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-11-20-dragones-taxco-unila-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "11:20",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidas",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 26,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-11-20-bandidas-bravos-blancos-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "12:10",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": 12,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bandidas",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-12-10-kaos-bandidas-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "12:10",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Unila",
+    "pts": 30,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Bills",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-12-10-unila-bills-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "12:10",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 13,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-12-10-venados-jojutla-bravos-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "13:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": 12,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": 13,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-13-00-huskies-bravos-blancos-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "13:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": 18,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-13-00-bravos-monkeys-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "13:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Chubby Bunny",
+    "pts": 7,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Kaos",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-13-00-chubby-bunny-kaos-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "13:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": 7,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Venados Jojutla",
+    "pts": 0,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-13-00-blue-panthers-venados-jojutla-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "13:50",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 12,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Flag Ex’s",
+    "pts": 20,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-13-50-venados-jojutla-flag-ex-s-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "13:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Luciérnagas",
+    "pts": 12,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Next Generation",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-13-50-luciernagas-next-generation-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "13:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "New Blood",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Leonas CIES",
+    "pts": 19,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-13-50-new-blood-leonas-cies-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "14:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 7,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-14-40-flag-ex-s-bravos-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "14:40",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Next Generation",
+    "pts": 12,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 14,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-14-40-next-generation-eternals-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "15:30",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Flag Ex’s",
+    "pts": 2,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "New Blood",
+    "pts": 13,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-15-30-flag-ex-s-new-blood-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "15:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Luciérnagas",
+    "pts": 0,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": 12,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-15-30-luciernagas-bravos-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "15:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Venados Jojutla",
+    "pts": 6,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": 34,
+    "gana": true
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-15-30-venados-jojutla-eternals-bronze"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "16:20",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": 21,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": 12,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-16-20-bravos-sirenas-silver"
+  },
+  {
+   "jornada": 7,
+   "fecha": "2026-11-08",
+   "fecha_txt": "dom 8 de nov",
+   "hora": "16:20",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Monkeys",
+    "pts": 13,
+    "gana": true
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": 6,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-08-16-20-monkeys-blue-panthers-bronze"
+  }
+ ],
+ "lideres": [
+  {
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "categorias": [
+    {
+     "categoria": "Pases de anotación",
+     "lideres": [
+      {
+       "jugador": "Maria S.",
+       "equipo": "JFM",
+       "valor": 29,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Puntos anotados",
+     "lideres": [
+      {
+       "jugador": "Regina R.",
+       "equipo": "Bandidas",
+       "valor": 59,
+       "nuestro": true
+      }
+     ]
+    },
+    {
+     "categoria": "Sacks",
+     "lideres": [
+      {
+       "jugador": "Manuela B.",
+       "equipo": "Chubby Bunny",
+       "valor": 3,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Intercepciones",
+     "lideres": [
+      {
+       "jugador": "Andrea V.",
+       "equipo": "Wildcats",
+       "valor": 4,
+       "nuestro": false
+      },
+      {
+       "jugador": "Sabina M.",
+       "equipo": "JFM",
+       "valor": 4,
+       "nuestro": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "categorias": [
+    {
+     "categoria": "Pases de anotación",
+     "lideres": [
+      {
+       "jugador": "Constanza R.",
+       "equipo": "Huskies",
+       "valor": 21,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Puntos anotados",
+     "lideres": [
+      {
+       "jugador": "Ixchel P.",
+       "equipo": "Bravos Blancos",
+       "valor": 82,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Sacks",
+     "lideres": [
+      {
+       "jugador": "Emily M.",
+       "equipo": "Huskies",
+       "valor": 7,
+       "nuestro": false
+      },
+      {
+       "jugador": "Lizbeth M.",
+       "equipo": "Huskies",
+       "valor": 7,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Intercepciones",
+     "lideres": [
+      {
+       "jugador": "Mia C.",
+       "equipo": "Kaos",
+       "valor": 7,
+       "nuestro": false
+      },
+      {
+       "jugador": "Carolina W.",
+       "equipo": "Eternals",
+       "valor": 7,
+       "nuestro": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "categorias": [
+    {
+     "categoria": "Pases de anotación",
+     "lideres": [
+      {
+       "jugador": "Sofia R.",
+       "equipo": "Dragons",
+       "valor": 28,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Puntos anotados",
+     "lideres": [
+      {
+       "jugador": "Ximena V.",
+       "equipo": "Next Generation",
+       "valor": 74,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Sacks",
+     "lideres": [
+      {
+       "jugador": "Ximena H.",
+       "equipo": "Blue Panthers",
+       "valor": 13,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Intercepciones",
+     "lideres": [
+      {
+       "jugador": "Fatima R.",
+       "equipo": "Luciérnagas",
+       "valor": 8,
+       "nuestro": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "categorias": [
+    {
+     "categoria": "Pases de anotación",
+     "lideres": [
+      {
+       "jugador": "Eduardo J.",
+       "equipo": "Bandidos",
+       "valor": 26,
+       "nuestro": true
+      }
+     ]
+    },
+    {
+     "categoria": "Puntos anotados",
+     "lideres": [
+      {
+       "jugador": "Balam S.",
+       "equipo": "Bandidos",
+       "valor": 85,
+       "nuestro": true
+      }
+     ]
+    },
+    {
+     "categoria": "Sacks",
+     "lideres": [
+      {
+       "jugador": "Cristopher B.",
+       "equipo": "Kaos",
+       "valor": 4,
+       "nuestro": false
+      },
+      {
+       "jugador": "César J.",
+       "equipo": "Bandidos",
+       "valor": 4,
+       "nuestro": true
+      },
+      {
+       "jugador": "Luis S.",
+       "equipo": "Titanes",
+       "valor": 4,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Intercepciones",
+     "lideres": [
+      {
+       "jugador": "Alexis A.",
+       "equipo": "Plateados",
+       "valor": 7,
+       "nuestro": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "categorias": [
+    {
+     "categoria": "Pases de anotación",
+     "lideres": [
+      {
+       "jugador": "Ricardo Z.",
+       "equipo": "Stingers Hellen Keller",
+       "valor": 32,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Puntos anotados",
+     "lideres": [
+      {
+       "jugador": "Rodrigo S.",
+       "equipo": "Eternals",
+       "valor": 87,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Sacks",
+     "lideres": [
+      {
+       "jugador": "Jose R.",
+       "equipo": "Dragones Taxco",
+       "valor": 6,
+       "nuestro": false
+      }
+     ]
+    },
+    {
+     "categoria": "Intercepciones",
+     "lideres": [
+      {
+       "jugador": "Gerardo V.",
+       "equipo": "Dragones Taxco",
+       "valor": 7,
+       "nuestro": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rankings": [
+  {
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "jugadores": 82,
+   "categorias": [
+    {
+     "clave": "pts",
+     "categoria": "Puntos anotados",
+     "con_registro": 53,
+     "valor_lider": 59,
+     "nuestros": [
+      {
+       "jugador": "Regina R.",
+       "valor": 59,
+       "puesto": 1,
+       "empate": false
+      },
+      {
+       "jugador": "Mextli S.",
+       "valor": 18,
+       "puesto": 17,
+       "empate": true
+      },
+      {
+       "jugador": "Sofia C.",
+       "valor": 14,
+       "puesto": 22,
+       "empate": true
+      },
+      {
+       "jugador": "Alexia G.",
+       "valor": 2,
+       "puesto": 49,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "pda",
+     "categoria": "Pases de anotación",
+     "con_registro": 16,
+     "valor_lider": 29,
+     "nuestros": [
+      {
+       "jugador": "Nicte S.",
+       "valor": 13,
+       "puesto": 4,
+       "empate": false
+      },
+      {
+       "jugador": "Joseline A.",
+       "valor": 1,
+       "puesto": 12,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "int",
+     "categoria": "Intercepciones",
+     "con_registro": 26,
+     "valor_lider": 4,
+     "nuestros": [
+      {
+       "jugador": "Sofia C.",
+       "valor": 2,
+       "puesto": 3,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "sck",
+     "categoria": "Sacks",
+     "con_registro": 13,
+     "valor_lider": 3,
+     "nuestros": [
+      {
+       "jugador": "Joseline A.",
+       "valor": 1,
+       "puesto": 4,
+       "empate": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "jugadores": 111,
+   "categorias": [
+    {
+     "clave": "pts",
+     "categoria": "Puntos anotados",
+     "con_registro": 59,
+     "valor_lider": 82,
+     "nuestros": [
+      {
+       "jugador": "Daniela S.",
+       "valor": 12,
+       "puesto": 23,
+       "empate": true
+      },
+      {
+       "jugador": "Fernanda M.",
+       "valor": 6,
+       "puesto": 35,
+       "empate": true
+      },
+      {
+       "jugador": "María R.",
+       "valor": 6,
+       "puesto": 35,
+       "empate": true
+      },
+      {
+       "jugador": "Ashly R.",
+       "valor": 6,
+       "puesto": 35,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "pda",
+     "categoria": "Pases de anotación",
+     "con_registro": 18,
+     "valor_lider": 21,
+     "nuestros": [
+      {
+       "jugador": "Nicte S.",
+       "valor": 3,
+       "puesto": 9,
+       "empate": true
+      },
+      {
+       "jugador": "Daniela S.",
+       "valor": 1,
+       "puesto": 17,
+       "empate": true
+      },
+      {
+       "jugador": "Fernanda M.",
+       "valor": 1,
+       "puesto": 17,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "int",
+     "categoria": "Intercepciones",
+     "con_registro": 40,
+     "valor_lider": 7,
+     "nuestros": [
+      {
+       "jugador": "Daniela S.",
+       "valor": 2,
+       "puesto": 6,
+       "empate": true
+      },
+      {
+       "jugador": "Fatima V.",
+       "valor": 1,
+       "puesto": 16,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "sck",
+     "categoria": "Sacks",
+     "con_registro": 19,
+     "valor_lider": 7,
+     "nuestros": []
+    }
+   ]
+  },
+  {
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "jugadores": 191,
+   "categorias": [
+    {
+     "clave": "pts",
+     "categoria": "Puntos anotados",
+     "con_registro": 84,
+     "valor_lider": 74,
+     "nuestros": [
+      {
+       "jugador": "María R.",
+       "valor": 14,
+       "puesto": 31,
+       "empate": true
+      },
+      {
+       "jugador": "Hannia B.",
+       "valor": 12,
+       "puesto": 39,
+       "empate": true
+      },
+      {
+       "jugador": "Fernanda M.",
+       "valor": 12,
+       "puesto": 39,
+       "empate": true
+      },
+      {
+       "jugador": "Mayred V.",
+       "valor": 6,
+       "puesto": 61,
+       "empate": true
+      },
+      {
+       "jugador": "Azul C.",
+       "valor": 1,
+       "puesto": 78,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "pda",
+     "categoria": "Pases de anotación",
+     "con_registro": 28,
+     "valor_lider": 28,
+     "nuestros": [
+      {
+       "jugador": "Adriana F.",
+       "valor": 4,
+       "puesto": 10,
+       "empate": true
+      },
+      {
+       "jugador": "Ashly R.",
+       "valor": 1,
+       "puesto": 19,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "int",
+     "categoria": "Intercepciones",
+     "con_registro": 57,
+     "valor_lider": 8,
+     "nuestros": [
+      {
+       "jugador": "Mayred V.",
+       "valor": 1,
+       "puesto": 30,
+       "empate": true
+      },
+      {
+       "jugador": "Yuriney A.",
+       "valor": 1,
+       "puesto": 30,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "sck",
+     "categoria": "Sacks",
+     "con_registro": 37,
+     "valor_lider": 13,
+     "nuestros": [
+      {
+       "jugador": "Azul C.",
+       "valor": 3,
+       "puesto": 4,
+       "empate": true
+      },
+      {
+       "jugador": "Dulce T.",
+       "valor": 2,
+       "puesto": 8,
+       "empate": true
+      },
+      {
+       "jugador": "Hannia B.",
+       "valor": 1,
+       "puesto": 14,
+       "empate": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "jugadores": 129,
+   "categorias": [
+    {
+     "clave": "pts",
+     "categoria": "Puntos anotados",
+     "con_registro": 89,
+     "valor_lider": 85,
+     "nuestros": [
+      {
+       "jugador": "Balam S.",
+       "valor": 85,
+       "puesto": 1,
+       "empate": false
+      },
+      {
+       "jugador": "Ilhan P.",
+       "valor": 36,
+       "puesto": 10,
+       "empate": true
+      },
+      {
+       "jugador": "Yael G.",
+       "valor": 23,
+       "puesto": 24,
+       "empate": true
+      },
+      {
+       "jugador": "Carlos G.",
+       "valor": 20,
+       "puesto": 27,
+       "empate": true
+      },
+      {
+       "jugador": "Victor O.",
+       "valor": 13,
+       "puesto": 39,
+       "empate": true
+      },
+      {
+       "jugador": "Uriel P.",
+       "valor": 8,
+       "puesto": 51,
+       "empate": true
+      },
+      {
+       "jugador": "Eduardo J.",
+       "valor": 6,
+       "puesto": 56,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "pda",
+     "categoria": "Pases de anotación",
+     "con_registro": 33,
+     "valor_lider": 26,
+     "nuestros": [
+      {
+       "jugador": "Eduardo J.",
+       "valor": 26,
+       "puesto": 1,
+       "empate": false
+      }
+     ]
+    },
+    {
+     "clave": "int",
+     "categoria": "Intercepciones",
+     "con_registro": 37,
+     "valor_lider": 7,
+     "nuestros": [
+      {
+       "jugador": "Carlos G.",
+       "valor": 5,
+       "puesto": 2,
+       "empate": true
+      },
+      {
+       "jugador": "Ilhan P.",
+       "valor": 4,
+       "puesto": 4,
+       "empate": false
+      },
+      {
+       "jugador": "Jose F.",
+       "valor": 3,
+       "puesto": 5,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "sck",
+     "categoria": "Sacks",
+     "con_registro": 15,
+     "valor_lider": 4,
+     "nuestros": [
+      {
+       "jugador": "César J.",
+       "valor": 4,
+       "puesto": 1,
+       "empate": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "jugadores": 130,
+   "categorias": [
+    {
+     "clave": "pts",
+     "categoria": "Puntos anotados",
+     "con_registro": 93,
+     "valor_lider": 87,
+     "nuestros": [
+      {
+       "jugador": "Cristian N.",
+       "valor": 55,
+       "puesto": 5,
+       "empate": false
+      },
+      {
+       "jugador": "Daniel R.",
+       "valor": 24,
+       "puesto": 24,
+       "empate": true
+      },
+      {
+       "jugador": "Gabriel T.",
+       "valor": 14,
+       "puesto": 37,
+       "empate": true
+      },
+      {
+       "jugador": "Josué F.",
+       "valor": 12,
+       "puesto": 42,
+       "empate": true
+      },
+      {
+       "jugador": "Gael V.",
+       "valor": 10,
+       "puesto": 50,
+       "empate": false
+      },
+      {
+       "jugador": "Santiago V.",
+       "valor": 8,
+       "puesto": 52,
+       "empate": true
+      },
+      {
+       "jugador": "Victor O.",
+       "valor": 4,
+       "puesto": 81,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "pda",
+     "categoria": "Pases de anotación",
+     "con_registro": 33,
+     "valor_lider": 32,
+     "nuestros": [
+      {
+       "jugador": "Uriel P.",
+       "valor": 23,
+       "puesto": 2,
+       "empate": true
+      },
+      {
+       "jugador": "Gabriel T.",
+       "valor": 2,
+       "puesto": 14,
+       "empate": true
+      },
+      {
+       "jugador": "Daniel R.",
+       "valor": 1,
+       "puesto": 19,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "int",
+     "categoria": "Intercepciones",
+     "con_registro": 36,
+     "valor_lider": 7,
+     "nuestros": [
+      {
+       "jugador": "Víctor G.",
+       "valor": 3,
+       "puesto": 7,
+       "empate": true
+      },
+      {
+       "jugador": "Gabriel T.",
+       "valor": 1,
+       "puesto": 19,
+       "empate": true
+      }
+     ]
+    },
+    {
+     "clave": "sck",
+     "categoria": "Sacks",
+     "con_registro": 22,
+     "valor_lider": 6,
+     "nuestros": [
+      {
+       "jugador": "Victor A.",
+       "valor": 1,
+       "puesto": 8,
+       "empate": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

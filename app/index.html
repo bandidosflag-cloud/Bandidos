@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bandidos</title>
+  <meta name="description" content="App interna de Bandidos Flag Football: partidos, agenda, tabla y roster.">
+  <meta name="theme-color" content="#0B0B0D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Bandidos">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <a href="#/" class="top-logo" aria-label="Inicio"><img src="img/vida-bandida-original.webp" alt="#VidaBandida" width="120" height="87"></a>
+      <div class="rama-switch" role="tablist" aria-label="Rama">
+        <button role="tab" data-rama="TODOS">Todos</button>
+        <button role="tab" data-rama="VARONIL">Varonil</button>
+        <button role="tab" data-rama="FEMENIL">Femenil</button>
+      </div>
+      <button class="icon-btn" id="btn-mas" aria-label="Más opciones"></button>
+    </header>
+
+    <main id="vista" tabindex="-1"></main>
+
+    <nav class="tabbar" aria-label="Secciones">
+      <a href="#/" data-tab="inicio"><span class="tab-in"><span class="ti" data-icon="home"></span><span>Inicio</span></span></a>
+      <a href="#/agenda" data-tab="agenda"><span class="tab-in"><span class="ti" data-icon="calendar"></span><span>Agenda</span></span></a>
+      <a href="#/partido" data-tab="partido" class="tab-centro" aria-label="Próximo partido"><span class="ti ti-logo"><img src="img/vida-bandida-blanca-solida.webp" alt="" width="44" height="31"></span></a>
+      <a href="#/liga" data-tab="liga"><span class="tab-in"><span class="ti" data-icon="trophy"></span><span>Liga</span></span></a>
+      <a href="#/equipos" data-tab="equipos"><span class="tab-in"><span class="ti" data-icon="users"></span><span>Equipos</span></span></a>
+    </nav>
+  </div>
+
+  <div class="hoja" id="hoja" hidden>
+    <div class="hoja-fondo" data-cerrar></div>
+    <div class="hoja-panel" role="dialog" aria-modal="true" aria-labelledby="hoja-titulo">
+      <div class="hoja-asa"></div>
+      <div id="hoja-contenido"></div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

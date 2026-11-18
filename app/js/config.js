@@ -1,0 +1,23 @@
+// ============================================================
+//  CONFIGURACIÓN — lo único que normalmente hay que tocar aquí
+// ============================================================
+
+// ID de la Google Sheet "Bandidos App".
+// Es la parte larga de la URL:  https://docs.google.com/spreadsheets/d/  <ESTE_ID>  /edit
+// La hoja debe estar compartida como "Cualquier persona con el enlace: Lector".
+// Si se deja vacío, la app usa data/equipo.json.
+export const SHEET_ID = "";
+
+// Nombres de las pestañas de la hoja (deben coincidir exactamente).
+export const PESTANAS = [
+  "config", "uniformes", "uniforme_partido", "eventos",
+  "avisos", "jugadores", "contactos", "social", "sedes",
+];
+
+// Liga
+export const LIGA = {
+  nombre: "Flag Elite Cuernavaca",
+  url: "https://app.yarai.mx/flag-elite-cuernavaca",
+  instagram: "https://www.instagram.com/flag_elite_cuernavaca",
+  facebook: "https://www.facebook.com/p/Flag-Elite-Cuernavaca-100083001477475/",
+};

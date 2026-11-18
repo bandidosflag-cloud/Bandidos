@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+# fotos originales sin recortar (no se publican)
+/FOTOS/
+# diseños de referencia de Pinterest (no son nuestros, no se publican)
+/REFERENCIAS/
+# imágenes originales de jerseys (la app usa las versiones recortadas en app/img/uniformes)
+/uniformes/
+# archivos temporales de Office
+~$*

@@ -1,0 +1,62 @@
+name: Actualizar datos de la liga
+
+on:
+  schedule:
+    # GitHub usa hora UTC. CDMX = UTC-6.
+    - cron: "0 12 * * *"        # diario 06:00 CDMX
+    - cron: "0 15-23/2 * * 0"   # domingos cada 2 h de 09:00 a 17:00 CDMX
+    - cron: "0 1,3,5 * * 1"     # domingo 19:00, 21:00 y 23:00 CDMX (lunes UTC)
+    - cron: "0 14 * * 1"        # lunes 08:00 CDMX (por si la liga sube tarde las estadísticas)
+    - cron: "0 1,3 * * 5,6"     # jueves y viernes 19:00 y 21:00 CDMX: rol de la siguiente jornada
+  workflow_dispatch: {}          # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-liga
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bajar datos de Flag Elite Cuernavaca
+        run: python scripts/actualizar_liga.py
+      - name: Guardar si hubo cambios
+        run: |
+          git add app/data scripts/estado
+          # Ignora el cambio de la marca de tiempo si nada más cambió
+          if git diff --cached --quiet -I '"actualizado"' -I '"fecha"'; then
+            echo "Sin cambios en la liga."
+            git reset -q
+            exit 0
+          fi
+          git config user.name "bandidos-bot"
+          git config user.email "bandidos-bot@users.noreply.github.com"
+          git commit -m "Datos de la liga $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push
+
+  publicar:
+    needs: actualizar
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+      - id: deploy
+        uses: actions/deploy-pages@v4

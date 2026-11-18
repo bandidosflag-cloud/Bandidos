@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bandidos-app",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/servidor_dev.py"],
+      "port": 5173
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "_nota": "Respaldo de la Google Sheet. Cada clave es una pestaña y cada objeto una fila. Si la hoja está configurada (js/config.js), sus pestañas reemplazan a estas.",
+  "config": [
+    {
+      "clave": "instagram",
+      "valor": "https://www.instagram.com/bandidosflagfootball"
+    },
+    {
+      "clave": "facebook",
+      "valor": ""
+    },
+    {
+      "clave": "tiktok",
+      "valor": ""
+    },
+    {
+      "clave": "mensaje_inicio",
+      "valor": ""
+    }
+  ],
+  "uniformes": [
+    {
+      "id": "rojo",
+      "nombre": "Rojo",
+      "imagen": "img/uniformes/rojo.webp",
+      "color1": "#C8102E",
+      "color2": "#111111",
+      "numero_color": "#E2B33C",
+      "descripcion": "Varonil",
+      "usa": "VARONIL"
+    },
+    {
+      "id": "blanco",
+      "nombre": "Blanco",
+      "imagen": "img/uniformes/blanco.webp",
+      "color1": "#F4F4F5",
+      "color2": "#E8508C",
+      "numero_color": "#FFFFFF",
+      "descripcion": "Femenil",
+      "usa": "FEMENIL"
+    },
+    {
+      "id": "negro",
+      "nombre": "Negro",
+      "imagen": "img/uniformes/negro.webp",
+      "color1": "#111111",
+      "color2": "#E2B33C",
+      "numero_color": "#111111",
+      "descripcion": "Varonil y femenil",
+      "usa": "TODOS"
+    }
+  ],
+  "uniforme_partido": [
+    {
+      "torneo": "",
+      "jornada": "",
+      "fecha": "",
+      "rama": "VARONIL",
+      "division": "TODAS",
+      "uniforme": "rojo",
+      "nota": ""
+    },
+    {
+      "torneo": "",
+      "jornada": "",
+      "fecha": "",
+      "rama": "FEMENIL",
+      "division": "TODAS",
+      "uniforme": "blanco",
+      "nota": ""
+    }
+  ],
+  "eventos": [
+    {
+      "fecha": "2026-11-18",
+      "fecha_fin": "",
+      "hora": "18:00",
+      "hora_fin": "20:00",
+      "titulo": "Entrenamiento",
+      "tipo": "entrenamiento",
+      "rama": "TODOS",
+      "lugar": "Campo Prepa 1",
+      "nota": ""
+    },
+    {
+      "fecha": "2026-11-22",
+      "fecha_fin": "",
+      "hora": "",
+      "titulo": "Jornada 8 · Elite Sunday",
+      "tipo": "jornada",
+      "rama": "TODOS",
+      "lugar": "",
+      "nota": "Horarios por publicar",
+      "hora_fin": ""
+    },
+    {
+      "fecha": "2026-11-23",
+      "fecha_fin": "",
+      "hora": "18:00",
+      "hora_fin": "20:00",
+      "titulo": "Entrenamiento",
+      "tipo": "entrenamiento",
+      "rama": "TODOS",
+      "lugar": "Campo Prepa 1",
+      "nota": ""
+    },
+    {
+      "fecha": "2026-11-25",
+      "fecha_fin": "",
+      "hora": "18:00",
+      "hora_fin": "20:00",
+      "titulo": "Entrenamiento",
+      "tipo": "entrenamiento",
+      "rama": "TODOS",
+      "lugar": "Campo Prepa 1",
+      "nota": ""
+    },
+    {
+      "fecha": "2026-11-30",
+      "fecha_fin": "",
+      "hora": "18:00",
+      "hora_fin": "20:00",
+      "titulo": "Entrenamiento",
+      "tipo": "entrenamiento",
+      "rama": "TODOS",
+      "lugar": "Campo Prepa 1",
+      "nota": ""
+    },
+    {
+      "fecha": "2026-12-02",
+      "fecha_fin": "",
+      "hora": "18:00",
+      "hora_fin": "20:00",
+      "titulo": "Entrenamiento",
+      "tipo": "entrenamiento",
+      "rama": "TODOS",
+      "lugar": "Campo Prepa 1",
+      "nota": ""
+    },
+    {
+      "fecha": "2026-12-07",
+      "fecha_fin": "",
+      "hora": "18:00",
+      "hora_fin": "20:00",
+      "titulo": "Entrenamiento",
+      "tipo": "entrenamiento",
+      "rama": "TODOS",
+      "lugar": "Campo Prepa 1",
+      "nota": ""
+    },
+    {
+      "fecha": "2026-12-09",
+      "fecha_fin": "",
+      "hora": "18:00",
+      "hora_fin": "20:00",
+      "titulo": "Entrenamiento",
+      "tipo": "entrenamiento",
+      "rama": "TODOS",
+      "lugar": "Campo Prepa 1",
+      "nota": ""
+    },
+    {
+      "fecha": "2026-12-12",
+      "fecha_fin": "2026-12-13",
+      "hora": "",
+      "titulo": "Posada Bowl 2026",
+      "tipo": "torneo",
+      "rama": "TODOS",
+      "lugar": "Puebla",
+      "nota": "",
+      "hora_fin": ""
+    }
+  ],
+  "avisos": [],
+  "jugadores": [],
+  "contactos": [
+    {
+      "nombre": "Coach Quetzal",
+      "rol": "Head coach",
+      "telefono": ""
+    },
+    {
+      "nombre": "Coach Víctor Gómez",
+      "rol": "Coach",
+      "telefono": ""
+    },
+    {
+      "nombre": "Coach Balam",
+      "rol": "Coach",
+      "telefono": ""
+    },
+    {
+      "nombre": "Coach Eduardo Jalomo",
+      "rol": "Coach",
+      "telefono": ""
+    },
+    {
+      "nombre": "Coach Edú",
+      "rol": "Coach",
+      "telefono": ""
+    }
+  ],
+  "social": [],
+  "sedes": [
+    {
+      "nombre": "Campo Prepa 1",
+      "tipo": "Entrenamientos y partidos",
+      "nota": "Entrenamientos lunes y miércoles 18:00–20:00",
+      "mapa": ""
+    }
+  ]
+}
