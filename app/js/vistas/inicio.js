@@ -1,5 +1,5 @@
 import { M, filtraRama, proximoDomingo } from "../datos.js";
-import { esc, ico, fLarga, fCorta, tarjetaPartido, escudo, ordinal, hace, uniformeImg, jugadorPorNombre, avatar } from "../ui.js";
+import { esc, ico, fLarga, fCorta, tarjetaPartido, escudo, ordinal, hace, uniformeImg, jugadorPorNombre, avatar, creditoVO } from "../ui.js";
 import * as Notif from "../notificaciones.js";
 
 // Avisos vigentes para la rama elegida, del más nuevo al más viejo (los importantes primero)
@@ -157,5 +157,6 @@ export function render(rama) {
   </section>` : ""}
 
   <div class="pie-app"><img src="img/vida-bandida-oro.webp" alt="">Datos de la liga ${esc(hace(M.liga.actualizado))} · ${esc("Flag Elite Cuernavaca")}</div>
+  ${creditoVO()}
   `;
 }

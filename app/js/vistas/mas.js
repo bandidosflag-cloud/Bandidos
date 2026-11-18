@@ -1,6 +1,6 @@
 import { M } from "../datos.js";
 import { LIGA } from "../config.js";
-import { esc, ico, uniformeImg, enlaceMapa, hace } from "../ui.js";
+import { esc, ico, uniformeImg, enlaceMapa, hace, creditoVO } from "../ui.js";
 import { avisosVigentes, tarjetaAviso } from "./inicio.js";
 import * as Notif from "../notificaciones.js";
 
@@ -85,7 +85,8 @@ export function renderInfo() {
     <section class="seccion"><div class="seccion-cab"><h2>Liga</h2></div>
       <a class="fila-link" href="${LIGA.url}" target="_blank" rel="noopener"><div class="ico">${ico("trophy")}</div><div class="txt"><b>${esc(LIGA.nombre)}</b><span>Rol, resultados y estadísticas oficiales</span></div>${ico("ext", "chev")}</a>
     </section>
-    <div class="pie-app"><img src="img/vida-bandida-oro.webp" alt="">App interna de Bandidos · datos de la liga ${esc(hace(M.liga.actualizado))}</div>`;
+    <div class="pie-app"><img src="img/vida-bandida-oro.webp" alt="">App interna de Bandidos · datos de la liga ${esc(hace(M.liga.actualizado))}</div>
+    ${creditoVO()}`;
 }
 
 export function renderAvisos(rama) {

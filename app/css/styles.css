@@ -580,7 +580,7 @@ table.tabla { width: 100%; border-collapse: collapse; font-size: 13.5px; font-va
   box-shadow: inset 0 1px 0 rgba(255,255,255,.35), inset 0 -3px 8px rgba(0,0,0,.25), 0 10px 24px -6px rgba(215,25,45,.7);
 }
 .tabbar .tab-centro .ti svg { width: 26px; height: 26px; }
-.tabbar .tab-centro .ti-logo img { width: 44px; height: auto; transform: rotate(-4deg); filter: drop-shadow(0 1px 1px rgba(0,0,0,.25)); }
+.tabbar .tab-centro .ti-logo img { width: 34px; height: auto; filter: drop-shadow(0 1px 1px rgba(0,0,0,.3)) drop-shadow(0 0 5px rgba(255,255,255,.35)); }
 .chev { width: 18px; height: 18px; flex: none; color: var(--dim); }
 .tabbar .tab-centro[aria-current="page"] .ti { box-shadow: 0 0 0 4px rgba(215,25,45,.25), 0 10px 24px -6px rgba(215,25,45,.7); }
 
@@ -596,6 +596,11 @@ table.tabla { width: 100%; border-collapse: collapse; font-size: 13.5px; font-va
 .display { font-family: var(--f-display); text-transform: uppercase; font-weight: 700; }
 .pie-app { text-align: center; color: var(--dim); font-size: 11.5px; margin: 34px 0 6px; }
 .pie-app img { height: 26px; width: auto; margin: 0 auto 8px; opacity: .5; }
+.credito-vo { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 18px auto 4px; padding: 8px 14px;
+  width: fit-content; border: 1px solid var(--line, #26272D); border-radius: 999px; background: rgba(255,255,255,.03);
+  color: var(--dim); font-size: 11px; letter-spacing: .02em; }
+.credito-vo img { height: 22px; width: auto; }
+.credito-vo b { color: var(--muted); font-weight: 600; }
 .cargando { display: grid; place-items: center; min-height: 60vh; }
 .cargando img { width: 150px; animation: pulso 1.4s ease-in-out infinite; }
 @keyframes pulso { 50% { opacity: .45; transform: scale(.97); } }
