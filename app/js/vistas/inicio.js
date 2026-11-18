@@ -41,6 +41,7 @@ export function tarjetaNotificaciones(rama) {
 
 // ---------------- fotos de jugadores detrás de los bloques (rotan cada 8 s)
 const ROTAR_MS = 8000;
+const SALIDA_MS = 500; // igual que la transición de .foto-jugador img.sale en styles.css
 let fotoIdx = Math.floor(Math.random() * 1000); // al abrir la app empieza en una al azar
 function fotosDe(rama) {
   const todas = M.fotosHero || [];
@@ -67,12 +68,16 @@ export function iniciarFotos(raiz) {
     fotoIdx++;
     for (const capa of capas) {
       const f = fotoEn(lista, +capa.dataset.fotoLugar);
-      const img = new Image();
-      img.alt = ""; img.className = "entra"; img.src = f.img;
-      img.decode().catch(() => {}).then(() => {
-        capa.appendChild(img);
-        requestAnimationFrame(() => requestAnimationFrame(() => img.classList.remove("entra")));
-        setTimeout(() => { while (capa.children.length > 1) capa.firstElementChild.remove(); }, 1100);
+      const nueva = new Image();
+      nueva.alt = ""; nueva.className = "entra"; nueva.src = f.img;
+      // primero sale la actual; cuando ya no se ve, entra la nueva (nunca encimadas)
+      nueva.decode().catch(() => {}).then(() => {
+        const vieja = capa.querySelector("img");
+        vieja?.classList.add("sale");
+        setTimeout(() => {
+          capa.replaceChildren(nueva);
+          requestAnimationFrame(() => requestAnimationFrame(() => nueva.classList.remove("entra")));
+        }, vieja ? SALIDA_MS : 0);
       });
     }
   }, ROTAR_MS);
