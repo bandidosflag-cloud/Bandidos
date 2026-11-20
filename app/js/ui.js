@@ -110,9 +110,7 @@ export function enlaceMapa(sede) {
   return s?.mapa || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sede + ", Cuernavaca, Morelos")}`;
 }
 
-// ---------------- agregar partido al calendario
-// Google Calendar: enlace con el evento ya lleno. iPhone y otros: archivo .ics publicado en cal/<id>.ics
-// (lo genera scripts/calendario.py con el mismo texto que detallesEvento).
+// ---------------- agregar partido a Google Calendar
 const DURACION_MIN = 50;
 const URL_APP = "https://bandidosflag-cloud.github.io/Bandidos/";
 
@@ -142,31 +140,17 @@ export function enlaceGoogleCal(p) {
   });
   return `https://calendar.google.com/calendar/render?${q}`;
 }
-export const enlaceICS = p => `cal/${encodeURIComponent(p.id)}.ics`;
 
-// Un solo botón: cada teléfono abre su calendario.
-//  iPhone/iPad/Mac: archivo .ics publicado -> ventana nativa "Agregar al calendario".
-//  Android: intent de "nuevo evento" -> calendario predeterminado (Google, Samsung...), ya lleno.
-//           Si el navegador no lo soporta, cae al enlace de Google Calendar.
-//  Computadora (Windows, Linux): Google Calendar.
+// Ícono de Google Calendar (a color)
+export const icoGCal = () => `<svg class="gcal" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M5 2h14l3 3v11l-6 6H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Z" fill="#4285F4"/>
+  <path d="M2 16h14v6H5a3 3 0 0 1-3-3Z" fill="#34A853"/><path d="M16 2h3a3 3 0 0 1 3 3v11h-6Z" fill="#FBBC04"/>
+  <path d="M16 16h6l-6 6Z" fill="#EA4335"/><rect x="6" y="6" width="10" height="10" fill="#fff"/>
+  <text x="11" y="14.2" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="7" fill="#4285F4">31</text></svg>`;
+
+// El botón abre Google Calendar con el partido ya lleno (en cualquier teléfono o computadora).
 export function agregarAlCalendario(p) {
-  const ua = navigator.userAgent;
-  const google = enlaceGoogleCal(p);
-  if (/iPhone|iPad|iPod|Macintosh/.test(ua)) {
-    const ics = new URL(enlaceICS(p), location.href).href;
-    // instalada en la pantalla de inicio se abre en una hoja de Safari, que sí muestra "Agregar al calendario"
-    if (navigator.standalone) window.open(ics, "_blank"); else location.href = ics;
-    return;
-  }
-  if (/Android/i.test(ua)) {
-    const fin = p.dt.getTime() + DURACION_MIN * 60000;
-    const x = s => encodeURIComponent(s);
-    location.href = "intent:#Intent;action=android.intent.action.INSERT;type=vnd.android.cursor.item/event;"
-      + `S.title=${x(tituloEvento(p))};S.description=${x(detallesEvento(p))};S.eventLocation=${x(lugarEvento(p))};`
-      + `l.beginTime=${p.dt.getTime()};l.endTime=${fin};S.browser_fallback_url=${x(google)};end`;
-    return;
-  }
-  window.open(google, "_blank", "noopener");
+  window.open(enlaceGoogleCal(p), "_blank", "noopener");
 }
 
 export const jugadorPorNombre = (rama, nombre) => M.jugadores.find(j => j.rama === rama && norm(j.nombre) === norm(nombre));

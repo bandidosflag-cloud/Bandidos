@@ -17,8 +17,6 @@ concurrency:
 jobs:
   notificar:
     runs-on: ubuntu-latest
-    outputs:
-      publicar: ${{ steps.guardar.outputs.publicar }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,43 +26,13 @@ jobs:
         env:
           ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
         run: python scripts/notificar.py --avisos --entreno
-      - name: Archivos de calendario (por si cambió el uniforme o la sede en la hoja)
-        run: python scripts/calendario.py
       - name: Guardar lo ya notificado
-        id: guardar
         run: |
-          git add scripts/estado/notificado.json app/cal 2>/dev/null || true
+          git add scripts/estado/notificado.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nada nuevo."; exit 0; fi
-          if ! git diff --cached --quiet -- app/cal; then echo "publicar=true" >> "$GITHUB_OUTPUT"; fi
           git config user.name "bandidos-bot"
           git config user.email "bandidos-bot@users.noreply.github.com"
-          git commit -m "Notificaciones y calendario $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git commit -m "Notificaciones enviadas $(date -u +'%Y-%m-%d %H:%M') UTC"
           git pull --rebase -q origin main
           git push
 
-  publicar:
-    needs: notificar
-    if: needs.notificar.outputs.publicar == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy1.outputs.page_url || steps.deploy.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref_name }}
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: app
-      - id: deploy1
-        uses: actions/deploy-pages@v4
-        continue-on-error: true   # a veces GitHub no encuentra el paquete a la primera
-      - if: steps.deploy1.outcome == 'failure'
-        run: sleep 30
-      - id: deploy
-        if: steps.deploy1.outcome == 'failure'
-        uses: actions/deploy-pages@v4

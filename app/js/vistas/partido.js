@@ -1,5 +1,5 @@
 import { M, filtraRama } from "../datos.js";
-import { esc, ico, fCorta, escudo, ordinal, uniformeImg, enlaceMapa, tarjetaPartido, tagRama } from "../ui.js";
+import { esc, ico, fCorta, escudo, ordinal, uniformeImg, enlaceMapa, tarjetaPartido, tagRama, icoGCal } from "../ui.js";
 import { tarjetaProximo } from "./inicio.js";
 
 function filaRival(e, nombre) {
@@ -33,7 +33,7 @@ function fichaEquipo(e) {
     </div>
     <div class="botones mt-12">
       <a class="boton sec" href="${enlaceMapa(p.sede)}" target="_blank" rel="noopener">${ico("pin")}${esc(p.campo)} · Mapa</a>
-      <button class="boton sec" data-ics="${p.id}">${ico("calendar")}Agregar</button>
+      <button class="boton sec" data-ics="${p.id}">${icoGCal()}Google Calendar</button>
     </div>
     ${h2h.length ? `<div class="eyebrow mt-16" style="margin-bottom:8px">Antes contra ${esc(p.rival.nombre)}</div>${h2h.map(x => tarjetaPartido(x, { mostrarDiv: false })).join("")}` : ""}
   </div>`;

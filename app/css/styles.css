@@ -671,3 +671,5 @@ table.tabla { width: 100%; border-collapse: collapse; font-size: 13.5px; font-va
 .frase-semana blockquote.t-s { font-size: 24px; }
 .frase-semana blockquote.t-l { font-size: 18px; }
 .frase-semana blockquote.t-xl { font-size: 16px; line-height: 1.08; }
+.gcal { flex: none; }
+.icon-btn .gcal { width: 20px; height: 20px; }

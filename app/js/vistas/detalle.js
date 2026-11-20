@@ -1,6 +1,6 @@
 // Vista de un partido (se abre en la hoja inferior al tocar cualquier partido).
 import { M } from "../datos.js";
-import { esc, ico, escudo, fLarga, tagRama, uniformeImg, enlaceMapa, tarjetaPartido, jugadorPorNombre, avatar, ordinal } from "../ui.js";
+import { esc, ico, escudo, fLarga, tagRama, uniformeImg, enlaceMapa, tarjetaPartido, jugadorPorNombre, avatar, ordinal, icoGCal } from "../ui.js";
 
 const COLS = [["pts", "PTS"], ["pda", "PDA"], ["int", "INT"], ["sck", "SCK"]];
 
@@ -63,7 +63,7 @@ export function render(id) {
     ${p.nuestro ? `<div class="uni-mini mt-12" style="background:var(--card);border-radius:14px;padding:10px">
       <div class="img" style="width:52px;height:52px;background:var(--bg)">${uniformeImg(p.uniforme)}</div>
       <div><div class="eyebrow">Uniforme</div><b>${p.uniforme ? esc(p.uniforme.nombre) : "Por confirmar"}</b></div></div>` : ""}
-    ${p.estado === "Programado" && p.nuestro ? `<button class="boton bloque mt-12" data-ics="${p.id}">${ico("calendar")}Agregar a mi calendario</button>` : ""}
+    ${p.estado === "Programado" && p.nuestro ? `<button class="boton bloque mt-12" data-ics="${p.id}">${icoGCal()}Agregar a Google Calendar</button>` : ""}
     ${bloqueStats(p)}
     ${h2h.length ? `<div class="seccion-cab mt-20"><h2>Antes contra ${esc(p.rival.nombre)}</h2></div><div class="lista">${h2h.map(x => tarjetaPartido(x, { mostrarDiv: false })).join("")}</div>` : ""}
     <p class="nota-pie" style="text-align:center"><a class="link" href="${esc(M.torneo?.url || M.liga.fuente)}/partidos" target="_blank" rel="noopener">Ver en Flag Elite Cuernavaca</a></p>`;

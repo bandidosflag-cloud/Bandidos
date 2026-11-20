@@ -1,5 +1,5 @@
 import { M, filtraRama, inicioDia } from "../datos.js";
-import { esc, ico, MESES, ymd, fDia, fMesC, fLarga, escudo } from "../ui.js";
+import { esc, ico, MESES, ymd, fDia, fMesC, fLarga, escudo, icoGCal } from "../ui.js";
 
 const st = { mes: null, sel: null };
 // cono de entrenamiento
@@ -40,7 +40,7 @@ function itemEvento(ev) {
   if (ev.tipo === "partido") {
     const p = ev.p;
     const res = p.res ? `<span class="res-badge ${p.res}">${p.nos.pts}-${p.rival.pts}</span>` :
-      (p.estado === "Programado" ? `<button class="icon-btn" data-ics="${p.id}" aria-label="Agregar al calendario" style="width:34px;height:34px">${ico("plus")}</button>` : `<span class="res-badge X">${esc(p.estado)}</span>`);
+      (p.estado === "Programado" ? `<button class="icon-btn" data-ics="${p.id}" aria-label="Agregar a Google Calendar" style="width:34px;height:34px">${icoGCal()}</button>` : `<span class="res-badge X">${esc(p.estado)}</span>`);
     return `<div class="ev" data-partido="${p.id}" role="button" tabindex="0"><div class="fecha" style="${p.rama === "FEMENIL" ? "box-shadow:inset 0 -3px 0 var(--pink)" : "box-shadow:inset 0 -3px 0 var(--red)"}"><b>${d.getDate()}</b><span>${fDia(d)}</span></div>
       <div><div class="t flex" style="gap:6px">${escudo(p.rival.nombre, p.rama, "xs")}${esc(ev.titulo)}</div><div class="s">${esc(ev.sub)}</div></div>${res}</div>`;
   }
