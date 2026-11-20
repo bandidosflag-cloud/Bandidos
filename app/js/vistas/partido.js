@@ -31,7 +31,7 @@ function fichaEquipo(e) {
       <div class="img" style="width:64px;height:64px;background:var(--bg)">${uniformeImg(u)}</div>
       <div><div class="eyebrow">Uniforme</div><b style="font-size:16px">${u ? esc(u.nombre) : "Por confirmar"}</b>${u?.nota ? `<div class="peq muted">${esc(u.nota)}</div>` : ""}</div>
     </div>
-    <div class="botones mt-12">
+    <div class="botones compactos mt-12">
       <a class="boton sec" href="${enlaceMapa(p.sede)}" target="_blank" rel="noopener">${ico("pin")}${esc(p.campo)} · Mapa</a>
       <button class="boton sec" data-ics="${p.id}">${icoGCal()}Google Calendar</button>
     </div>
