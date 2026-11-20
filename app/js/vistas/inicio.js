@@ -23,6 +23,35 @@ export function tarjetaAviso(a) {
   </div>`;
 }
 
+// Frase de la semana: cambia cada lunes. La semana del lunes 16 nov 2026 es la frase 1; después siguen en bucle.
+const FRASES_INICIO = new Date(2026, 10, 16);
+export function fraseDeLaSemana(hoy = new Date()) {
+  const frases = M.frases || [];
+  if (!frases.length) return null;
+  const lunes = new Date(hoy.getFullYear(), hoy.getMonth(), hoy.getDate() - ((hoy.getDay() + 6) % 7));
+  const semanas = Math.round((lunes - FRASES_INICIO) / 6048e5);
+  const n = ((semanas % frases.length) + frases.length) % frases.length;
+  const fotos = M.fotosFrases || [];
+  return { ...frases[n], img: fotos.length ? fotos[n % fotos.length] : "" };
+}
+
+function tarjetaFrase() {
+  const f = fraseDeLaSemana();
+  if (!f) return "";
+  const largo = f.texto.length;
+  const tam = largo > 115 ? "xl" : largo > 85 ? "l" : largo < 40 ? "s" : "";
+  return `<section class="seccion">
+    <article class="frase-semana">
+      <div class="fs-fondo">${f.img ? `<img src="${esc(f.img)}" alt="" decoding="async">` : ""}</div>
+      <span class="fs-comilla" aria-hidden="true">“</span>
+      <div class="fs-cab">Frase de la semana</div>
+      <blockquote class="${tam ? "t-" + tam : ""}"><p>${esc(f.texto)}<span class="fs-cierra" aria-hidden="true">”</span></p></blockquote>
+      <img class="fs-logo" src="img/vida-bandida.webp" alt="" aria-hidden="true">
+      <cite>${esc(f.autor)}</cite>
+    </article>
+  </section>`;
+}
+
 export function tarjetaNotificaciones(rama) {
   const e = Notif.estado();
   if (e === "deshabilitado" || e === "activo" || e === "no-soportado") return "";
@@ -163,6 +192,8 @@ export function render(rama) {
     </div>
     ${msg ? `<p class="mt-12" style="position:relative;margin-bottom:0">${esc(msg)}</p>` : ""}
   </section>
+
+  ${tarjetaFrase()}
 
   <section class="seccion">${tarjetaProximo(rama, { foto: true })}</section>
 

@@ -63,11 +63,14 @@ function validarPestanas(hoja) {
 }
 
 export async function cargar(onActualiza) {
-  const [liga, respaldo, fotos, stats, hero] = await Promise.all([
+  const [liga, respaldo, fotos, stats, hero, frases, fotosFrases] = await Promise.all([
     json("data/liga.json"), json("data/equipo.json").catch(() => ({})),
     json("data/fotos.json").catch(() => ({})), json("data/stats_partidos.json").catch(() => ({})),
     json("data/fotos_hero.json").catch(() => []),
+    json("data/frases.json").catch(() => []), json("data/frases_fotos.json").catch(() => []),
   ]);
+  M.frases = Array.isArray(frases) ? frases : [];
+  M.fotosFrases = Array.isArray(fotosFrases) ? fotosFrases : [];
   M.fotosArchivo = fotos;
   M.fotosHero = Array.isArray(hero) ? hero : [];
   M.stats = stats;

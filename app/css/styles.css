@@ -625,3 +625,49 @@ table.tabla { width: 100%; border-collapse: collapse; font-size: 13.5px; font-va
 .cargando img { width: 150px; animation: pulso 1.4s ease-in-out infinite; }
 @keyframes pulso { 50% { opacity: .45; transform: scale(.97); } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* ---------------- frase de la semana (inicio) ---------------- */
+.frase-semana {
+  position: relative; height: 170px; border-radius: var(--r-lg); color: #fff;
+  display: flex; flex-direction: column; padding: 12px 18px 10px;
+  box-shadow: 0 18px 40px -22px rgba(0,0,0,.9);
+}
+.fs-fondo { position: absolute; inset: 0; border-radius: inherit; overflow: hidden; background: #0B0B0D; border: 1px solid rgba(255,255,255,.06); }
+.fs-fondo img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.75) brightness(.9); transform: scale(1.02); }
+.fs-fondo::after {
+  content: ""; position: absolute; inset: 0;
+  background:
+    radial-gradient(120% 80% at 0% 0%, rgba(215,25,45,.30), transparent 55%),
+    linear-gradient(180deg, rgba(11,11,13,.62) 0%, rgba(11,11,13,.72) 45%, rgba(11,11,13,.9) 100%);
+}
+.frase-semana > :not(.fs-fondo) { position: relative; z-index: 1; }
+.fs-comilla {
+  position: absolute !important; top: -34px; left: 14px; z-index: 2 !important;
+  font-family: var(--f-display); font-weight: 800; font-size: 108px; line-height: 1; color: var(--red);
+  text-shadow: 0 6px 18px rgba(0,0,0,.55); pointer-events: none;
+}
+.fs-cab {
+  display: flex; justify-content: space-between; padding-left: 44px;
+  font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.7);
+}
+.frase-semana blockquote {
+  margin: 0; flex: 1; display: flex; align-items: center; justify-content: center; text-align: center;
+  padding: 4px 8px 0;
+  font-family: var(--f-display); font-style: italic; font-weight: 600; font-size: 20px; line-height: 1.05;
+  letter-spacing: .005em; text-wrap: balance; text-shadow: 0 2px 12px rgba(0,0,0,.6);
+}
+.frase-semana cite {
+  align-self: flex-end; display: flex; align-items: center; gap: 8px;
+  font-style: normal; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.78);
+}
+.frase-semana cite::before { content: ""; width: 22px; height: 2px; background: var(--red); border-radius: 2px; }
+.frase-semana blockquote p { margin: 0; }
+.fs-cierra { color: var(--red); font-style: normal; font-weight: 800; font-size: 1.5em; line-height: 0; vertical-align: -.32em; margin-left: 3px; }
+.fs-logo {
+  position: absolute !important; left: 14px; bottom: -14px; width: 64px; height: auto; z-index: 2 !important;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,.7)); pointer-events: none;
+}
+.frase-semana:has(.fs-logo) + * , .seccion:has(.frase-semana) + .seccion { margin-top: 30px; }
+.frase-semana blockquote.t-s { font-size: 24px; }
+.frase-semana blockquote.t-l { font-size: 18px; }
+.frase-semana blockquote.t-xl { font-size: 16px; line-height: 1.08; }
