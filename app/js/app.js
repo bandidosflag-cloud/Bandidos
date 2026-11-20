@@ -1,5 +1,5 @@
 import { M, cargar } from "./datos.js";
-import { ico, menuCalendario } from "./ui.js";
+import { ico, agregarAlCalendario } from "./ui.js";
 import * as Inicio from "./vistas/inicio.js";
 import * as Agenda from "./vistas/agenda.js";
 import * as Partido from "./vistas/partido.js";
@@ -119,7 +119,7 @@ document.addEventListener("click", e => {
   if (b) {
     e.preventDefault();
     const p = M.partidos.find(x => x.id === b.dataset.ics);
-    if (p) { abrirHoja(menuCalendario(p)); document.querySelector(".hoja-panel").scrollTop = 0; }
+    if (p) agregarAlCalendario(p);
     return;
   }
   const t = e.target.closest("[data-partido]");

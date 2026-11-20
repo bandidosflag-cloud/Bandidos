@@ -144,21 +144,29 @@ export function enlaceGoogleCal(p) {
 }
 export const enlaceICS = p => `cal/${encodeURIComponent(p.id)}.ics`;
 
-// Hoja con las opciones; la que corresponde al teléfono va primero.
-export function menuCalendario(p) {
-  const ios = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent) && ("ontouchend" in document || /iPhone|iPod/.test(navigator.userAgent));
-  const op = {
-    google: `<a class="fila-link" href="${esc(enlaceGoogleCal(p))}" target="_blank" rel="noopener"><div class="ico">${ico("calendar")}</div>
-      <div class="txt"><b>Google Calendar</b><span>Android o cuenta de Google</span></div>${ico("ext", "chev")}</a>`,
-    apple: `<a class="fila-link" href="${esc(enlaceICS(p))}" target="_blank" rel="noopener"><div class="ico">${ico("calendar")}</div>
-      <div class="txt"><b>Calendario de iPhone</b><span>Apple (iPhone, iPad, Mac)</span></div>${ico("ext", "chev")}</a>`,
-    otro: `<a class="fila-link" href="${esc(enlaceICS(p))}" download="bandidos-${esc(p.fecha)}.ics"><div class="ico">${ico("calendar")}</div>
-      <div class="txt"><b>Otro calendario</b><span>Outlook, Samsung y otros (archivo .ics)</span></div>${ico("ext", "chev")}</a>`,
-  };
-  return `<div class="eyebrow">Agregar a mi calendario</div>
-    <h2 id="hoja-titulo" class="display" style="font-size:24px;text-transform:uppercase;margin:4px 0 2px;line-height:1.05">${esc(tituloEvento(p))}</h2>
-    <p class="peq muted" style="margin:0 0 14px">Con hora, sede, ubicación, jornada y uniforme. Recordatorio 1 hora antes (iPhone y otros).</p>
-    <div class="lista">${(ios ? [op.apple, op.google] : [op.google, op.apple]).join("")}${op.otro}</div>`;
+// Un solo botón: cada teléfono abre su calendario.
+//  iPhone/iPad/Mac: archivo .ics publicado -> ventana nativa "Agregar al calendario".
+//  Android: intent de "nuevo evento" -> calendario predeterminado (Google, Samsung...), ya lleno.
+//           Si el navegador no lo soporta, cae al enlace de Google Calendar.
+//  Computadora (Windows, Linux): Google Calendar.
+export function agregarAlCalendario(p) {
+  const ua = navigator.userAgent;
+  const google = enlaceGoogleCal(p);
+  if (/iPhone|iPad|iPod|Macintosh/.test(ua)) {
+    const ics = new URL(enlaceICS(p), location.href).href;
+    // instalada en la pantalla de inicio se abre en una hoja de Safari, que sí muestra "Agregar al calendario"
+    if (navigator.standalone) window.open(ics, "_blank"); else location.href = ics;
+    return;
+  }
+  if (/Android/i.test(ua)) {
+    const fin = p.dt.getTime() + DURACION_MIN * 60000;
+    const x = s => encodeURIComponent(s);
+    location.href = "intent:#Intent;action=android.intent.action.INSERT;type=vnd.android.cursor.item/event;"
+      + `S.title=${x(tituloEvento(p))};S.description=${x(detallesEvento(p))};S.eventLocation=${x(lugarEvento(p))};`
+      + `l.beginTime=${p.dt.getTime()};l.endTime=${fin};S.browser_fallback_url=${x(google)};end`;
+    return;
+  }
+  window.open(google, "_blank", "noopener");
 }
 
 export const jugadorPorNombre = (rama, nombre) => M.jugadores.find(j => j.rama === rama && norm(j.nombre) === norm(nombre));
