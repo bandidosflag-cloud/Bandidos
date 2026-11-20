@@ -179,6 +179,8 @@ function construir(liga, extra) {
 
 export function inicioDia(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
 
+const UNI_LOCAL = "negro"; // id en la pestaña uniformes
+
 // Uniforme asignado: la fila más específica que coincida gana.
 function uniformeDe(p, extra) {
   const filas = extra.uniforme_partido || [];
@@ -192,6 +194,11 @@ function uniformeDe(p, extra) {
     if (r.torneo && r.torneo !== p.torneo) continue;
     const s = (r.fecha ? 8 : 0) + (r.jornada ? 4 : 0) + (div && div !== "todas" ? 2 : 0) + (rama && rama !== "todos" ? 1 : 0);
     if (s > puntos) { puntos = s; mejor = r; }
+  }
+  // De local (nuestro logo a la izquierda en el rol) se juega de negro, salvo que la hoja diga otra cosa
+  // para esa fecha o jornada. De visita queda el uniforme de la rama (rojo varonil, blanco femenil).
+  if (p.lado === "local" && puntos < 4 && (extra.uniformes || []).some(x => norm(x.id) === UNI_LOCAL)) {
+    mejor = { uniforme: UNI_LOCAL, nota: "Somos locales" };
   }
   if (!mejor) return null;
   const u = (extra.uniformes || []).find(x => norm(x.id) === norm(mejor.uniforme));

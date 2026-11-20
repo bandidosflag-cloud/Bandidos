@@ -34,7 +34,7 @@ export function renderUniformes() {
       }).join("")}</div>`
       : `<div class="vacio"><b>Aún no hay uniformes</b>Agrégalos en la hoja de Bandidos (pestaña uniformes).</div>`}
     </section>
-    <p class="nota-pie">Varonil juega de rojo y femenil de blanco; el negro lo comparten. Si un partido cambia, se indica en la hoja (pestaña uniforme_partido) por jornada o fecha.</p>`;
+    <p class="nota-pie">De local (nuestro logo a la izquierda en el rol) todos jugamos de negro. De visitante, varonil va de rojo y femenil de blanco. Si un partido cambia, se indica en la hoja (pestaña uniforme_partido) por jornada o fecha.</p>`;
 }
 
 export function renderSocial() {
