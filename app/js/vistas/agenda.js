@@ -1,5 +1,5 @@
 import { M, filtraRama, inicioDia } from "../datos.js";
-import { esc, ico, MESES, ymd, fDia, fMesC, fLarga, escudo, descargarICS } from "../ui.js";
+import { esc, ico, MESES, ymd, fDia, fMesC, fLarga, escudo } from "../ui.js";
 
 const st = { mes: null, sel: null };
 // cono de entrenamiento
@@ -128,4 +128,3 @@ export function montar(raiz, rerender) {
   if (l) l.onclick = e => { e.preventDefault(); st.sel = null; rerender(); };
 }
 
-export { descargarICS };

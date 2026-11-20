@@ -1,5 +1,5 @@
 import { M, cargar } from "./datos.js";
-import { ico, descargarICS } from "./ui.js";
+import { ico, menuCalendario } from "./ui.js";
 import * as Inicio from "./vistas/inicio.js";
 import * as Agenda from "./vistas/agenda.js";
 import * as Partido from "./vistas/partido.js";
@@ -113,13 +113,13 @@ document.addEventListener("click", async e => {
   if (e.target.closest("[data-descartar-avisos]")) { Notif.descartar(); render({ modo: "local" }); }
 });
 
-// descargar .ics  /  abrir vista de partido
+// agregar al calendario  /  abrir vista de partido
 document.addEventListener("click", e => {
   const b = e.target.closest("[data-ics]");
   if (b) {
     e.preventDefault();
     const p = M.partidos.find(x => x.id === b.dataset.ics);
-    if (p) descargarICS(p);
+    if (p) { abrirHoja(menuCalendario(p)); document.querySelector(".hoja-panel").scrollTop = 0; }
     return;
   }
   const t = e.target.closest("[data-partido]");

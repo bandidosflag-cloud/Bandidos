@@ -27,13 +27,15 @@ jobs:
           python-version: "3.12"
       - name: Bajar datos de Flag Elite Cuernavaca
         run: python scripts/actualizar_liga.py
+      - name: Archivos de calendario de cada partido
+        run: python scripts/calendario.py
       - name: Notificar si ya salió el rol
         env:
           ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
         run: python scripts/notificar.py --rol
       - name: Guardar si hubo cambios
         run: |
-          git add app/data scripts/estado
+          git add app/data app/cal scripts/estado
           # Ignora el cambio de la marca de tiempo si nada más cambió
           if git diff --cached --quiet -I '"actualizado"' -I '"fecha"'; then
             echo "Sin cambios en la liga."

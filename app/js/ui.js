@@ -106,25 +106,59 @@ export function tarjetaPartido(p, { mostrarDiv = true } = {}) {
 }
 
 export function enlaceMapa(sede) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sede + ", Cuernavaca, Morelos")}`;
+  const s = (M.extra?.sedes || []).find(x => norm(x.nombre) === norm(sede));
+  return s?.mapa || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sede + ", Cuernavaca, Morelos")}`;
 }
 
-// .ics para "agregar a mi calendario"
-export function descargarICS(p) {
+// ---------------- agregar partido al calendario
+// Google Calendar: enlace con el evento ya lleno. iPhone y otros: archivo .ics publicado en cal/<id>.ics
+// (lo genera scripts/calendario.py con el mismo texto que detallesEvento).
+const DURACION_MIN = 50;
+const URL_APP = "https://bandidosflag-cloud.github.io/Bandidos/";
+
+export function tituloEvento(p) {
+  const rama = p.rama === "FEMENIL" ? "Femenil" : "Varonil";
+  return `${p.local.nombre} vs ${p.visita.nombre} · ${rama} ${p.division[0]}${p.division.slice(1).toLowerCase()}`;
+}
+export function lugarEvento(p) { return [p.sede, p.campo].filter(Boolean).join(" · ") + ", Cuernavaca, Morelos"; }
+export function detallesEvento(p) {
+  const u = p.uniforme;
+  return [
+    `Jornada ${p.jornada ?? "–"} · ${M.torneo?.nombre || "Flag Elite Cuernavaca"}`,
+    `Uniforme: ${u ? u.nombre + (u.nota ? ` (${u.nota})` : "") : "por confirmar"}`,
+    `Sede: ${[p.sede, p.campo].filter(Boolean).join(" · ")}`,
+    `Ubicación: ${enlaceMapa(p.sede)}`,
+    p.nota ? `Nota: ${p.nota}` : "",
+    `App Bandidos: ${URL_APP}`,
+  ].filter(Boolean).join("\n");
+}
+export function enlaceGoogleCal(p) {
   const pad = n => String(n).padStart(2, "0");
   const f = d => `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}T${pad(d.getHours())}${pad(d.getMinutes())}00`;
-  const fin = new Date(p.dt.getTime() + 50 * 60000);
-  const txt = [
-    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Bandidos//App//ES", "BEGIN:VEVENT",
-    `UID:${p.id}@bandidos`, `DTSTART:${f(p.dt)}`, `DTEND:${f(fin)}`,
-    `SUMMARY:${p.local.nombre} vs ${p.visita.nombre} (${p.rama} ${p.division})`,
-    `LOCATION:${p.sede} · ${p.campo}`, "END:VEVENT", "END:VCALENDAR",
-  ].join("\r\n");
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([txt], { type: "text/calendar" }));
-  a.download = `bandidos-${p.fecha}.ics`;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  const fin = new Date(p.dt.getTime() + DURACION_MIN * 60000);
+  const q = new URLSearchParams({
+    action: "TEMPLATE", text: tituloEvento(p), dates: `${f(p.dt)}/${f(fin)}`, ctz: "America/Mexico_City",
+    details: detallesEvento(p), location: lugarEvento(p),
+  });
+  return `https://calendar.google.com/calendar/render?${q}`;
+}
+export const enlaceICS = p => `cal/${encodeURIComponent(p.id)}.ics`;
+
+// Hoja con las opciones; la que corresponde al teléfono va primero.
+export function menuCalendario(p) {
+  const ios = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent) && ("ontouchend" in document || /iPhone|iPod/.test(navigator.userAgent));
+  const op = {
+    google: `<a class="fila-link" href="${esc(enlaceGoogleCal(p))}" target="_blank" rel="noopener"><div class="ico">${ico("calendar")}</div>
+      <div class="txt"><b>Google Calendar</b><span>Android o cuenta de Google</span></div>${ico("ext", "chev")}</a>`,
+    apple: `<a class="fila-link" href="${esc(enlaceICS(p))}" target="_blank" rel="noopener"><div class="ico">${ico("calendar")}</div>
+      <div class="txt"><b>Calendario de iPhone</b><span>Apple (iPhone, iPad, Mac)</span></div>${ico("ext", "chev")}</a>`,
+    otro: `<a class="fila-link" href="${esc(enlaceICS(p))}" download="bandidos-${esc(p.fecha)}.ics"><div class="ico">${ico("calendar")}</div>
+      <div class="txt"><b>Otro calendario</b><span>Outlook, Samsung y otros (archivo .ics)</span></div>${ico("ext", "chev")}</a>`,
+  };
+  return `<div class="eyebrow">Agregar a mi calendario</div>
+    <h2 id="hoja-titulo" class="display" style="font-size:24px;text-transform:uppercase;margin:4px 0 2px;line-height:1.05">${esc(tituloEvento(p))}</h2>
+    <p class="peq muted" style="margin:0 0 14px">Con hora, sede, ubicación, jornada y uniforme. Recordatorio 1 hora antes (iPhone y otros).</p>
+    <div class="lista">${(ios ? [op.apple, op.google] : [op.google, op.apple]).join("")}${op.otro}</div>`;
 }
 
 export const jugadorPorNombre = (rama, nombre) => M.jugadores.find(j => j.rama === rama && norm(j.nombre) === norm(nombre));

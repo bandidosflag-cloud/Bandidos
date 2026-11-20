@@ -2,7 +2,7 @@
 // También recibe las notificaciones push (OneSignal). Si no hay internet al instalar, la app sigue funcionando.
 try { importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js"); } catch (e) { /* sin avisos push */ }
 
-const VERSION = "bandidos-v14";
+const VERSION = "bandidos-v15";
 const SHELL = [
   "./", "index.html", "manifest.webmanifest", "css/styles.css",
   "js/app.js", "js/config.js", "js/datos.js", "js/sheets.js", "js/ui.js",

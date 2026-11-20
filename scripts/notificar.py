@@ -86,7 +86,7 @@ def hoja(pestana):
                 texto = r.read().decode("utf-8")
             filas = list(csv.DictReader(io.StringIO(texto)))
             filas = [{k.strip().lower(): (v or "").strip() for k, v in f.items() if k} for f in filas]
-            if filas and ("texto" in filas[0] or "titulo" in filas[0]):
+            if filas:
                 for f in filas:
                     for c in ("fecha", "fecha_fin", "hasta"):
                         if c in f:
