@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T13:02:01+00:00",
+ "actualizado": "2026-11-21T01:59:25+00:00",
  "fuente": "https://app.yarai.mx/flag-elite-cuernavaca",
  "torneos": [
   {
@@ -906,12 +906,12 @@
      "pos": 1,
      "equipo": "Blue Panthers",
      "id": "cmtrlp9j1000fjorqidb42w87",
-     "jj": 7,
-     "jg": 7,
+     "jj": 8,
+     "jg": 8,
      "jp": 0,
-     "pf": 120,
-     "pc": 44,
-     "dif": 76,
+     "pf": 139,
+     "pc": 52,
+     "dif": 87,
      "nuestro": false
     },
     {
@@ -990,12 +990,12 @@
      "pos": 8,
      "equipo": "Next Generation",
      "id": "cmu5rtwqg00ijrqluyha53vc6",
-     "jj": 7,
+     "jj": 8,
      "jg": 4,
-     "jp": 3,
-     "pf": 105,
-     "pc": 64,
-     "dif": 41,
+     "jp": 4,
+     "pf": 113,
+     "pc": 83,
+     "dif": 30,
      "nuestro": false
     },
     {
@@ -5673,7 +5673,7 @@
    "nota": "",
    "local": {
     "nombre": "Next Generation",
-    "pts": 2,
+    "pts": 8,
     "gana": false
    },
    "visita": {
@@ -8274,12 +8274,12 @@
   {
    "rama": "VARONIL",
    "division": "BRONZE",
-   "jugadores": 130,
+   "jugadores": 132,
    "categorias": [
     {
      "clave": "pts",
      "categoria": "Puntos anotados",
-     "con_registro": 93,
+     "con_registro": 92,
      "valor_lider": 87,
      "nuestros": [
       {
@@ -8321,7 +8321,7 @@
       {
        "jugador": "Victor O.",
        "valor": 4,
-       "puesto": 81,
+       "puesto": 80,
        "empate": true
       }
      ]
