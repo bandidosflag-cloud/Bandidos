@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T21:37:02+00:00",
+ "actualizado": "2026-11-22T23:36:49+00:00",
  "fuente": "https://app.yarai.mx/flag-elite-cuernavaca",
  "torneos": [
   {
@@ -945,9 +945,9 @@
      "jj": 8,
      "jg": 7,
      "jp": 1,
-     "pf": 132,
+     "pf": 138,
      "pc": 25,
-     "dif": 107,
+     "dif": 113,
      "nuestro": false
     },
     {
@@ -1102,8 +1102,8 @@
      "jg": 1,
      "jp": 7,
      "pf": 32,
-     "pc": 147,
-     "dif": -115,
+     "pc": 153,
+     "dif": -121,
      "nuestro": false
     },
     {
@@ -7453,7 +7453,7 @@
    },
    "visita": {
     "nombre": "Monkeys",
-    "pts": 19,
+    "pts": 25,
     "gana": true
    },
    "estado": "Final",
@@ -8057,7 +8057,7 @@
     {
      "clave": "pts",
      "categoria": "Puntos anotados",
-     "con_registro": 89,
+     "con_registro": 88,
      "valor_lider": 80,
      "nuestros": [
       {
@@ -8087,7 +8087,7 @@
       {
        "jugador": "Azul C.",
        "valor": 1,
-       "puesto": 82,
+       "puesto": 81,
        "empate": true
       }
      ]
@@ -8121,13 +8121,13 @@
       {
        "jugador": "Mayred V.",
        "valor": 1,
-       "puesto": 34,
+       "puesto": 33,
        "empate": true
       },
       {
        "jugador": "Yuriney A.",
        "valor": 1,
-       "puesto": 34,
+       "puesto": 33,
        "empate": true
       }
      ]
@@ -8135,7 +8135,7 @@
     {
      "clave": "sck",
      "categoria": "Sacks",
-     "con_registro": 43,
+     "con_registro": 42,
      "valor_lider": 13,
      "nuestros": [
       {
