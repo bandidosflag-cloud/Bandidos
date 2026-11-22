@@ -72,5 +72,153 @@
    }
   ],
   "registrado": "2026-11-22T17:39:02+00:00"
+ },
+ "2026-11-22-11-20-bandidas-plateados-golden": {
+  "equipo": "elite-sunday-otono-2026|FEMENIL|GOLDEN",
+  "partidos": [
+   "2026-11-22-11-20-bandidas-plateados-golden"
+  ],
+  "combinado": false,
+  "jugadores": [
+   {
+    "nombre": "Mextli S.",
+    "pda": 0,
+    "pts": 6,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Sofia C.",
+    "pda": 0,
+    "pts": 2,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Sofia G.",
+    "pda": 0,
+    "pts": 1,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Joseline A.",
+    "pda": 1,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Ana M.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 1,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Daniela S.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 1,
+    "ast": 1
+   },
+   {
+    "nombre": "Nicte S.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   }
+  ],
+  "registrado": "2026-11-22T19:46:19+00:00"
+ },
+ "2026-11-22-12-10-bandidas-titanes-bronze": {
+  "equipo": "elite-sunday-otono-2026|FEMENIL|BRONZE",
+  "partidos": [
+   "2026-11-22-12-10-bandidas-titanes-bronze"
+  ],
+  "combinado": false,
+  "jugadores": [
+   {
+    "nombre": "María R.",
+    "pda": 0,
+    "pts": 6,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Adriana F.",
+    "pda": 1,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Andrea P.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Azul C.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 2,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Fernanda M.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Hannia B.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Iris E.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Mayela F.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Mayred V.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   }
+  ],
+  "registrado": "2026-11-22T19:46:19+00:00"
  }
 }

@@ -7,7 +7,8 @@
    "2026-10-11-11-30-bandidas-chubby-bunny-golden",
    "2026-10-18-14-00-bravos-bandidas-golden",
    "2026-10-25-10-40-bandidas-eternals-golden",
-   "2026-11-08-08-50-bandidas-jfm-golden"
+   "2026-11-08-08-50-bandidas-jfm-golden",
+   "2026-11-22-11-20-bandidas-plateados-golden"
   ],
   "jugadores": {
    "Nicte S.": {
@@ -15,14 +16,14 @@
     "pts": 0,
     "sck": 0,
     "int": 0,
-    "ast": 7
+    "ast": 8
    },
    "Joseline A.": {
-    "pda": 1,
+    "pda": 2,
     "pts": 6,
     "sck": 1,
     "int": 0,
-    "ast": 7
+    "ast": 8
    },
    "Regina R.": {
     "pda": 0,
@@ -33,17 +34,17 @@
    },
    "Mextli S.": {
     "pda": 0,
-    "pts": 18,
+    "pts": 24,
     "sck": 0,
     "int": 0,
-    "ast": 7
+    "ast": 8
    },
    "Sofia C.": {
     "pda": 0,
-    "pts": 14,
+    "pts": 16,
     "sck": 0,
     "int": 2,
-    "ast": 7
+    "ast": 8
    },
    "Alexia G.": {
     "pda": 0,
@@ -52,19 +53,26 @@
     "int": 0,
     "ast": 6
    },
+   "Sofia G.": {
+    "pda": 0,
+    "pts": 1,
+    "sck": 0,
+    "int": 0,
+    "ast": 8
+   },
+   "Ana M.": {
+    "pda": 0,
+    "pts": 0,
+    "sck": 1,
+    "int": 0,
+    "ast": 5
+   },
    "Daniela S.": {
     "pda": 0,
     "pts": 0,
     "sck": 0,
-    "int": 0,
-    "ast": 7
-   },
-   "Sofia G.": {
-    "pda": 0,
-    "pts": 0,
-    "sck": 0,
-    "int": 0,
-    "ast": 7
+    "int": 1,
+    "ast": 8
    },
    "Raquel N.": {
     "pda": 0,
@@ -72,16 +80,9 @@
     "sck": 0,
     "int": 0,
     "ast": 5
-   },
-   "Ana M.": {
-    "pda": 0,
-    "pts": 0,
-    "sck": 0,
-    "int": 0,
-    "ast": 4
    }
   },
-  "fecha": "2026-11-18T05:58:27+00:00"
+  "fecha": "2026-11-22T19:46:19+00:00"
  },
  "elite-sunday-otono-2026|FEMENIL|SILVER": {
   "partidos": [
@@ -189,15 +190,16 @@
    "2026-10-18-12-20-bandidas-eternals-bronze",
    "2026-10-25-09-00-bandidas-monkeys-bronze",
    "2026-10-25-11-30-blue-panthers-bandidas-bronze",
-   "2026-11-08-10-30-bandidas-dragons-bronze"
+   "2026-11-08-10-30-bandidas-dragons-bronze",
+   "2026-11-22-12-10-bandidas-titanes-bronze"
   ],
   "jugadores": {
    "Adriana F.": {
-    "pda": 4,
+    "pda": 5,
     "pts": 0,
     "sck": 0,
     "int": 0,
-    "ast": 7
+    "ast": 8
    },
    "Ashly R.": {
     "pda": 1,
@@ -208,38 +210,38 @@
    },
    "María R.": {
     "pda": 0,
-    "pts": 14,
+    "pts": 20,
     "sck": 0,
     "int": 0,
-    "ast": 7
+    "ast": 8
    },
    "Hannia B.": {
     "pda": 0,
     "pts": 12,
     "sck": 1,
     "int": 0,
-    "ast": 7
+    "ast": 8
    },
    "Fernanda M.": {
     "pda": 0,
     "pts": 12,
     "sck": 0,
     "int": 0,
-    "ast": 7
+    "ast": 8
    },
    "Mayred V.": {
     "pda": 0,
     "pts": 6,
     "sck": 0,
     "int": 1,
-    "ast": 5
+    "ast": 6
    },
    "Azul C.": {
     "pda": 0,
     "pts": 1,
-    "sck": 3,
+    "sck": 5,
     "int": 0,
-    "ast": 7
+    "ast": 8
    },
    "Dulce T.": {
     "pda": 0,
@@ -260,14 +262,21 @@
     "pts": 0,
     "sck": 0,
     "int": 0,
-    "ast": 6
+    "ast": 7
    },
    "Iris E.": {
     "pda": 0,
     "pts": 0,
     "sck": 0,
     "int": 0,
-    "ast": 4
+    "ast": 5
+   },
+   "Mayela F.": {
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 3
    },
    "Ariana B.": {
     "pda": 0,
@@ -275,16 +284,9 @@
     "sck": 0,
     "int": 0,
     "ast": 2
-   },
-   "Mayela F.": {
-    "pda": 0,
-    "pts": 0,
-    "sck": 0,
-    "int": 0,
-    "ast": 2
    }
   },
-  "fecha": "2026-11-18T05:58:27+00:00"
+  "fecha": "2026-11-22T19:46:19+00:00"
  },
  "elite-sunday-otono-2026|VARONIL|SILVER": {
   "partidos": [
