@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T12:49:29+00:00",
+ "actualizado": "2026-11-22T12:48:20+00:00",
  "fuente": "https://app.yarai.mx/flag-elite-cuernavaca",
  "torneos": [
   {
@@ -131,7 +131,7 @@
     }
    ],
    "posicion": {
-    "pos": 8,
+    "pos": 7,
     "equipo": "Bandidas",
     "id": "cmtnc3rl7000gytpoiz1rfbzn",
     "jj": 7,
@@ -533,7 +533,7 @@
     }
    ],
    "posicion": {
-    "pos": 2,
+    "pos": 3,
     "equipo": "Bandidos",
     "id": "cmtmbbi9u000mujcv8mcqwqna",
     "jj": 7,
@@ -746,18 +746,6 @@
     },
     {
      "pos": 7,
-     "equipo": "Sirenas",
-     "id": "cmtncsbpv000cd43l6rp9v0q4",
-     "jj": 8,
-     "jg": 1,
-     "jp": 7,
-     "pf": 87,
-     "pc": 194,
-     "dif": -107,
-     "nuestro": false
-    },
-    {
-     "pos": 8,
      "equipo": "Bandidas",
      "id": "cmtnc3rl7000gytpoiz1rfbzn",
      "jj": 7,
@@ -767,6 +755,18 @@
      "pc": 210,
      "dif": -115,
      "nuestro": true
+    },
+    {
+     "pos": 8,
+     "equipo": "Sirenas",
+     "id": "cmtncsbpv000cd43l6rp9v0q4",
+     "jj": 8,
+     "jg": 1,
+     "jp": 7,
+     "pf": 87,
+     "pc": 194,
+     "dif": -107,
+     "nuestro": false
     }
    ]
   },
@@ -988,18 +988,6 @@
     },
     {
      "pos": 8,
-     "equipo": "Next Generation",
-     "id": "cmu5rtwqg00ijrqluyha53vc6",
-     "jj": 8,
-     "jg": 4,
-     "jp": 4,
-     "pf": 113,
-     "pc": 83,
-     "dif": 30,
-     "nuestro": false
-    },
-    {
-     "pos": 9,
      "equipo": "Eternals",
      "id": "cmu055yqa00iimtf0zi2ueiux",
      "jj": 8,
@@ -1008,6 +996,18 @@
      "pf": 50,
      "pc": 112,
      "dif": -62,
+     "nuestro": false
+    },
+    {
+     "pos": 9,
+     "equipo": "Next Generation",
+     "id": "cmu5rtwqg00ijrqluyha53vc6",
+     "jj": 8,
+     "jg": 4,
+     "jp": 4,
+     "pf": 113,
+     "pc": 83,
+     "dif": 30,
      "nuestro": false
     },
     {
@@ -1048,18 +1048,6 @@
     },
     {
      "pos": 13,
-     "equipo": "Unila",
-     "id": "cmubm5g1x00fmyyfrqws3zrzs",
-     "jj": 7,
-     "jg": 2,
-     "jp": 5,
-     "pf": 39,
-     "pc": 109,
-     "dif": -70,
-     "nuestro": false
-    },
-    {
-     "pos": 14,
      "equipo": "Bills",
      "id": "cmtrlocnz0007jorqpbptrisg",
      "jj": 7,
@@ -1071,19 +1059,19 @@
      "nuestro": false
     },
     {
-     "pos": 15,
-     "equipo": "Flag Ex’s",
-     "id": "cmu1fbx3l010dmtf0lzdraqgg",
+     "pos": 14,
+     "equipo": "Unila",
+     "id": "cmubm5g1x00fmyyfrqws3zrzs",
      "jj": 7,
-     "jg": 1,
-     "jp": 6,
-     "pf": 28,
-     "pc": 91,
-     "dif": -63,
+     "jg": 2,
+     "jp": 5,
+     "pf": 39,
+     "pc": 109,
+     "dif": -70,
      "nuestro": false
     },
     {
-     "pos": 16,
+     "pos": 15,
      "equipo": "Grizzlies",
      "id": "cmu2zv38e009bq28jivwsf0sd",
      "jj": 6,
@@ -1092,6 +1080,18 @@
      "pf": 35,
      "pc": 125,
      "dif": -90,
+     "nuestro": false
+    },
+    {
+     "pos": 16,
+     "equipo": "Flag Ex’s",
+     "id": "cmu1fbx3l010dmtf0lzdraqgg",
+     "jj": 7,
+     "jg": 1,
+     "jp": 6,
+     "pf": 28,
+     "pc": 91,
+     "dif": -63,
      "nuestro": false
     },
     {
@@ -1139,18 +1139,6 @@
     },
     {
      "pos": 2,
-     "equipo": "Bandidos",
-     "id": "cmtmbbi9u000mujcv8mcqwqna",
-     "jj": 7,
-     "jg": 5,
-     "jp": 2,
-     "pf": 227,
-     "pc": 117,
-     "dif": 110,
-     "nuestro": true
-    },
-    {
-     "pos": 3,
      "equipo": "All Stars",
      "id": "cmu060gxy00ktmtf0zbuth34g",
      "jj": 6,
@@ -1160,6 +1148,18 @@
      "pc": 139,
      "dif": 35,
      "nuestro": false
+    },
+    {
+     "pos": 3,
+     "equipo": "Bandidos",
+     "id": "cmtmbbi9u000mujcv8mcqwqna",
+     "jj": 7,
+     "jg": 5,
+     "jp": 2,
+     "pf": 227,
+     "pc": 117,
+     "dif": 110,
+     "nuestro": true
     },
     {
      "pos": 4,
