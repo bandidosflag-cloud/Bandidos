@@ -11,7 +11,7 @@
   ],
   "jugadores": {
    "Nicte S.": {
-    "pda": 13,
+    "pda": 14,
     "pts": 0,
     "sck": 0,
     "int": 0,
@@ -19,7 +19,7 @@
    },
    "Joseline A.": {
     "pda": 1,
-    "pts": 0,
+    "pts": 6,
     "sck": 1,
     "int": 0,
     "ast": 7
@@ -378,33 +378,41 @@
    "2026-10-11-13-10-bandidos-bravos-bronze",
    "2026-10-18-09-50-flag-ex-s-bandidos-bronze",
    "2026-10-25-14-50-blue-panthers-bandidos-bronze",
-   "2026-11-08-09-40-stingers-hellen-keller-bandidos-bronze"
+   "2026-11-08-09-40-stingers-hellen-keller-bandidos-bronze",
+   "2026-11-22-10-30-bandidos-monkeys-bronze"
   ],
   "jugadores": {
    "Uriel P.": {
-    "pda": 23,
+    "pda": 25,
     "pts": 0,
     "sck": 0,
     "int": 0,
-    "ast": 6
+    "ast": 7
    },
    "Gabriel T.": {
     "pda": 2,
     "pts": 14,
     "sck": 0,
     "int": 1,
-    "ast": 6
+    "ast": 7
    },
    "Daniel R.": {
     "pda": 1,
     "pts": 24,
     "sck": 0,
     "int": 0,
-    "ast": 6
+    "ast": 7
    },
    "Cristian N.": {
     "pda": 0,
-    "pts": 55,
+    "pts": 61,
+    "sck": 0,
+    "int": 0,
+    "ast": 7
+   },
+   "Santiago V.": {
+    "pda": 0,
+    "pts": 14,
     "sck": 0,
     "int": 0,
     "ast": 6
@@ -414,21 +422,14 @@
     "pts": 12,
     "sck": 0,
     "int": 0,
-    "ast": 6
+    "ast": 7
    },
    "Gael V.": {
     "pda": 0,
     "pts": 10,
     "sck": 0,
     "int": 0,
-    "ast": 6
-   },
-   "Santiago V.": {
-    "pda": 0,
-    "pts": 8,
-    "sck": 0,
-    "int": 0,
-    "ast": 5
+    "ast": 7
    },
    "Victor O.": {
     "pda": 0,
@@ -442,7 +443,7 @@
     "pts": 0,
     "sck": 1,
     "int": 0,
-    "ast": 6
+    "ast": 7
    },
    "Víctor G.": {
     "pda": 0,
@@ -452,6 +453,6 @@
     "ast": 6
    }
   },
-  "fecha": "2026-11-18T05:58:27+00:00"
+  "fecha": "2026-11-22T17:39:02+00:00"
  }
 }

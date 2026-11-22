@@ -1,1 +1,76 @@
-{}
+{
+ "2026-11-22-10-30-bandidos-monkeys-bronze": {
+  "equipo": "elite-sunday-otono-2026|VARONIL|BRONZE",
+  "partidos": [
+   "2026-11-22-10-30-bandidos-monkeys-bronze"
+  ],
+  "combinado": false,
+  "jugadores": [
+   {
+    "nombre": "Cristian N.",
+    "pda": 0,
+    "pts": 6,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Santiago V.",
+    "pda": 0,
+    "pts": 6,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Uriel P.",
+    "pda": 2,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Daniel R.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Gabriel T.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Gael V.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Josué F.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   },
+   {
+    "nombre": "Victor A.",
+    "pda": 0,
+    "pts": 0,
+    "sck": 0,
+    "int": 0,
+    "ast": 1
+   }
+  ],
+  "registrado": "2026-11-22T17:39:02+00:00"
+ }
+}

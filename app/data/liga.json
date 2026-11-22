@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T15:39:08+00:00",
+ "actualizado": "2026-11-22T17:37:54+00:00",
  "fuente": "https://app.yarai.mx/flag-elite-cuernavaca",
  "torneos": [
   {
@@ -32,8 +32,8 @@
    "division": "GOLDEN",
    "torneo": "elite-sunday-otono-2026",
    "totales": {
-    "pda": 14,
-    "pts": 93,
+    "pda": 15,
+    "pts": 99,
     "sck": 1,
     "int": 2,
     "jugadores": 10
@@ -42,7 +42,7 @@
     {
      "numero": 21,
      "nombre": "Nicte S.",
-     "pda": 13,
+     "pda": 14,
      "pts": 0,
      "sck": 0,
      "int": 0,
@@ -52,7 +52,7 @@
      "numero": "–",
      "nombre": "Joseline A.",
      "pda": 1,
-     "pts": 0,
+     "pts": 6,
      "sck": 1,
      "int": 0,
      "ast": 7
@@ -553,8 +553,8 @@
    "division": "BRONZE",
    "torneo": "elite-sunday-otono-2026",
    "totales": {
-    "pda": 26,
-    "pts": 139,
+    "pda": 28,
+    "pts": 151,
     "sck": 1,
     "int": 4,
     "jugadores": 10
@@ -563,11 +563,11 @@
     {
      "numero": 11,
      "nombre": "Uriel P.",
-     "pda": 23,
+     "pda": 25,
      "pts": 0,
      "sck": 0,
      "int": 0,
-     "ast": 6
+     "ast": 7
     },
     {
      "numero": 1,
@@ -576,7 +576,7 @@
      "pts": 14,
      "sck": 0,
      "int": 1,
-     "ast": 6
+     "ast": 7
     },
     {
      "numero": 1,
@@ -585,13 +585,22 @@
      "pts": 24,
      "sck": 0,
      "int": 0,
-     "ast": 6
+     "ast": 7
     },
     {
      "numero": 69,
      "nombre": "Cristian N.",
      "pda": 0,
-     "pts": 55,
+     "pts": 61,
+     "sck": 0,
+     "int": 0,
+     "ast": 7
+    },
+    {
+     "numero": 20,
+     "nombre": "Santiago V.",
+     "pda": 0,
+     "pts": 14,
      "sck": 0,
      "int": 0,
      "ast": 6
@@ -603,7 +612,7 @@
      "pts": 12,
      "sck": 0,
      "int": 0,
-     "ast": 6
+     "ast": 7
     },
     {
      "numero": 22,
@@ -612,16 +621,7 @@
      "pts": 10,
      "sck": 0,
      "int": 0,
-     "ast": 6
-    },
-    {
-     "numero": 20,
-     "nombre": "Santiago V.",
-     "pda": 0,
-     "pts": 8,
-     "sck": 0,
-     "int": 0,
-     "ast": 5
+     "ast": 7
     },
     {
      "numero": 9,
@@ -639,7 +639,7 @@
      "pts": 0,
      "sck": 1,
      "int": 0,
-     "ast": 6
+     "ast": 7
     },
     {
      "numero": 19,
@@ -652,15 +652,15 @@
     }
    ],
    "posicion": {
-    "pos": 9,
+    "pos": 5,
     "equipo": "Bandidos",
     "id": "cmtmbb6kv000iujcvuhk01voa",
-    "jj": 7,
-    "jg": 3,
+    "jj": 8,
+    "jg": 4,
     "jp": 4,
-    "pf": 150,
-    "pc": 123,
-    "dif": 27,
+    "pf": 169,
+    "pc": 135,
+    "dif": 34,
     "nuestro": true
    },
    "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/elite-sunday-otono-2026/equipos/cmtmbb6kv000iujcvuhk01voa"
@@ -722,26 +722,26 @@
     },
     {
      "pos": 5,
-     "equipo": "Eternals",
-     "id": "cmu058i5p00iomtf0xpocxvsi",
+     "equipo": "Plateados",
+     "id": "cmudfqco700d221rw5yexi0vd",
      "jj": 7,
-     "jg": 2,
-     "jp": 5,
-     "pf": 124,
-     "pc": 130,
-     "dif": -6,
+     "jg": 3,
+     "jp": 4,
+     "pf": 116,
+     "pc": 135,
+     "dif": -19,
      "nuestro": false
     },
     {
      "pos": 6,
-     "equipo": "Plateados",
-     "id": "cmudfqco700d221rw5yexi0vd",
-     "jj": 6,
+     "equipo": "Eternals",
+     "id": "cmu058i5p00iomtf0xpocxvsi",
+     "jj": 8,
      "jg": 2,
-     "jp": 4,
-     "pf": 103,
-     "pc": 135,
-     "dif": -32,
+     "jp": 6,
+     "pf": 124,
+     "pc": 143,
+     "dif": -19,
      "nuestro": false
     },
     {
@@ -1048,6 +1048,18 @@
     },
     {
      "pos": 13,
+     "equipo": "Bills",
+     "id": "cmtrlocnz0007jorqpbptrisg",
+     "jj": 8,
+     "jg": 3,
+     "jp": 5,
+     "pf": 58,
+     "pc": 138,
+     "dif": -80,
+     "nuestro": false
+    },
+    {
+     "pos": 14,
      "equipo": "Unila",
      "id": "cmubm5g1x00fmyyfrqws3zrzs",
      "jj": 7,
@@ -1056,18 +1068,6 @@
      "pf": 39,
      "pc": 109,
      "dif": -70,
-     "nuestro": false
-    },
-    {
-     "pos": 14,
-     "equipo": "Bills",
-     "id": "cmtrlocnz0007jorqpbptrisg",
-     "jj": 7,
-     "jg": 2,
-     "jp": 5,
-     "pf": 46,
-     "pc": 138,
-     "dif": -92,
      "nuestro": false
     },
     {
@@ -1086,12 +1086,12 @@
      "pos": 16,
      "equipo": "Flag Ex’s",
      "id": "cmu1fbx3l010dmtf0lzdraqgg",
-     "jj": 7,
+     "jj": 8,
      "jg": 1,
-     "jp": 6,
+     "jp": 7,
      "pf": 28,
-     "pc": 91,
-     "dif": -63,
+     "pc": 103,
+     "dif": -75,
      "nuestro": false
     },
     {
@@ -1153,12 +1153,12 @@
      "pos": 3,
      "equipo": "Plateados",
      "id": "cmudfrx1j00d621rwyduyknad",
-     "jj": 7,
+     "jj": 8,
      "jg": 5,
-     "jp": 2,
-     "pf": 186,
-     "pc": 95,
-     "dif": 91,
+     "jp": 3,
+     "pf": 206,
+     "pc": 129,
+     "dif": 77,
      "nuestro": false
     },
     {
@@ -1177,12 +1177,12 @@
      "pos": 5,
      "equipo": "Sirenas",
      "id": "cmtncs1990008d43lm4m158ot",
-     "jj": 7,
-     "jg": 4,
+     "jj": 8,
+     "jg": 5,
      "jp": 3,
-     "pf": 140,
+     "pf": 170,
      "pc": 172,
-     "dif": -32,
+     "dif": -2,
      "nuestro": false
     },
     {
@@ -1223,26 +1223,26 @@
     },
     {
      "pos": 9,
-     "equipo": "JFM",
-     "id": "cmuheeu2b004ahqwzjy33o4xu",
-     "jj": 7,
+     "equipo": "Azulitos",
+     "id": "cmu05o27h00jpmtf0m6u8qhjx",
+     "jj": 8,
      "jg": 3,
-     "jp": 4,
-     "pf": 85,
-     "pc": 185,
-     "dif": -100,
+     "jp": 5,
+     "pf": 161,
+     "pc": 233,
+     "dif": -72,
      "nuestro": false
     },
     {
      "pos": 10,
-     "equipo": "Azulitos",
-     "id": "cmu05o27h00jpmtf0m6u8qhjx",
-     "jj": 7,
-     "jg": 2,
+     "equipo": "JFM",
+     "id": "cmuheeu2b004ahqwzjy33o4xu",
+     "jj": 8,
+     "jg": 3,
      "jp": 5,
-     "pf": 127,
-     "pc": 213,
-     "dif": -86,
+     "pf": 85,
+     "pc": 215,
+     "dif": -130,
      "nuestro": false
     },
     {
@@ -1292,12 +1292,12 @@
      "pos": 2,
      "equipo": "Monkeys",
      "id": "cmtnhct31000cys9gz3l5b0qp",
-     "jj": 7,
+     "jj": 8,
      "jg": 5,
-     "jp": 2,
-     "pf": 118,
-     "pc": 74,
-     "dif": 44,
+     "jp": 3,
+     "pf": 130,
+     "pc": 93,
+     "dif": 37,
      "nuestro": false
     },
     {
@@ -1326,18 +1326,30 @@
     },
     {
      "pos": 5,
-     "equipo": "Flag Ex’s",
-     "id": "cmu1fd52g010lmtf05qo3ot5d",
-     "jj": 7,
+     "equipo": "Bandidos",
+     "id": "cmtmbb6kv000iujcvuhk01voa",
+     "jj": 8,
      "jg": 4,
-     "jp": 3,
-     "pf": 137,
-     "pc": 102,
-     "dif": 35,
-     "nuestro": false
+     "jp": 4,
+     "pf": 169,
+     "pc": 135,
+     "dif": 34,
+     "nuestro": true
     },
     {
      "pos": 6,
+     "equipo": "Flag Ex’s",
+     "id": "cmu1fd52g010lmtf05qo3ot5d",
+     "jj": 8,
+     "jg": 4,
+     "jp": 4,
+     "pf": 137,
+     "pc": 108,
+     "dif": 29,
+     "nuestro": false
+    },
+    {
+     "pos": 7,
      "equipo": "Bravos",
      "id": "cmtniucp1001uys9g1sxesd5p",
      "jj": 7,
@@ -1349,7 +1361,7 @@
      "nuestro": false
     },
     {
-     "pos": 7,
+     "pos": 8,
      "equipo": "Eternals",
      "id": "cmu4t69b801k3q28j3p8ele2j",
      "jj": 6,
@@ -1361,7 +1373,7 @@
      "nuestro": false
     },
     {
-     "pos": 8,
+     "pos": 9,
      "equipo": "Dragones Taxco",
      "id": "cmtm4p119000e9kl0caszohje",
      "jj": 6,
@@ -1373,19 +1385,19 @@
      "nuestro": false
     },
     {
-     "pos": 9,
-     "equipo": "Bandidos",
-     "id": "cmtmbb6kv000iujcvuhk01voa",
-     "jj": 7,
+     "pos": 10,
+     "equipo": "Luciérnagas",
+     "id": "cmtm57662000m7vurf287t5vh",
+     "jj": 8,
      "jg": 3,
-     "jp": 4,
-     "pf": 150,
-     "pc": 123,
-     "dif": 27,
-     "nuestro": true
+     "jp": 5,
+     "pf": 81,
+     "pc": 174,
+     "dif": -93,
+     "nuestro": false
     },
     {
-     "pos": 10,
+     "pos": 11,
      "equipo": "Kaos",
      "id": "cmtm53gqk00067vurlbfad7uo",
      "jj": 8,
@@ -1397,7 +1409,7 @@
      "nuestro": false
     },
     {
-     "pos": 11,
+     "pos": 12,
      "equipo": "Bills",
      "id": "cmtrlop35000bjorqoty4fgy3",
      "jj": 8,
@@ -1406,18 +1418,6 @@
      "pf": 116,
      "pc": 181,
      "dif": -65,
-     "nuestro": false
-    },
-    {
-     "pos": 12,
-     "equipo": "Luciérnagas",
-     "id": "cmtm57662000m7vurf287t5vh",
-     "jj": 7,
-     "jg": 2,
-     "jp": 5,
-     "pf": 75,
-     "pc": 174,
-     "dif": -99,
      "nuestro": false
     },
     {
@@ -7023,15 +7023,15 @@
    "nota": "",
    "local": {
     "nombre": "Wildcats",
-    "pts": null,
+    "pts": 19,
     "gana": false
    },
    "visita": {
     "nombre": "JFM",
-    "pts": null,
-    "gana": false
+    "pts": 20,
+    "gana": true
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-09-40-wildcats-jfm-golden"
@@ -7048,15 +7048,15 @@
    "nota": "",
    "local": {
     "nombre": "JFM",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
    "visita": {
     "nombre": "Sirenas",
-    "pts": null,
-    "gana": false
+    "pts": 30,
+    "gana": true
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-09-40-jfm-sirenas-silver"
@@ -7073,15 +7073,15 @@
    "nota": "",
    "local": {
     "nombre": "Plateados",
-    "pts": null,
-    "gana": false
+    "pts": 13,
+    "gana": true
    },
    "visita": {
     "nombre": "Eternals",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-09-40-plateados-eternals-golden"
@@ -7098,15 +7098,15 @@
    "nota": "",
    "local": {
     "nombre": "Bandidos",
-    "pts": null,
-    "gana": false
+    "pts": 19,
+    "gana": true
    },
    "visita": {
     "nombre": "Monkeys",
-    "pts": null,
+    "pts": 12,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": true,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-10-30-bandidos-monkeys-bronze"
@@ -7148,15 +7148,15 @@
    "nota": "",
    "local": {
     "nombre": "Azulitos",
-    "pts": null,
-    "gana": false
+    "pts": 34,
+    "gana": true
    },
    "visita": {
     "nombre": "Plateados",
-    "pts": null,
+    "pts": 20,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-10-30-azulitos-plateados-silver"
@@ -7173,15 +7173,15 @@
    "nota": "",
    "local": {
     "nombre": "Luciérnagas",
-    "pts": null,
-    "gana": false
+    "pts": 6,
+    "gana": true
    },
    "visita": {
     "nombre": "Flag Ex’s",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-10-30-luciernagas-flag-ex-s-bronze"
@@ -7198,15 +7198,15 @@
    "nota": "",
    "local": {
     "nombre": "Chubby Bunny",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
    "visita": {
     "nombre": "Bravos Blancos",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "En vivo · 1er tiempo",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-11-20-chubby-bunny-bravos-blancos-silver"
@@ -7223,15 +7223,15 @@
    "nota": "",
    "local": {
     "nombre": "Dragons",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
    "visita": {
     "nombre": "Titanes",
-    "pts": null,
-    "gana": false
+    "pts": 6,
+    "gana": true
    },
-   "estado": "Programado",
+   "estado": "En vivo · 1er tiempo",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-11-20-dragons-titanes-silver"
@@ -7248,15 +7248,15 @@
    "nota": "",
    "local": {
     "nombre": "Bandidas",
-    "pts": null,
-    "gana": false
+    "pts": 6,
+    "gana": true
    },
    "visita": {
     "nombre": "Plateados",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "En vivo · 1er tiempo",
    "nuestro": true,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-11-20-bandidas-plateados-golden"
@@ -7598,7 +7598,7 @@
       {
        "jugador": "Maria S.",
        "equipo": "JFM",
-       "valor": 29,
+       "valor": 32,
        "nuestro": false
       }
      ]
@@ -7618,9 +7618,9 @@
      "categoria": "Sacks",
      "lideres": [
       {
-       "jugador": "Manuela B.",
-       "equipo": "Chubby Bunny",
-       "valor": 3,
+       "jugador": "Elvia S.",
+       "equipo": "Eternals",
+       "valor": 5,
        "nuestro": false
       }
      ]
@@ -7878,7 +7878,7 @@
     {
      "clave": "pts",
      "categoria": "Puntos anotados",
-     "con_registro": 53,
+     "con_registro": 54,
      "valor_lider": 59,
      "nuestros": [
       {
@@ -7890,19 +7890,25 @@
       {
        "jugador": "Mextli S.",
        "valor": 18,
-       "puesto": 17,
+       "puesto": 21,
        "empate": true
       },
       {
        "jugador": "Sofia C.",
        "valor": 14,
-       "puesto": 22,
+       "puesto": 25,
+       "empate": true
+      },
+      {
+       "jugador": "Joseline A.",
+       "valor": 6,
+       "puesto": 43,
        "empate": true
       },
       {
        "jugador": "Alexia G.",
        "valor": 2,
-       "puesto": 49,
+       "puesto": 50,
        "empate": true
       }
      ]
@@ -7911,13 +7917,13 @@
      "clave": "pda",
      "categoria": "Pases de anotación",
      "con_registro": 16,
-     "valor_lider": 29,
+     "valor_lider": 32,
      "nuestros": [
       {
        "jugador": "Nicte S.",
-       "valor": 13,
+       "valor": 14,
        "puesto": 4,
-       "empate": false
+       "empate": true
       },
       {
        "jugador": "Joseline A.",
@@ -7936,7 +7942,7 @@
       {
        "jugador": "Sofia C.",
        "valor": 2,
-       "puesto": 3,
+       "puesto": 5,
        "empate": true
       }
      ]
@@ -7944,13 +7950,13 @@
     {
      "clave": "sck",
      "categoria": "Sacks",
-     "con_registro": 13,
-     "valor_lider": 3,
+     "con_registro": 15,
+     "valor_lider": 5,
      "nuestros": [
       {
        "jugador": "Joseline A.",
        "valor": 1,
-       "puesto": 4,
+       "puesto": 6,
        "empate": true
       }
      ]
@@ -8180,7 +8186,7 @@
       {
        "jugador": "Ilhan P.",
        "valor": 36,
-       "puesto": 10,
+       "puesto": 12,
        "empate": true
       },
       {
@@ -8204,13 +8210,13 @@
       {
        "jugador": "Uriel P.",
        "valor": 8,
-       "puesto": 51,
+       "puesto": 52,
        "empate": true
       },
       {
        "jugador": "Eduardo J.",
        "valor": 6,
-       "puesto": 57,
+       "puesto": 59,
        "empate": true
       }
      ]
@@ -8232,7 +8238,7 @@
     {
      "clave": "int",
      "categoria": "Intercepciones",
-     "con_registro": 37,
+     "con_registro": 38,
      "valor_lider": 7,
      "nuestros": [
       {
@@ -8245,12 +8251,12 @@
        "jugador": "Ilhan P.",
        "valor": 4,
        "puesto": 4,
-       "empate": false
+       "empate": true
       },
       {
        "jugador": "Jose F.",
        "valor": 3,
-       "puesto": 5,
+       "puesto": 6,
        "empate": true
       }
      ]
@@ -8284,15 +8290,15 @@
      "nuestros": [
       {
        "jugador": "Cristian N.",
-       "valor": 55,
-       "puesto": 5,
+       "valor": 61,
+       "puesto": 4,
        "empate": false
       },
       {
        "jugador": "Daniel R.",
        "valor": 24,
-       "puesto": 24,
-       "empate": true
+       "puesto": 27,
+       "empate": false
       },
       {
        "jugador": "Gabriel T.",
@@ -8301,22 +8307,22 @@
        "empate": true
       },
       {
+       "jugador": "Santiago V.",
+       "valor": 14,
+       "puesto": 39,
+       "empate": true
+      },
+      {
        "jugador": "Josué F.",
        "valor": 12,
-       "puesto": 44,
+       "puesto": 45,
        "empate": true
       },
       {
        "jugador": "Gael V.",
        "valor": 10,
-       "puesto": 52,
+       "puesto": 53,
        "empate": false
-      },
-      {
-       "jugador": "Santiago V.",
-       "valor": 8,
-       "puesto": 54,
-       "empate": true
       },
       {
        "jugador": "Victor O.",
@@ -8334,9 +8340,9 @@
      "nuestros": [
       {
        "jugador": "Uriel P.",
-       "valor": 23,
+       "valor": 25,
        "puesto": 2,
-       "empate": true
+       "empate": false
       },
       {
        "jugador": "Gabriel T.",
@@ -8355,7 +8361,7 @@
     {
      "clave": "int",
      "categoria": "Intercepciones",
-     "con_registro": 36,
+     "con_registro": 38,
      "valor_lider": 7,
      "nuestros": [
       {
@@ -8381,7 +8387,7 @@
       {
        "jugador": "Victor A.",
        "valor": 1,
-       "puesto": 9,
+       "puesto": 10,
        "empate": true
       }
      ]
