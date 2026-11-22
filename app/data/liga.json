@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T12:48:20+00:00",
+ "actualizado": "2026-11-22T15:39:08+00:00",
  "fuente": "https://app.yarai.mx/flag-elite-cuernavaca",
  "torneos": [
   {
@@ -533,7 +533,7 @@
     }
    ],
    "posicion": {
-    "pos": 3,
+    "pos": 2,
     "equipo": "Bandidos",
     "id": "cmtmbbi9u000mujcv8mcqwqna",
     "jj": 7,
@@ -918,12 +918,12 @@
      "pos": 2,
      "equipo": "Dragons",
      "id": "cmtncw50a000od43lb92t36z6",
-     "jj": 7,
-     "jg": 6,
+     "jj": 8,
+     "jg": 7,
      "jp": 1,
-     "pf": 214,
-     "pc": 38,
-     "dif": 176,
+     "pf": 235,
+     "pc": 50,
+     "dif": 185,
      "nuestro": false
     },
     {
@@ -1048,18 +1048,6 @@
     },
     {
      "pos": 13,
-     "equipo": "Bills",
-     "id": "cmtrlocnz0007jorqpbptrisg",
-     "jj": 7,
-     "jg": 2,
-     "jp": 5,
-     "pf": 46,
-     "pc": 138,
-     "dif": -92,
-     "nuestro": false
-    },
-    {
-     "pos": 14,
      "equipo": "Unila",
      "id": "cmubm5g1x00fmyyfrqws3zrzs",
      "jj": 7,
@@ -1071,15 +1059,27 @@
      "nuestro": false
     },
     {
+     "pos": 14,
+     "equipo": "Bills",
+     "id": "cmtrlocnz0007jorqpbptrisg",
+     "jj": 7,
+     "jg": 2,
+     "jp": 5,
+     "pf": 46,
+     "pc": 138,
+     "dif": -92,
+     "nuestro": false
+    },
+    {
      "pos": 15,
      "equipo": "Grizzlies",
      "id": "cmu2zv38e009bq28jivwsf0sd",
-     "jj": 6,
-     "jg": 1,
-     "jp": 5,
-     "pf": 35,
-     "pc": 125,
-     "dif": -90,
+     "jj": 8,
+     "jg": 2,
+     "jp": 6,
+     "pf": 53,
+     "pc": 146,
+     "dif": -93,
      "nuestro": false
     },
     {
@@ -1098,12 +1098,12 @@
      "pos": 17,
      "equipo": "Bravos",
      "id": "cmtniswqw001ays9gzsqqqxet",
-     "jj": 7,
+     "jj": 8,
      "jg": 0,
-     "jp": 7,
+     "jp": 8,
      "pf": 19,
-     "pc": 103,
-     "dif": -84,
+     "pc": 109,
+     "dif": -90,
      "nuestro": false
     },
     {
@@ -1139,18 +1139,6 @@
     },
     {
      "pos": 2,
-     "equipo": "All Stars",
-     "id": "cmu060gxy00ktmtf0zbuth34g",
-     "jj": 6,
-     "jg": 5,
-     "jp": 1,
-     "pf": 174,
-     "pc": 139,
-     "dif": 35,
-     "nuestro": false
-    },
-    {
-     "pos": 3,
      "equipo": "Bandidos",
      "id": "cmtmbbi9u000mujcv8mcqwqna",
      "jj": 7,
@@ -1162,15 +1150,27 @@
      "nuestro": true
     },
     {
-     "pos": 4,
+     "pos": 3,
      "equipo": "Plateados",
      "id": "cmudfrx1j00d621rwyduyknad",
-     "jj": 6,
-     "jg": 4,
+     "jj": 7,
+     "jg": 5,
      "jp": 2,
-     "pf": 156,
+     "pf": 186,
      "pc": 95,
-     "dif": 61,
+     "dif": 91,
+     "nuestro": false
+    },
+    {
+     "pos": 4,
+     "equipo": "All Stars",
+     "id": "cmu060gxy00ktmtf0zbuth34g",
+     "jj": 6,
+     "jg": 5,
+     "jp": 1,
+     "pf": 174,
+     "pc": 139,
+     "dif": 35,
      "nuestro": false
     },
     {
@@ -1187,6 +1187,18 @@
     },
     {
      "pos": 6,
+     "equipo": "Moustache",
+     "id": "cmtmb7626000aujcv9uqzk2wy",
+     "jj": 7,
+     "jg": 4,
+     "jp": 3,
+     "pf": 119,
+     "pc": 126,
+     "dif": -7,
+     "nuestro": false
+    },
+    {
+     "pos": 7,
      "equipo": "Bravos",
      "id": "cmtniu30c001qys9g8vegteu8",
      "jj": 7,
@@ -1198,7 +1210,7 @@
      "nuestro": false
     },
     {
-     "pos": 7,
+     "pos": 8,
      "equipo": "Titanes",
      "id": "cmtnchp0o0014ytpo4xbvuy36",
      "jj": 6,
@@ -1210,39 +1222,27 @@
      "nuestro": false
     },
     {
-     "pos": 8,
-     "equipo": "Moustache",
-     "id": "cmtmb7626000aujcv9uqzk2wy",
-     "jj": 6,
-     "jg": 3,
-     "jp": 3,
-     "pf": 106,
-     "pc": 126,
-     "dif": -20,
-     "nuestro": false
-    },
-    {
      "pos": 9,
      "equipo": "JFM",
      "id": "cmuheeu2b004ahqwzjy33o4xu",
-     "jj": 6,
+     "jj": 7,
      "jg": 3,
-     "jp": 3,
+     "jp": 4,
      "pf": 85,
-     "pc": 155,
-     "dif": -70,
+     "pc": 185,
+     "dif": -100,
      "nuestro": false
     },
     {
      "pos": 10,
      "equipo": "Azulitos",
      "id": "cmu05o27h00jpmtf0m6u8qhjx",
-     "jj": 6,
+     "jj": 7,
      "jg": 2,
-     "jp": 4,
+     "jp": 5,
      "pf": 127,
-     "pc": 200,
-     "dif": -73,
+     "pc": 213,
+     "dif": -86,
      "nuestro": false
     },
     {
@@ -1326,6 +1326,18 @@
     },
     {
      "pos": 5,
+     "equipo": "Flag Ex’s",
+     "id": "cmu1fd52g010lmtf05qo3ot5d",
+     "jj": 7,
+     "jg": 4,
+     "jp": 3,
+     "pf": 137,
+     "pc": 102,
+     "dif": 35,
+     "nuestro": false
+    },
+    {
+     "pos": 6,
      "equipo": "Bravos",
      "id": "cmtniucp1001uys9g1sxesd5p",
      "jj": 7,
@@ -1337,7 +1349,7 @@
      "nuestro": false
     },
     {
-     "pos": 6,
+     "pos": 7,
      "equipo": "Eternals",
      "id": "cmu4t69b801k3q28j3p8ele2j",
      "jj": 6,
@@ -1349,7 +1361,7 @@
      "nuestro": false
     },
     {
-     "pos": 7,
+     "pos": 8,
      "equipo": "Dragones Taxco",
      "id": "cmtm4p119000e9kl0caszohje",
      "jj": 6,
@@ -1358,18 +1370,6 @@
      "pf": 98,
      "pc": 97,
      "dif": 1,
-     "nuestro": false
-    },
-    {
-     "pos": 8,
-     "equipo": "Flag Ex’s",
-     "id": "cmu1fd52g010lmtf05qo3ot5d",
-     "jj": 6,
-     "jg": 3,
-     "jp": 3,
-     "pf": 122,
-     "pc": 88,
-     "dif": 34,
      "nuestro": false
     },
     {
@@ -1400,12 +1400,12 @@
      "pos": 11,
      "equipo": "Bills",
      "id": "cmtrlop35000bjorqoty4fgy3",
-     "jj": 7,
+     "jj": 8,
      "jg": 2,
-     "jp": 5,
-     "pf": 102,
-     "pc": 166,
-     "dif": -64,
+     "jp": 6,
+     "pf": 116,
+     "pc": 181,
+     "dif": -65,
      "nuestro": false
     },
     {
@@ -6848,15 +6848,15 @@
    "nota": "",
    "local": {
     "nombre": "Grizzlies",
-    "pts": null,
-    "gana": false
+    "pts": 6,
+    "gana": true
    },
    "visita": {
     "nombre": "Bravos",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-08-00-grizzlies-bravos-bronze"
@@ -6873,15 +6873,15 @@
    "nota": "",
    "local": {
     "nombre": "Plateados",
-    "pts": null,
-    "gana": false
+    "pts": 30,
+    "gana": true
    },
    "visita": {
     "nombre": "JFM",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-08-00-plateados-jfm-silver"
@@ -6898,15 +6898,15 @@
    "nota": "",
    "local": {
     "nombre": "Bills",
-    "pts": null,
+    "pts": 14,
     "gana": false
    },
    "visita": {
     "nombre": "Flag Ex’s",
-    "pts": null,
-    "gana": false
+    "pts": 15,
+    "gana": true
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-08-00-bills-flag-ex-s-bronze"
@@ -6948,15 +6948,15 @@
    "nota": "",
    "local": {
     "nombre": "Dragons",
-    "pts": null,
-    "gana": false
+    "pts": 21,
+    "gana": true
    },
    "visita": {
     "nombre": "Grizzlies",
-    "pts": null,
+    "pts": 12,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-08-50-dragons-grizzlies-bronze"
@@ -6973,15 +6973,15 @@
    "nota": "",
    "local": {
     "nombre": "Moustache",
-    "pts": null,
-    "gana": false
+    "pts": 13,
+    "gana": true
    },
    "visita": {
     "nombre": "Azulitos",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-08-50-moustache-azulitos-silver"
@@ -6998,15 +6998,15 @@
    "nota": "",
    "local": {
     "nombre": "Flag Ex’s",
-    "pts": null,
+    "pts": 0,
     "gana": false
    },
    "visita": {
     "nombre": "Bills",
-    "pts": null,
-    "gana": false
+    "pts": 12,
+    "gana": true
    },
-   "estado": "Programado",
+   "estado": "Final",
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-08-50-flag-ex-s-bills-bronze"
@@ -7716,7 +7716,7 @@
       {
        "jugador": "Sofia R.",
        "equipo": "Dragons",
-       "valor": 28,
+       "valor": 31,
        "nuestro": false
       }
      ]
@@ -7725,9 +7725,9 @@
      "categoria": "Puntos anotados",
      "lideres": [
       {
-       "jugador": "Ximena V.",
-       "equipo": "Next Generation",
-       "valor": 74,
+       "jugador": "Elia G.",
+       "equipo": "Dragons",
+       "valor": 80,
        "nuestro": false
       }
      ]
@@ -8057,37 +8057,37 @@
     {
      "clave": "pts",
      "categoria": "Puntos anotados",
-     "con_registro": 84,
-     "valor_lider": 74,
+     "con_registro": 86,
+     "valor_lider": 80,
      "nuestros": [
       {
        "jugador": "María R.",
        "valor": 14,
-       "puesto": 31,
+       "puesto": 33,
        "empate": true
       },
       {
        "jugador": "Hannia B.",
        "valor": 12,
-       "puesto": 39,
+       "puesto": 40,
        "empate": true
       },
       {
        "jugador": "Fernanda M.",
        "valor": 12,
-       "puesto": 39,
+       "puesto": 40,
        "empate": true
       },
       {
        "jugador": "Mayred V.",
        "valor": 6,
-       "puesto": 61,
+       "puesto": 62,
        "empate": true
       },
       {
        "jugador": "Azul C.",
        "valor": 1,
-       "puesto": 78,
+       "puesto": 80,
        "empate": true
       }
      ]
@@ -8096,18 +8096,18 @@
      "clave": "pda",
      "categoria": "Pases de anotación",
      "con_registro": 28,
-     "valor_lider": 28,
+     "valor_lider": 31,
      "nuestros": [
       {
        "jugador": "Adriana F.",
        "valor": 4,
-       "puesto": 10,
+       "puesto": 11,
        "empate": true
       },
       {
        "jugador": "Ashly R.",
        "valor": 1,
-       "puesto": 19,
+       "puesto": 20,
        "empate": true
       }
      ]
@@ -8121,13 +8121,13 @@
       {
        "jugador": "Mayred V.",
        "valor": 1,
-       "puesto": 30,
+       "puesto": 31,
        "empate": true
       },
       {
        "jugador": "Yuriney A.",
        "valor": 1,
-       "puesto": 30,
+       "puesto": 31,
        "empate": true
       }
      ]
@@ -8135,25 +8135,25 @@
     {
      "clave": "sck",
      "categoria": "Sacks",
-     "con_registro": 37,
+     "con_registro": 39,
      "valor_lider": 13,
      "nuestros": [
       {
        "jugador": "Azul C.",
        "valor": 3,
-       "puesto": 4,
+       "puesto": 5,
        "empate": true
       },
       {
        "jugador": "Dulce T.",
        "valor": 2,
-       "puesto": 8,
+       "puesto": 9,
        "empate": true
       },
       {
        "jugador": "Hannia B.",
        "valor": 1,
-       "puesto": 14,
+       "puesto": 15,
        "empate": true
       }
      ]
@@ -8210,7 +8210,7 @@
       {
        "jugador": "Eduardo J.",
        "valor": 6,
-       "puesto": 56,
+       "puesto": 57,
        "empate": true
       }
      ]
@@ -8297,25 +8297,25 @@
       {
        "jugador": "Gabriel T.",
        "valor": 14,
-       "puesto": 37,
+       "puesto": 39,
        "empate": true
       },
       {
        "jugador": "Josué F.",
        "valor": 12,
-       "puesto": 42,
+       "puesto": 44,
        "empate": true
       },
       {
        "jugador": "Gael V.",
        "valor": 10,
-       "puesto": 50,
+       "puesto": 52,
        "empate": false
       },
       {
        "jugador": "Santiago V.",
        "valor": 8,
-       "puesto": 52,
+       "puesto": 54,
        "empate": true
       },
       {
@@ -8381,7 +8381,7 @@
       {
        "jugador": "Victor A.",
        "valor": 1,
-       "puesto": 8,
+       "puesto": 9,
        "empate": true
       }
      ]
