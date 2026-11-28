@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T23:36:49+00:00",
+ "actualizado": "2026-11-28T02:08:33+00:00",
  "fuente": "https://app.yarai.mx/flag-elite-cuernavaca",
  "torneos": [
   {
@@ -10,7 +10,7 @@
    "fin": "2026-11-29",
    "url": "https://app.yarai.mx/flag-elite-cuernavaca/torneos/elite-sunday-otono-2026",
    "equipos_total": 67,
-   "rol_pendiente": 9,
+   "rol_pendiente": null,
    "participamos": true
   },
   {
@@ -7585,6 +7585,531 @@
    "nuestro": false,
    "torneo": "elite-sunday-otono-2026",
    "id": "2026-11-22-14-40-chubby-bunny-bravos-golden"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos Blancos",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Eternals",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-09-00-bravos-blancos-eternals-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "09:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Leonas CIES",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-09-00-huskies-leonas-cies-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "09:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "All Stars",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-09-50-all-stars-bravos-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "09:50",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Moustache",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Sirenas",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-09-50-moustache-sirenas-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Blue Panthers",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-09-50-blue-panthers-monkeys-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "09:50",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Dragons",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Luciérnagas",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-09-50-dragons-luciernagas-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 4",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Bravos Blancos",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-10-40-eternals-bravos-blancos-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "10:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Bandidos",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Titanes",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": true,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-10-40-bandidos-titanes-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "10:40",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Kaos",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Plateados",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-10-40-kaos-plateados-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "10:40",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Huskies",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-10-40-huskies-chubby-bunny-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "11:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Eternals",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Monkeys",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-11-30-eternals-monkeys-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "11:30",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Stingers Hellen Keller",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Blue Panthers",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-11-30-stingers-hellen-keller-blue-panthers-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 1",
+   "nota": "",
+   "local": {
+    "nombre": "Bravos",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Wildcats",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-12-20-bravos-wildcats-golden"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "JFM",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Chubby Bunny",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Semifinal",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-12-20-jfm-chubby-bunny-golden"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "11:30",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Finalista 1",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Finalista 2",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-11-30-finalista-1-finalista-2-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "12:20",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Finalista 1",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Finalista 2",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-12-20-finalista-1-finalista-2-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "13:10",
+   "rama": "VARONIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Finalista 1",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Finalista 2",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-13-10-finalista-1-finalista-2-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Finalista 1",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Finalista 2",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-14-00-finalista-1-finalista-2-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "14:00",
+   "rama": "FEMENIL",
+   "division": "SILVER",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Finalista 1",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Finalista 2",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-14-00-finalista-1-finalista-2-silver"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "14:50",
+   "rama": "VARONIL",
+   "division": "BRONZE",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 3",
+   "nota": "",
+   "local": {
+    "nombre": "Finalista 1",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Finalista 2",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-14-50-finalista-1-finalista-2-bronze"
+  },
+  {
+   "jornada": null,
+   "fecha": "2026-11-29",
+   "fecha_txt": "dom 29 de nov",
+   "hora": "14:50",
+   "rama": "FEMENIL",
+   "division": "GOLDEN",
+   "sede": "Campo Prepa 1",
+   "campo": "Campo 2",
+   "nota": "",
+   "local": {
+    "nombre": "Finalista 1",
+    "pts": null,
+    "gana": false
+   },
+   "visita": {
+    "nombre": "Finalista 2",
+    "pts": null,
+    "gana": false
+   },
+   "estado": "Final",
+   "nuestro": false,
+   "torneo": "elite-sunday-otono-2026",
+   "id": "2026-11-29-14-50-finalista-1-finalista-2-golden"
   }
  ],
  "lideres": [
@@ -7849,12 +8374,12 @@
   {
    "rama": "FEMENIL",
    "division": "GOLDEN",
-   "jugadores": 82,
+   "jugadores": 80,
    "categorias": [
     {
      "clave": "pts",
      "categoria": "Puntos anotados",
-     "con_registro": 55,
+     "con_registro": 54,
      "valor_lider": 60,
      "nuestros": [
       {
@@ -7884,13 +8409,13 @@
       {
        "jugador": "Alexia G.",
        "valor": 2,
-       "puesto": 50,
+       "puesto": 49,
        "empate": true
       },
       {
        "jugador": "Sofia G.",
        "valor": 1,
-       "puesto": 53,
+       "puesto": 52,
        "empate": true
       }
      ]
@@ -7960,7 +8485,7 @@
   {
    "rama": "FEMENIL",
    "division": "SILVER",
-   "jugadores": 111,
+   "jugadores": 110,
    "categorias": [
     {
      "clave": "pts",
@@ -8052,7 +8577,7 @@
   {
    "rama": "FEMENIL",
    "division": "BRONZE",
-   "jugadores": 191,
+   "jugadores": 190,
    "categorias": [
     {
      "clave": "pts",
@@ -8163,12 +8688,12 @@
   {
    "rama": "VARONIL",
    "division": "SILVER",
-   "jugadores": 129,
+   "jugadores": 126,
    "categorias": [
     {
      "clave": "pts",
      "categoria": "Puntos anotados",
-     "con_registro": 91,
+     "con_registro": 90,
      "valor_lider": 85,
      "nuestros": [
       {
@@ -8218,7 +8743,7 @@
     {
      "clave": "pda",
      "categoria": "Pases de anotación",
-     "con_registro": 34,
+     "con_registro": 33,
      "valor_lider": 26,
      "nuestros": [
       {
@@ -8274,12 +8799,12 @@
   {
    "rama": "VARONIL",
    "division": "BRONZE",
-   "jugadores": 132,
+   "jugadores": 129,
    "categorias": [
     {
      "clave": "pts",
      "categoria": "Puntos anotados",
-     "con_registro": 92,
+     "con_registro": 91,
      "valor_lider": 93,
      "nuestros": [
       {
@@ -8321,7 +8846,7 @@
       {
        "jugador": "Victor O.",
        "valor": 4,
-       "puesto": 82,
+       "puesto": 81,
        "empate": true
       }
      ]
